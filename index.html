@@ -38,8 +38,6 @@
     <button class="theme-btn" id="themeBtn" type="button" aria-label="Cambiar tema">◐</button>
   </div>
 </header>
-<div class="kitbar" id="kitBar" hidden><div class="wrap"><span>🤖 Hecho con IA en un día. <a href="https://iacedemy.com/kit-observatorio?utm_source=techo&amp;utm_medium=banner&amp;utm_campaign=construido-con-ia" target="_blank" rel="noopener">Aprende a construir algo así: kit gratis con plantilla y prompts</a></span><button type="button" id="kitClose" aria-label="Cerrar aviso">×</button></div></div>
-<script>(function(){var k="kitbar-cerrado",b=document.getElementById("kitBar");try{if(localStorage.getItem(k))return;}catch(e){}b.hidden=false;document.getElementById("kitClose").onclick=function(){b.hidden=true;try{localStorage.setItem(k,"1")}catch(e){}};})();</script>
 <div class="alertbar" id="alertBar" role="status" hidden></div>
 
 <main id="top">
@@ -163,6 +161,9 @@
 
 <footer id="fuentes">
   <div class="wrap">
+<div class="kitbar" id="kitBar" hidden><div class="kitbox"><span>🤖 Hecho con IA en un día. <a href="https://iacedemy.com/kit-observatorio?utm_source=techo&amp;utm_medium=banner&amp;utm_campaign=construido-con-ia" target="_blank" rel="noopener">Aprende a construir algo así: kit gratis con plantilla y prompts</a></span><button type="button" id="kitClose" aria-label="Cerrar aviso">×</button></div></div>
+<script>(function(){var k="kitbar-cerrado",b=document.getElementById("kitBar");try{if(localStorage.getItem(k))return;}catch(e){}b.hidden=false;document.getElementById("kitClose").onclick=function(){b.hidden=true;try{localStorage.setItem(k,"1")}catch(e){}};})();</script>
+
     <p class="eyebrow">Cuándo se actualiza cada dato</p>
     <h2>Calendario de datos</h2>
     <p class="intro">Las estadísticas oficiales se publican con retraso: primero hay que cerrar el periodo, recoger registros (tribunales, Hacienda, Seguridad Social, tasadoras) y depurarlos. Esta tabla indica el último periodo disponible en la web, por qué no hay uno más reciente y cuándo se espera el siguiente.</p>

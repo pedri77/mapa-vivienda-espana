@@ -21,6 +21,8 @@
   --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
   --radius: 6px;
+  --topbar-bg: #171b20;
+  --topbar-ink: #f1f2ef;
   --maxw: 1240px;
   color-scheme: light;
 }
@@ -54,17 +56,17 @@ img { max-width: 100%; }
 .small { font-size: .85rem; }
 
 /* cabecera */
-.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 1000; background: var(--ink); color: var(--bg); }
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 1000; background: var(--topbar-bg); color: var(--topbar-ink); }
 .topbar .wrap { display: flex; align-items: center; gap: 20px; min-height: 52px; }
-.brand { font: 800 1.35rem/1 var(--display); font-stretch: 75%; letter-spacing: .02em; text-transform: uppercase; color: var(--bg); text-decoration: none; display: flex; align-items: center; gap: 8px; white-space: nowrap; }
+.brand { font: 800 1.35rem/1 var(--display); font-stretch: 75%; letter-spacing: .02em; text-transform: uppercase; color: var(--topbar-ink); text-decoration: none; display: flex; align-items: center; gap: 8px; white-space: nowrap; }
 .brand svg { width: 22px; height: 22px; }
 .nav { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; flex: 1; }
 .nav::-webkit-scrollbar { display: none; }
-.nav a { color: var(--bg); opacity: .78; text-decoration: none; font-size: .85rem; font-weight: 600; padding: 6px 10px; border-radius: 4px; white-space: nowrap; }
+.nav a { color: var(--topbar-ink); opacity: .78; text-decoration: none; font-size: .85rem; font-weight: 600; padding: 6px 10px; border-radius: 4px; white-space: nowrap; }
 .nav a:hover, .nav a.active { opacity: 1; background: rgba(255,255,255,.1); }
-.theme-btn { background: none; border: 1px solid rgba(255,255,255,.3); color: var(--bg); border-radius: 4px; padding: 4px 8px; cursor: pointer; font: inherit; font-size: .8rem; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .topbar { background: #05070a; } }
-:root[data-theme="dark"] .topbar { background: #05070a; }
+.theme-btn { background: none; border: 1px solid rgba(255,255,255,.3); color: var(--topbar-ink); border-radius: 4px; padding: 4px 8px; cursor: pointer; font: inherit; font-size: .8rem; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --topbar-bg: #05070a; --topbar-ink: #e9ebe7; } }
+:root[data-theme="dark"] { --topbar-bg: #05070a; --topbar-ink: #e9ebe7; }
 
 /* apertura */
 .hero { padding-block: 40px 28px; border-bottom: 1px solid var(--line); }
@@ -175,8 +177,8 @@ tr:last-child td { border-bottom: 0; }
 /* fondos */
 .hbar { display: grid; grid-template-columns: minmax(110px, 180px) 1fr; gap: 6px 12px; align-items: center; font-size: .88rem; }
 .hbar .track { height: 22px; background: var(--surface-2); border-radius: 3px; position: relative; }
-.hbar .fill { position: absolute; inset: 0 auto 0 0; background: var(--ink); border-radius: 3px; }
-.hbar .val { position: absolute; left: 8px; top: 50%; transform: translateY(-50%); font: 600 .78rem var(--mono); color: var(--bg); mix-blend-mode: normal; }
+.hbar .fill { position: absolute; inset: 0 auto 0 0; background: var(--d4); border-radius: 3px; }
+.hbar .val { position: absolute; left: 8px; top: 50%; transform: translateY(-50%); font: 600 .78rem var(--mono); color: #fff; }
 .timeline { list-style: none; margin: 0; padding: 0 0 0 18px; border-left: 2px solid var(--line); display: grid; gap: 14px; }
 .timeline li { position: relative; overflow-wrap: anywhere; min-width: 0; }
 .timeline li::before { content: ""; position: absolute; left: -24px; top: 6px; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); }
@@ -225,10 +227,10 @@ main, .wrap, .grid-2 > *, .grid-3 > *, .live-grid > * { min-width: 0; }
 .meter i { position: absolute; inset: 0 auto 0 0; background: var(--d4); border-radius: 5px; }
 .meter b { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--ink); opacity: .5; }
 
-/* franja del kit gratuito (IAcademy) */
-.kitbar { background: var(--surface-2); color: var(--ink); font-size: .85rem; border-bottom: 1px solid var(--line); }
-.kitbar .wrap { display: flex; align-items: center; gap: 12px; padding-block: 7px; }
-.kitbar span { flex: 1; min-width: 0; }
-.kitbar a { color: inherit; font-weight: 600; }
-.kitbar button { background: none; border: 0; color: inherit; font-size: 1.2rem; line-height: 1; cursor: pointer; padding: 2px 6px; opacity: .7; }
-.kitbar button:hover { opacity: 1; }
+/* recuadro del kit gratuito (IAcademy), en el pie */
+.kitbar { margin: 0 0 24px; }
+.kitbox { display: flex; align-items: center; gap: 12px; background: var(--accent); color: var(--accent-ink); border-radius: 8px; padding: 14px 16px; font-size: .95rem; }
+.kitbox span { flex: 1; min-width: 0; }
+.kitbox a { color: inherit; font-weight: 700; }
+.kitbox button { background: none; border: 0; color: inherit; font-size: 1.3rem; line-height: 1; cursor: pointer; padding: 2px 6px; opacity: .75; }
+.kitbox button:hover { opacity: 1; }
