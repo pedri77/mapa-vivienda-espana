@@ -3,7 +3,11 @@
  "published": "2026-05-28",
  "national": {
   "media": 29540.26,
-  "mediana": 24497.17
+  "mediana": 24497.17,
+  "etcl": {
+   "mes_2T2026": 2512.68,
+   "yoy_pct": 4.0
+  }
  },
  "note": "Ganancia media anual bruta por trabajador (INE, EAES 2024, definitivos). Medianas por CCAA vía salariode.com (tabulación de EAES INE); Ceuta y Melilla sin dato publicado.",
  "sources": [
@@ -14,6 +18,11 @@
   {
    "name": "salariode.com (tabulación EAES)",
    "url": "https://salariode.com/comunidad"
+  },
+  {
+   "name": "INE, Encuesta Trimestral de Coste Laboral 2T 2026 (tabla 6061)",
+   "url": "https://www.ine.es/dyngs/Prensa/ETCL2T26.htm",
+   "period": "2T 2026"
   }
  ],
  "ccaa": [
@@ -21,103 +30,171 @@
    "code": "01",
    "name": "Andalucía",
    "media": 26090,
-   "mediana": 21557
+   "mediana": 21557,
+   "etcl": {
+    "mes_2T2026": 2227.09,
+    "yoy_pct": 3.7
+   }
   },
   {
    "code": "02",
    "name": "Aragón",
    "media": 28062,
-   "mediana": 24936
+   "mediana": 24936,
+   "etcl": {
+    "mes_2T2026": 2393.2,
+    "yoy_pct": 3.0
+   }
   },
   {
    "code": "03",
    "name": "Asturias",
    "media": 28562,
-   "mediana": 24197
+   "mediana": 24197,
+   "etcl": {
+    "mes_2T2026": 2476.42,
+    "yoy_pct": 6.0
+   }
   },
   {
    "code": "04",
    "name": "Illes Balears",
    "media": 29075,
-   "mediana": 24962
+   "mediana": 24962,
+   "etcl": {
+    "mes_2T2026": 2428.22,
+    "yoy_pct": 4.7
+   }
   },
   {
    "code": "05",
    "name": "Canarias",
    "media": 25120.38,
-   "mediana": 20632
+   "mediana": 20632,
+   "etcl": {
+    "mes_2T2026": 2016.13,
+    "yoy_pct": 4.1
+   }
   },
   {
    "code": "06",
    "name": "Cantabria",
    "media": 27097,
-   "mediana": 23247
+   "mediana": 23247,
+   "etcl": {
+    "mes_2T2026": 2283.42,
+    "yoy_pct": 8.8
+   }
   },
   {
    "code": "07",
    "name": "Castilla y León",
    "media": 26177,
-   "mediana": 22567
+   "mediana": 22567,
+   "etcl": {
+    "mes_2T2026": 2223.06,
+    "yoy_pct": 3.0
+   }
   },
   {
    "code": "08",
    "name": "Castilla-La Mancha",
    "media": 26062.05,
-   "mediana": 22046
+   "mediana": 22046,
+   "etcl": {
+    "mes_2T2026": 2204.56,
+    "yoy_pct": 3.2
+   }
   },
   {
    "code": "09",
    "name": "Cataluña",
    "media": 31730.05,
-   "mediana": 27133
+   "mediana": 27133,
+   "etcl": {
+    "mes_2T2026": 2770.19,
+    "yoy_pct": 5.1
+   }
   },
   {
    "code": "10",
    "name": "Comunitat Valenciana",
    "media": 26817,
-   "mediana": 22652
+   "mediana": 22652,
+   "etcl": {
+    "mes_2T2026": 2215.43,
+    "yoy_pct": 3.1
+   }
   },
   {
    "code": "11",
    "name": "Extremadura",
    "media": 24979.44,
-   "mediana": 20905
+   "mediana": 20905,
+   "etcl": {
+    "mes_2T2026": 2021.62,
+    "yoy_pct": 2.4
+   }
   },
   {
    "code": "12",
    "name": "Galicia",
    "media": 26547,
-   "mediana": 22603
+   "mediana": 22603,
+   "etcl": {
+    "mes_2T2026": 2174.28,
+    "yoy_pct": 2.9
+   }
   },
   {
    "code": "13",
    "name": "Comunidad de Madrid",
    "media": 34410.01,
-   "mediana": 28038
+   "mediana": 28038,
+   "etcl": {
+    "mes_2T2026": 3060.53,
+    "yoy_pct": 4.3
+   }
   },
   {
    "code": "14",
    "name": "Región de Murcia",
    "media": 26349,
-   "mediana": 21672
+   "mediana": 21672,
+   "etcl": {
+    "mes_2T2026": 2127.37,
+    "yoy_pct": 3.1
+   }
   },
   {
    "code": "15",
    "name": "Navarra",
    "media": 32605.28,
-   "mediana": 29385
+   "mediana": 29385,
+   "etcl": {
+    "mes_2T2026": 2665.38,
+    "yoy_pct": 2.2
+   }
   },
   {
    "code": "16",
    "name": "País Vasco",
    "media": 35170.28,
-   "mediana": 31912
+   "mediana": 31912,
+   "etcl": {
+    "mes_2T2026": 2718.07,
+    "yoy_pct": 5.0
+   }
   },
   {
    "code": "17",
    "name": "La Rioja",
    "media": 27855,
-   "mediana": 24501
+   "mediana": 24501,
+   "etcl": {
+    "mes_2T2026": 2377.01,
+    "yoy_pct": 2.4
+   }
   },
   {
    "code": "18",
@@ -131,5 +208,6 @@
    "media": null,
    "mediana": null
   }
- ]
+ ],
+ "etcl_note": "Coste salarial bruto por trabajador y mes, 2T 2026 (INE, ETCL, publicado 17-09-2026). Incluye pagas extra prorrateadas en el trimestre en que se cobran y todas las jornadas; es un promedio, no la mediana. Sin dato para Ceuta y Melilla."
 }

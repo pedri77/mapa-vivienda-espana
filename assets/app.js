@@ -69,7 +69,8 @@ function renderKpis() {
     k.push({ v: `${fmt(pn.venta_m2_mivau_2T2026)} €/m²`, l: "precio de venta (valor tasado, 2T 2026)", s: `${pct(pn.venta_m2_mivau_yoy_2T2026_pct)} interanual · MIVAU` });
     k.push({ v: `${fmt(pn.alquiler_80m2_fotocasa_ago2026)} €/mes`, l: "alquilar 80 m² (oferta, ago. 2026)", s: `${fmt(pn.alquiler_m2_fotocasa_ago2026, 1)} €/m² · Fotocasa` });
   }
-  if (D.salarios) k.push({ v: eur(D.salarios.national.mediana), l: "salario bruto mediano anual (2024)", s: "la mitad de asalariados cobra menos · INE" });
+  const et = D.salarios?.national?.etcl;
+  if (et) k.push({ v: `${fmt(et.mes_2T2026)} €/mes`, l: "sueldo bruto medio (2T 2026)", s: `${pct(et.yoy_pct)} interanual · alquilar 80 m² = ${fmt((pn?.alquiler_80m2_fotocasa_ago2026 / et.mes_2T2026) * 100)}% · INE` });
   const sol = D.acampadas?.camps?.find((c) => c.status === "activa");
   if (sol) {
     const days = Math.max(1, Math.floor((Date.now() - new Date(sol.start_date + "T00:00:00")) / 864e5) + 1);
@@ -132,7 +133,8 @@ function renderMapa() {
   }
   const ramp = (p) => [1, 2, 3, 4, 5].map((i) => `--${p}${i}`);
   const LAYERS = {
-    des: { label: "Desahucios", title: `Desahucios por 100.000 hab. (${LAST_YEAR})`, ramp: ramp("d"), get: (c) => DES[c]?.rate_per_100k_2025?.total, f: (v) => fmt(v, 1) },
+    des: { label: "Desahucios 2025", title: `Desahucios por 100.000 hab. (${LAST_YEAR})`, ramp: ramp("d"), get: (c) => DES[c]?.rate_per_100k_2025?.total, f: (v) => fmt(v, 1) },
+    des26: { label: "Desahucios 1T 2026", title: "Desahucios por 100.000 hab. (1T 2026)", ramp: ramp("d"), get: (c) => { const d = DES[c]; const pop = d?.population_tsj_incl_ceuta_melilla || d?.population; return d?.q1_2026?.total != null && pop ? (d.q1_2026.total / pop) * 1e5 : null; }, f: (v) => fmt(v, 1) },
     venta: { label: "Venta €/m²", title: "Valor tasado €/m² (MIVAU, 2T 2026)", ramp: ramp("p"), get: (c) => PRE[c]?.venta_m2_latest, f: (v) => `${fmt(v)} €` },
     subida: { label: "Subida venta", title: "Variación interanual valor tasado (%)", ramp: ramp("d"), get: (c) => PRE[c]?.venta_m2_latest_meta?.yoy_pct, f: (v) => pct(v) },
     alquiler: { label: "Alquiler €/m²", title: "Alquiler €/m²/mes (oferta Fotocasa, ago. 2026)", ramp: ramp("r"), get: (c) => PRE[c]?.alquiler_m2_latest, f: (v) => `${fmt(v, 1)} €` },
@@ -140,6 +142,8 @@ function renderMapa() {
     compra: { label: "Años para comprar", title: "Años de renta del hogar para comprar 80 m² (tasado)", ramp: ramp("d"), get: (c) => PRE[c]?.esfuerzo?.anios_renta_hogar_80m2_tasado, f: (v) => `${fmt(v, 1)} años` },
     salario: { label: "Salario medio", title: "Salario bruto medio anual (INE, 2024)", ramp: ramp("p"), get: (c) => SAL[c]?.media, f: (v) => eur(v) },
     mediano: { label: "Salario mediano", title: "Salario bruto mediano anual (INE, 2024): la mitad cobra menos", ramp: ramp("p"), get: (c) => SAL[c]?.mediana, f: (v) => eur(v) },
+    sueldo26: { label: "Sueldo 2026", title: "Coste salarial bruto por trabajador y mes (INE ETCL, 2T 2026)", ramp: ramp("p"), get: (c) => SAL[c]?.etcl?.mes_2T2026, f: (v) => `${fmt(v)} €/mes` },
+    alqsueldo: { label: "Alquiler / sueldo", title: "% de un sueldo bruto mensual (2T 2026) para alquilar 80 m² (ago. 2026)", ramp: ramp("d"), get: (c) => (PRE[c]?.alquiler_80m2_mes_latest && SAL[c]?.etcl?.mes_2T2026 ? (PRE[c].alquiler_80m2_mes_latest / SAL[c].etcl.mes_2T2026) * 100 : null), f: (v) => `${fmt(v, 1)}%` },
   };
   let layer = "des";
   let selected = null;
@@ -244,6 +248,8 @@ function sideHtml(code) {
     ${stat(fmt(d?.rate_per_100k_2025?.total, 1), "por 100.000 hab.")}
     ${stat(y && prev ? pct(((y.total - prev.total) / prev.total) * 100) : "—", `vs ${+LAST_YEAR - 1}`)}
     ${stat(y ? `${fmt((y.alquiler / y.total) * 100)}%` : "—", "por impago de alquiler")}
+    ${d?.q1_2026 ? stat(fmt(d.q1_2026.total), "desahucios 1T 2026") : ""}
+    ${d?.q1_2026 ? stat(d.q1_2026.alquiler != null ? `${fmt((d.q1_2026.alquiler / d.q1_2026.total) * 100)}%` : "—", "por alquiler (1T 2026)") : ""}
   </div>`;
   if (series.length) h += `<div><span class="small muted">Desahucios 2013–${LAST_YEAR}</span><div style="color:var(--d4)">${sparkline(series, { w: 300, h: 44 })}</div></div>`;
   h += note;
@@ -257,7 +263,13 @@ function sideHtml(code) {
       ${stat(p.esfuerzo?.anios_renta_hogar_80m2_tasado != null ? fmt(p.esfuerzo.anios_renta_hogar_80m2_tasado, 1) : "—", "años de renta para comprar 80 m²")}
     </div>`;
   }
-  if (s?.media) h += `<div class="stats">${stat(eur(s.media), "salario medio bruto")}${stat(eur(s.mediana), "salario mediano bruto")}</div>`;
+  if (s?.media) h += `<div class="stats">
+    ${stat(s.etcl ? `${fmt(s.etcl.mes_2T2026)} €` : "—", "sueldo bruto al mes (2T 2026)")}
+    ${stat(pct(s.etcl?.yoy_pct), "interanual")}
+    ${stat(eur(s.media), "salario medio bruto anual (2024)")}
+    ${stat(eur(s.mediana), "salario mediano bruto anual (2024)")}
+    ${s.etcl && p?.alquiler_80m2_mes_latest ? stat(`${fmt((p.alquiler_80m2_mes_latest / s.etcl.mes_2T2026) * 100, 1)}%`, "de un sueldo para alquilar 80 m²") : ""}
+  </div>`;
   if (lg) {
     const gov = lg.government;
     const zt = lg.zonas_tensionadas;
