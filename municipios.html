@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Techo · Vivienda por municipio</title>
+<meta name="description" content="Alquiler, renta, esfuerzo, precio de venta, pisos turísticos, zonas tensionadas y desahucios para los 8.132 municipios de España.">
+<meta property="og:title" content="Techo · Vivienda por municipio">
+<meta property="og:description" content="Busca tu municipio: alquiler, renta, esfuerzo, pisos turísticos, zona tensionada y desahucios.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M3 15 16 4l13 11v13H3z' fill='%23f2b200'/%3E%3Cpath d='M12 28v-8h8v8' fill='%23171b20'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;600&family=Public+Sans:ital,wght@0,400..700;1,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="alternate" type="application/atom+xml" title="Techo · Datos nuevos" href="data/actualizaciones.xml">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Techo, inicio">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 15 16 4l13 11v13H3z" fill="#f2b200"/><path d="M12 28v-8h8v8" fill="currentColor" opacity=".9"/></svg>Techo
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="index.html#directo">Directo</a>
+      <a href="index.html#mapa">Comunidades</a>
+      <a href="municipios.html" class="active" aria-current="page">Municipios</a>
+      <a href="#calculadora">Calculadora</a>
+      <a href="index.html#desahucios">Desahucios</a>
+      <a href="index.html#legislacion">Leyes y partidos</a>
+      <a href="index.html#ayudas">Ayudas</a>
+      <a href="index.html#fuentes">Fuentes</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" type="button" aria-label="Cambiar tema">◐</button>
+  </div>
+</header>
+
+<main>
+  <div class="hero wrap" style="padding-block:32px 20px">
+    <p class="eyebrow">8.132 municipios</p>
+    <h1 style="font-size:clamp(2rem,5vw,3.6rem)">Vivienda en <mark>tu municipio</mark></h1>
+    <p class="lede">Alquiler, renta de los hogares, esfuerzo, precio de venta, pisos turísticos, zona tensionada y desahucios de su partido judicial. Busca tu municipio o pulsa en el mapa.</p>
+    <div class="field" style="max-width:520px">
+      <label for="mSearch">Buscar municipio</label>
+      <input id="mSearch" type="search" list="mList" placeholder="Escribe un municipio, p. ej. Getafe" autocomplete="off">
+      <datalist id="mList"></datalist>
+    </div>
+  </div>
+
+  <section class="block" id="mapa" style="padding-top:24px">
+    <div class="wrap">
+      <div class="tabs" id="layerBtns" role="group" aria-label="Capa del mapa"></div>
+      <div class="map-layout">
+        <div class="map-box" style="min-height:620px">
+          <div id="map" role="region" aria-label="Mapa de municipios de España"></div>
+          <div class="inset"><span class="inset-label">Canarias</span><div id="mapCanarias" style="position:absolute;inset:0"></div></div>
+          <div class="legend" id="legend"></div>
+        </div>
+        <aside class="side" id="side" aria-live="polite"><div class="empty">Cargando municipios…</div></aside>
+      </div>
+      <p class="note" id="layerNote"></p>
+    </div>
+  </section>
+
+  <section class="block" id="ranking">
+    <div class="wrap">
+      <p class="eyebrow">Municipios de 20.000 habitantes o más</p>
+      <h2 id="rankTitle">Ranking</h2>
+      <div class="table-wrap" id="rankTable"></div>
+    </div>
+  </section>
+
+  <section class="block" id="calculadora">
+    <div class="wrap">
+      <p class="eyebrow">Hazlo con tus números</p>
+      <h2>¿Cuánto de tu sueldo?</h2>
+      <p class="intro">Elige tu municipio para usar su alquiler mediano (SERPAVI) y, si tiene más de 25.000 habitantes, su valor tasado. Si no hay dato municipal se usa el de la comunidad. Todo se calcula en tu navegador.</p>
+      <div id="calcBody"></div>
+      <p class="note">Referencias: por encima del 30% de los ingresos se considera esfuerzo alto y Eurostat habla de sobrecarga desde el 40%. La hipoteca financia el 80% del precio y los gastos de compra se estiman en un 10%. Es una orientación, no asesoramiento financiero.</p>
+    </div>
+  </section>
+</main>
+
+<footer id="fuentes">
+  <div class="wrap">
+    <h2>Fuentes de los datos municipales</h2>
+    <div id="sources"></div>
+    <p>Límites municipales: <a href="https://github.com/martgnz/es-atlas">es-atlas</a> (IGN). Mapa base © <a href="https://www.esri.com/">Esri</a>, HERE, Garmin y © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>. ¿Un error? <a href="https://github.com/pedri77/mapa-vivienda-espana/issues">Abre una incidencia</a>.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" crossorigin></script>
+<script type="module" src="assets/municipios.js"></script>
+</body>
+</html>

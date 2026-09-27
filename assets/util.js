@@ -3,7 +3,9 @@ export const $ = (s, el = document) => el.querySelector(s);
 
 const nf0 = new Intl.NumberFormat("es-ES", { maximumFractionDigits: 0, useGrouping: "always" });
 const nf1 = new Intl.NumberFormat("es-ES", { maximumFractionDigits: 1, minimumFractionDigits: 1, useGrouping: "always" });
-export const fmt = (v, d = 0) => (v == null || Number.isNaN(v) ? "—" : d ? nf1.format(v) : nf0.format(v));
+const nfCache = { 0: nf0, 1: nf1 };
+const nf = (d) => (nfCache[d] ||= new Intl.NumberFormat("es-ES", { maximumFractionDigits: d, minimumFractionDigits: d, useGrouping: "always" }));
+export const fmt = (v, d = 0) => (v == null || Number.isNaN(v) ? "—" : nf(d).format(v));
 export const eur = (v) => (v == null ? "—" : `${fmt(v)} €`);
 export const pct = (v, d = 1) => (v == null ? "—" : `${v > 0 ? "+" : ""}${fmt(v, d)}%`);
 

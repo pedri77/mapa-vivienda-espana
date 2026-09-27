@@ -56,10 +56,10 @@ export function renderCalculadora(el, ctx, municipios = null) {
       return;
     }
     // Alquiler: precio de oferta de la comunidad; si hay municipio, mediana SERPAVI (contratos vigentes)
-    const alqM2 = mu?.serpavi_m2 ?? P?.alquiler_m2_latest;
-    const alqFuente = mu?.serpavi_m2 != null ? `mediana de contratos en ${esc(mu.name)} (SERPAVI ${esc(municipios.fields_meta?.serpavi_m2?.period || "")}), suele estar por debajo del precio de anuncio` : `precio medio de anuncio en ${esc(CCAA[ccaa])} (Fotocasa, ${esc(P?.alquiler_m2_latest_meta?.period || "")})`;
+    const alqM2 = mu?.alq_m2 ?? P?.alquiler_m2_latest;
+    const alqFuente = mu?.alq_m2 != null ? `mediana de contratos vigentes en ${esc(mu.n)} (SERPAVI ${esc(municipios.meta?.alq_m2?.period || "")}), que suele estar por debajo del precio de anuncio` : `precio medio de anuncio en ${esc(CCAA[ccaa])} (Fotocasa, ${esc(P?.alquiler_m2_latest_meta?.period || "")})`;
     const ventaM2 = mu?.tasado_m2 ?? P?.venta_m2_latest;
-    const ventaFuente = mu?.tasado_m2 != null ? `valor tasado en ${esc(mu.name)}` : `valor tasado medio en ${esc(CCAA[ccaa])} (${esc(P?.venta_m2_latest_meta?.period || "")})`;
+    const ventaFuente = mu?.tasado_m2 != null ? `valor tasado en ${esc(mu.n)} (${esc(municipios.meta?.tasado_m2?.period || "")})` : `valor tasado medio en ${esc(CCAA[ccaa])} (${esc(P?.venta_m2_latest_meta?.period || "")})`;
 
     const alq = alqM2 ? alqM2 * m2 : null;
     const pAlq = alq ? (alq / ing) * 100 : null;
@@ -102,15 +102,22 @@ export function renderCalculadora(el, ctx, municipios = null) {
 
   if (municipios) {
     const list = Object.entries(municipios.items)
-      .filter(([, m]) => m.serpavi_m2 != null || m.tasado_m2 != null)
-      .sort((a, b) => (b[1].poblacion || 0) - (a[1].poblacion || 0));
-    $("#cMuniList").innerHTML = list.map(([c, m]) => `<option value="${esc(m.name)} (${c})"></option>`).join("");
+      .filter(([, m]) => m.alq_m2 != null || m.tasado_m2 != null)
+      .sort((a, b) => (b[1].pob || 0) - (a[1].pob || 0));
+    $("#cMuniList").innerHTML = list.map(([c, m]) => `<option value="${esc(m.n)} (${c})"></option>`).join("");
     $("#cMuni").addEventListener("change", () => {
       const mc = muniCode();
-      if (mc) $("#cZona").value = municipios.items[mc].ccaa;
+      if (mc) $("#cZona").value = municipios.items[mc].c;
       compute();
     });
   }
+  el.setMunicipio = (code) => {
+    const m = municipios?.items[code];
+    if (!m || !$("#cMuni")) return;
+    $("#cMuni").value = `${m.n} (${code})`;
+    $("#cZona").value = m.c;
+    compute();
+  };
   $("#calcForm").addEventListener("input", compute);
   $("#calcForm").addEventListener("submit", (e) => e.preventDefault());
   $("#cZona").value = codes.includes("13") ? "13" : codes[0];

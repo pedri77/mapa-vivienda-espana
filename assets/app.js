@@ -21,7 +21,7 @@ $("#themeBtn").addEventListener("click", () => {
 });
 
 // ---------- datos ----------
-const names = ["actualizaciones", "calendario", "desahucios", "precios", "salarios", "fondos", "acampadas", "senales", "noticias", "medios", "legislacion", "ayudas", "ccaa"];
+const names = ["ccaa_vt", "actualizaciones", "calendario", "desahucios", "precios", "salarios", "fondos", "acampadas", "senales", "noticias", "medios", "legislacion", "ayudas", "ccaa"];
 const D = Object.fromEntries(await Promise.all(names.map(async (n) => [n, await (n === "ccaa" ? loadGeo() : load(n))])));
 async function loadGeo() {
   try { return await (await fetch("data/ccaa.geojson")).json(); } catch { return null; }
@@ -145,6 +145,7 @@ function renderMapa() {
     alquiler: { label: "Alquiler €/m²", title: "Alquiler €/m²/mes (oferta Fotocasa, ago. 2026)", ramp: ramp("r"), get: (c) => PRE[c]?.alquiler_m2_latest, f: (v) => `${fmt(v, 1)} €` },
     esfuerzo: { label: "Esfuerzo alquiler", title: "% de la renta del hogar para alquilar 80 m²", ramp: ramp("d"), get: (c) => PRE[c]?.esfuerzo?.pct_renta_hogar_alquiler_80m2, f: (v) => `${fmt(v, 1)}%` },
     compra: { label: "Años para comprar", title: "Años de renta del hogar para comprar 80 m² (tasado)", ramp: ramp("d"), get: (c) => PRE[c]?.esfuerzo?.anios_renta_hogar_80m2_tasado, f: (v) => `${fmt(v, 1)} años` },
+    vut: { label: "Pisos turísticos", title: `Viviendas turísticas sobre el total de viviendas (INE, ${D.ccaa_vt?.periodo || ""})`, ramp: ramp("d"), get: (c) => D.ccaa_vt?.items?.[c]?.vut_pct, f: (v) => `${fmt(v, 2)}%` },
     salario: { label: "Salario medio", title: `Salario bruto medio anual (INE, ${D.salarios?.year})`, ramp: ramp("p"), get: (c) => SAL[c]?.media, f: (v) => eur(v) },
     mediano: { label: "Salario mediano", title: `Salario bruto mediano anual (INE, ${D.salarios?.year}): la mitad cobra menos`, ramp: ramp("p"), get: (c) => SAL[c]?.mediana, f: (v) => eur(v) },
     sueldo26: { label: `Sueldo ${ETCL_P}`, title: `Coste salarial bruto por trabajador y mes (INE ETCL, ${ETCL_P})`, ramp: ramp("p"), get: (c) => SAL[c]?.etcl?.mes, f: (v) => `${fmt(v)} €/mes` },
@@ -269,6 +270,13 @@ function sideHtml(code) {
       ${stat(p.esfuerzo?.anios_renta_hogar_80m2_tasado != null ? fmt(p.esfuerzo.anios_renta_hogar_80m2_tasado, 1) : "—", "años de renta para comprar 80 m²")}
     </div>`;
   }
+  const vt = D.ccaa_vt?.items?.[code];
+  if (vt) h += `<div class="stats">
+    ${stat(fmt(vt.vut), `pisos turísticos (${D.ccaa_vt.periodo})`)}
+    ${stat(`${fmt(vt.vut_pct, 2)}%`, "del total de viviendas")}
+    ${stat(fmt(vt.vut_plazas), "plazas")}
+    ${stat(pct(vt.vt_var_pct), `vs ${D.ccaa_vt.periodo_prev}`)}
+  </div>`;
   if (s?.media) h += `<div class="stats">
     ${stat(s.etcl ? `${fmt(s.etcl.mes)} €` : "—", `sueldo bruto al mes (${s.etcl?.periodo || ""})`)}
     ${stat(pct(s.etcl?.yoy_pct), "interanual")}
