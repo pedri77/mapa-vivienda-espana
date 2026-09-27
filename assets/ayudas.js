@@ -19,7 +19,8 @@ export function renderAyudas(A, el) {
         <select id="ayuSel">${codes.map((c) => `<option value="${c}">${esc(CCAA[c])}</option>`).join("")}</select>
         <div id="ayuCcaa" style="margin-top:14px"></div>
         <h3 style="margin-top:24px">Ayudas estatales</h3>
-        ${(A.estatales || []).map((a) => `<details><summary>${esc(a.name)} ${a.estado ? `<span class="pill">${esc(a.estado)}</span>` : ""}</summary>
+        ${(A.estatales || []).map((a) => `<details><summary>${esc(a.name)}</summary>
+          ${a.estado ? `<p class="small"><strong>Estado:</strong> ${esc(a.estado)}</p>` : ""}
           <p class="small">${esc(a.summary || "")}</p>
           ${a.requisitos ? `<p class="small"><strong>Requisitos:</strong> ${esc(a.requisitos)}</p>` : ""}
           ${a.cuantia ? `<p class="small"><strong>Cuantía:</strong> ${esc(a.cuantia)}</p>` : ""}
@@ -39,7 +40,7 @@ export function renderAyudas(A, el) {
     if (!c) return;
     $("#ayuSel").value = code;
     $("#ayuCcaa").innerHTML = `
-      ${(c.ayudas || []).length ? (c.ayudas || []).map((a) => `<div class="card" style="margin-bottom:10px"><strong>${link(a.url, a.name)}</strong> ${a.estado ? `<span class="pill">${esc(a.estado)}</span>` : ""}<p class="small" style="margin:4px 0 0">${esc(a.summary || "")}${a.cuantia ? ` <strong>${esc(a.cuantia)}</strong>` : ""}</p></div>`).join("") : `<p class="small muted">Sin ayudas autonómicas registradas.</p>`}
+      ${(c.ayudas || []).length ? (c.ayudas || []).map((a) => `<div class="card" style="margin-bottom:10px"><strong>${link(a.url, a.name)}</strong>${a.estado ? `<p class="small muted" style="margin:4px 0 0">${esc(a.estado)}</p>` : ""}<p class="small" style="margin:4px 0 0">${esc(a.summary || "")}${a.cuantia ? ` <strong>${esc(a.cuantia)}</strong>` : ""}</p></div>`).join("") : `<p class="small muted">Sin ayudas autonómicas registradas.</p>`}
       <dl class="small" style="display:grid;grid-template-columns:max-content 1fr;gap:4px 12px">
         ${c.agencia?.name ? `<dt class="muted">Agencia de vivienda</dt><dd style="margin:0">${link(c.agencia.url, c.agencia.name)}</dd>` : ""}
         ${c.fianzas?.organismo ? `<dt class="muted">Depósito de fianzas</dt><dd style="margin:0">${link(c.fianzas.url, c.fianzas.organismo)}</dd>` : ""}

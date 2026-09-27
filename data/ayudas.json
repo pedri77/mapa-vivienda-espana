@@ -1,0 +1,1176 @@
+{
+ "generated": "2026-09-27",
+ "nota": "Datos recopilados el 27/09/2026. Las convocatorias cambian con frecuencia: confirma siempre plazos y requisitos en la sede oficial de tu comunidad. verified=true significa que la URL respondió (HTTP 200) o que su contenido se obtuvo con un extractor web; mivau.gob.es bloquea peticiones automáticas (403) pero su contenido se verificó por extracción.",
+ "estatales": [
+  {
+   "name": "Bono Alquiler Joven (RD 42/2022, convocatorias autonómicas 2026-2027)",
+   "summary": "Ayuda directa estatal al pago del alquiler de vivienda o habitación para jóvenes, gestionada por cada comunidad autónoma. En 2026 varias CCAA siguen abriendo convocatorias con las condiciones del Bono creado en 2022 (Canarias, Illes Balears, Comunitat Valenciana, Extremadura, La Rioja, Madrid...). No es compatible, con carácter general, con otras ayudas al alquiler para la misma vivienda salvo lo que prevea la convocatoria.",
+   "requisitos": "Hasta 35 años incluidos en el momento de solicitar; ser titular (o estar en condiciones de firmar) un contrato de alquiler o cesión de uso de vivienda habitual o habitación; disponer de una fuente regular de ingresos con rentas anuales iguales o inferiores a 3 veces el IPREM (con matices según convocatoria); renta máxima de 600 €/mes por vivienda y 300 €/mes por habitación, ampliable hasta 900 € y 450 € en ámbitos acordados con el Ministerio.",
+   "cuantia": "250 €/mes durante un máximo de 2 años (hasta 6.000 €), con el límite de la renta mensual.",
+   "estado": "Vigente vía convocatorias autonómicas. A 27/09/2026: abiertas Canarias (hasta 08/10/2026), Illes Balears (hasta 30/09/2026) y La Rioja (hasta 30/04/2027); cerradas o en resolución en el resto. Consulta tu comunidad.",
+   "url": "https://www.mivau.gob.es/vivienda/bono-alquiler-joven",
+   "verified": true
+  },
+  {
+   "name": "Ayuda al alquiler para la emancipación de personas jóvenes (Plan Estatal de Vivienda 2026-2030)",
+   "summary": "Nueva línea del Plan Estatal 2026-2030 (RD 326/2026, arts. 132-138) que sustituye progresivamente al Bono Alquiler Joven. Las comunidades autónomas y Ceuta y Melilla deben hacer convocatorias abiertas de forma continuada (art. 138) y pueden modular importes y requisitos.",
+   "requisitos": "Menores de 35 años; alquiler o cesión de uso de vivienda o habitación como residencia habitual y permanente; ingresos de la unidad de convivencia hasta 5 veces el IPREM (5,5 o 6 veces en supuestos de discapacidad, familia numerosa o víctimas de terrorismo); renta máxima de 1.000 €/mes por vivienda o 600 €/mes por habitación (500 € y 250 € en municipios de hasta 10.000 habitantes), ampliable por la comunidad autónoma.",
+   "cuantia": "Hasta 300 €/mes por vivienda y 200 €/mes por habitación, con el límite del 60 % de la renta (art. 137 RD 326/2026).",
+   "estado": "Aprobada: RD 326/2026, de 22 de abril (BOE 23/04/2026, en vigor desde el 24/04/2026). Fondos repartidos en la Conferencia Sectorial del 21/05/2026. Pendiente de convocatorias autonómicas; a 27/09/2026 la mayoría de CCAA aún convoca el Bono de 250 €.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-8872",
+   "verified": true
+  },
+  {
+   "name": "Ayuda general al alquiler (Plan Estatal de Vivienda 2026-2030)",
+   "summary": "Ayuda para hogares con ingresos limitados que viven de alquiler o en cesión de uso de vivienda o habitación. Se concede inicialmente por dos años, prorrogable si se mantienen los requisitos.",
+   "requisitos": "Ingresos de la unidad de convivencia hasta 5 veces el IPREM (5,5 veces con discapacidad desde el 33 %, familia numerosa general o víctimas de terrorismo; 6 veces para familia numerosa especial o discapacidad severa); renta máxima de 1.000 €/mes por vivienda o 600 €/mes por habitación, que las CCAA pueden ampliar.",
+   "cuantia": "Hasta 250 €/mes por vivienda y 150 €/mes por habitación, incrementable hasta el 40 % de la renta según personas a cargo o discapacidad (art. 119 RD 326/2026).",
+   "estado": "Aprobada en el RD 326/2026. Depende de las convocatorias de cada comunidad autónoma (despliegue previsto desde el segundo semestre de 2026).",
+   "url": "https://www.mivau.gob.es/vivienda/info-plan-estatal-de-vivienda-2026-2030",
+   "verified": true
+  },
+  {
+   "name": "Ayudas a víctimas de violencia de género, personas desahuciadas, sin hogar y otras personas especialmente vulnerables (Plan Estatal 2026-2030)",
+   "summary": "Garantiza una solución habitacional inmediata (vivienda, alojamiento o habitación en alquiler o cesión de uso) para víctimas de violencia de género, violencia sexual o trata, familias monoparentales, personas objeto de desahucio de su vivienda habitual, personas en chabolismo, infravivienda o emergencia habitacional y personas sin hogar. Puede pagarse directamente al propietario o entidad gestora y se acompaña de seguimiento social.",
+   "requisitos": "Acreditar la situación (por ejemplo, informe de servicios sociales) y no disponer de otra vivienda habitable. Se tramita a través de la comunidad autónoma, normalmente derivado por servicios sociales.",
+   "cuantia": "Hasta el 100 % de la renta; para víctimas de violencia de género, máximo de 1.000 €/mes según el Ministerio, ampliable por la comunidad autónoma. Puede añadir un apoyo mensual para comunidad, suministros e internet. Duración de hasta cinco años.",
+   "estado": "Aprobada en el RD 326/2026; aplicación mediante convocatorias o procedimientos autonómicos. Hasta su despliegue, las CCAA gestionan la línea equivalente del Plan 2022-2025 (hasta 600 €/mes, 900 € en casos justificados).",
+   "url": "https://www.mivau.gob.es/arquitectura-vivienda-y-suelo/programas-de-ayudas-a-la-vivienda/programa-3",
+   "verified": true
+  },
+  {
+   "name": "Línea de avales ICO para la compra de primera vivienda",
+   "summary": "Aval público de hasta el 20 % del préstamo hipotecario para que jóvenes y familias con menores a cargo, solventes pero sin ahorro para la entrada, puedan comprar su primera vivienda. Se solicita a través de los bancos adheridos.",
+   "requisitos": "Hasta 35 años en la firma del préstamo, o familias con menores a cargo sin límite de edad; primera vivienda como residencia habitual; límites de ingresos vinculados al IPREM (4,5 veces para préstamos firmados hasta el 18/06/2026; desde el 19/06/2026 se aplican límites de IPREM por provincia) y de precio de la vivienda.",
+   "cuantia": "Línea de 2.500 millones de euros; aval del Estado de hasta el 20 % del préstamo, con plazo de hasta 10 años.",
+   "estado": "Vigente. Préstamos formalizables hasta el 31/12/2027.",
+   "url": "https://www.ico.es/linea-avales-hipoteca-primera-vivienda",
+   "verified": true
+  },
+  {
+   "name": "Ayuda para la compra de vivienda por jóvenes en municipios pequeños (Plan Estatal 2026-2030)",
+   "summary": "Ayuda directa a jóvenes que compren o construyan su vivienda habitual en municipios de hasta 10.000 habitantes (hasta 20.000 si pierden población y la comunidad lo justifica). No es una ayuda al alquiler, pero es una alternativa para inquilinos jóvenes.",
+   "requisitos": "Hasta 35 años; mismos límites de ingresos que la ayuda joven al alquiler; precio máximo de la vivienda según comunidad autónoma.",
+   "cuantia": "Hasta 15.000 €, sin superar el 20 % del precio de compra.",
+   "estado": "Aprobada en el RD 326/2026; pendiente de convocatorias autonómicas.",
+   "url": "https://www.mivau.gob.es/vivienda/info-plan-estatal-de-vivienda-2026-2030",
+   "verified": true
+  },
+  {
+   "name": "Novedades 2026 en protección del inquilino: estado a 27/09/2026",
+   "summary": "La suspensión extraordinaria de desahucios de hogares vulnerables heredada de la pandemia (RDL 11/2020) ya no está vigente: el Congreso derogó el RDL 16/2025 (27/01/2026) y el RDL 2/2026 (26/02/2026, publicado en el BOE el 28/02/2026). También derogó el 28/04/2026 el RDL 8/2026, que preveía una prórroga extraordinaria de contratos y un tope del 2 % a las subidas. El Gobierno negocia un nuevo real decreto-ley de vivienda (prórroga de contratos, alquiler de temporada y por habitaciones, protección frente a desahucios) cuya aprobación se preveía para el Consejo de Ministros del 29/09/2026; si se aprueba, necesitará convalidación del Congreso en 30 días.",
+   "requisitos": null,
+   "cuantia": null,
+   "estado": "Pendiente. Hoy rigen solo los mecanismos ordinarios de la LEC (art. 441.5 a 441.7) y la LAU.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-2547",
+   "verified": true
+  }
+ ],
+ "ccaa": [
+  {
+   "code": "01",
+   "name": "Andalucía",
+   "ayudas": [
+    {
+     "name": "Bono Alquiler Joven en Andalucía (convocatoria reabierta 2026)",
+     "summary": "Ayuda estatal gestionada por la Junta para jóvenes de hasta 35 años que viven de alquiler.",
+     "cuantia": "250 €/mes hasta 24 meses",
+     "estado": "Cerrada: plazo reabierto el 13/01/2026 y cerrado el 22/06/2026 al alcanzar 15.000 solicitudes.",
+     "url": "https://www.juntadeandalucia.es/organismos/viviendajuventudyordenaciondelterritorio/areas/vivienda-rehabilitacion/fomento-alquiler/bono-alquiler-joven/paginas/convocatoria-2025.html",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Agencia de Vivienda y Rehabilitación de Andalucía (AVRA)",
+    "url": "https://www.juntadeandalucia.es/organismos/avra",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Sin obligación de depósito para contratos firmados desde el 24/01/2026 (Ley 5/2025 de Vivienda de Andalucía). Las fianzas depositadas antes se devuelven a través de AVRA.",
+    "url": "https://www.juntadeandalucia.es/organismos/avra",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "02",
+   "name": "Aragón",
+   "ayudas": [
+    {
+     "name": "Bono Alquiler Joven en Aragón",
+     "summary": "Ayuda estatal para jóvenes de hasta 35 años gestionada por el Gobierno de Aragón.",
+     "cuantia": "250 €/mes",
+     "estado": "Convocatoria 2025 cerrada; nueva convocatoria anunciada para 2026 (consultar el tramitador).",
+     "url": "https://www.aragon.es/tramitador/-/tramite/bono-alquiler-joven-en-la-comunidad-autonoma-de-aragon",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Dirección General de Vivienda y Rehabilitación (Gobierno de Aragón)",
+    "url": null,
+    "verified": false
+   },
+   "fianzas": {
+    "organismo": "Gobierno de Aragón (Dirección General de Vivienda y Rehabilitación). Plazo de dos meses desde la firma.",
+    "url": "https://www.aragon.es/tramitador/-/tramite/gestion-de-fianzas-de-arrendamientos-en-regimen-general/deposito",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "03",
+   "name": "Principado de Asturias",
+   "ayudas": [
+    {
+     "name": "Bono Alquiler Joven en Asturias",
+     "summary": "Ayuda estatal para jóvenes de hasta 35 años.",
+     "cuantia": "250 €/mes hasta 24 meses",
+     "estado": "Cerrada; resolución de concesión publicada el 20/04/2026. Pendiente de convocatorias del Plan 2026-2030.",
+     "url": "https://actualidad.asturias.es/-/el-gobierno-de-asturias-pone-en-marcha-el-bono-alquiler-joven-con-una-ayuda-de-250-euros-al-mes-para-facilitar-el-acceso-al-alquiler",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Viviendas del Principado de Asturias (VIPASA)",
+    "url": "https://www.vipasa.info",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Sin obligación de depósito en organismo público.",
+    "url": null,
+    "verified": false
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "04",
+   "name": "Illes Balears",
+   "ayudas": [
+    {
+     "name": "Bono Alquiler Joven 2026-2027",
+     "summary": "Ayuda para jóvenes de hasta 35 años con contrato de alquiler o cesión de uso vigente entre el 01/01/2026 y el 31/12/2027. Se adjudica por orden de entrada de expedientes completos.",
+     "cuantia": "Hasta 250 €/mes por joven, máximo 24 mensualidades (presupuesto global 4,8 M€)",
+     "estado": "Abierta del 01/09/2026 al 30/09/2026.",
+     "url": "https://www.caib.es/sites/bolloguerjove/es/informacio_2026",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Institut Balear de l'Habitatge (IBAVI)",
+    "url": "https://www.caib.es/sites/informaciohabitatge/es/inicio_fianzas_de_alquiler",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Institut Balear de l'Habitatge (IBAVI). Trámite telemático. Tel. 900 700 003.",
+    "url": "https://www.caib.es/seucaib/es/tramites/tramite/1504855",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "05",
+   "name": "Canarias",
+   "ayudas": [
+    {
+     "name": "Bono Alquiler Joven 2026-2027",
+     "summary": "Ayuda para jóvenes de 18 a 35 años con escasos recursos, gestionada por el Instituto Canario de la Vivienda con la colaboración de las Cámaras de Comercio. Contratos vigentes desde el 01/01/2025.",
+     "cuantia": "250 €/mes hasta 24 mensualidades (máx. 6.000 €); presupuesto 12,878 M€",
+     "estado": "Abierta del 18/09/2026 al 08/10/2026 (preferentemente por sede electrónica).",
+     "url": "https://sede.gobiernodecanarias.org/sede/tramites/7410",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Instituto Canario de la Vivienda (ICAVI)",
+    "url": "https://www.gobiernodecanarias.org/vivienda/",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Instituto Canario de la Vivienda (ICAVI). Plazo de un mes desde la firma.",
+    "url": "https://www.gobiernodecanarias.org/vivienda/",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "06",
+   "name": "Cantabria",
+   "ayudas": [
+    {
+     "name": "Ayuda Alquiler Bono Joven",
+     "summary": "Ayuda estatal para jóvenes de hasta 35 años.",
+     "cuantia": "250 €/mes",
+     "estado": "Última convocatoria cerrada (26/05/2025 a 26/06/2025). Sin convocatoria abierta conocida a 27/09/2026.",
+     "url": "https://sede.cantabria.es/sede/catalogo-de-tramites/tramite/ayuda-alquiler-bono-joven/6031",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Vivienda de Cantabria (Gobierno de Cantabria); empresa pública GESVICAN",
+    "url": "https://www.viviendadecantabria.es",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Sin obligación de depósito en organismo público (suprimida en 2018).",
+    "url": null,
+    "verified": false
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "07",
+   "name": "Castilla y León",
+   "ayudas": [
+    {
+     "name": "Subvenciones destinadas al alquiler de vivienda",
+     "summary": "Ayudas autonómicas al pago del alquiler de vivienda habitual.",
+     "cuantia": null,
+     "estado": "Convocatoria 2025 resuelta (29/07/2026). Convocatoria 2026 pendiente a 27/09/2026.",
+     "url": "https://vivienda.jcyl.es/web/es/vivienda-urbanismo.html",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "SOMACYL (Sociedad Pública de Infraestructuras y Medio Ambiente de Castilla y León)",
+    "url": "https://somacyl.es",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Consejo General de las Cámaras de la Propiedad Urbana de Castilla y León (por cuenta de la Junta).",
+    "url": "http://www.camarascastillayleon.com/servicios.php",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "08",
+   "name": "Castilla-La Mancha",
+   "ayudas": [
+    {
+     "name": "Ayudas al alquiler de vivienda. Convocatoria 2026",
+     "summary": "Orden 62/2026, de 15 de abril. Renta máxima según ámbito del municipio (de 648 € a 953 €/mes; más para familias numerosas y personas con discapacidad).",
+     "cuantia": "Hasta 200 €/mes según información publicada (consultar bases)",
+     "estado": "Cerrada (plazo del 09/05/2026 al 09/06/2026).",
+     "url": "https://vivienda.castillalamancha.es/ayudas-y-subvenciones/ayudas-al-alquiler/ayudas-al-alquiler-de-vivienda-convocatoria-2026",
+     "verified": true
+    },
+    {
+     "name": "Ayudas Bono Alquiler Joven",
+     "summary": "Ayuda estatal para jóvenes de hasta 35 años.",
+     "cuantia": "250 €/mes hasta 24 meses",
+     "estado": "Convocatoria 2025 cerrada.",
+     "url": "https://vivienda.castillalamancha.es/ayudas-y-subvenciones/ayudas-al-alquiler",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Gestión de Infraestructuras de Castilla-La Mancha (GICAMAN)",
+    "url": "https://gicaman.es",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Dirección General de Vivienda de la Junta de Comunidades. Plazo de 30 días naturales (Decreto 6/2022).",
+    "url": "https://vivienda.castillalamancha.es/deposito-de-fianzas",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "09",
+   "name": "Cataluña",
+   "ayudas": [
+    {
+     "name": "Bo Lloguer Jove 2026",
+     "summary": "Subvención para personas de hasta 35 años que viven de alquiler (piso, habitación o cesión de uso) en Cataluña.",
+     "cuantia": "250 €/mes, con el límite de la renta",
+     "estado": "Cerrada (plazo del 09/03/2026 al 13/03/2026).",
+     "url": "https://habitatge.gencat.cat/ca/ajuts/ajuts-pagament-habitatge/subvencions-bo-lloguer-jove",
+     "verified": true
+    },
+    {
+     "name": "Ajuts al lloguer per a persones de 36 anys o més",
+     "summary": "Ayudas de la Agència de l'Habitatge de Catalunya para inquilinos a partir de 36 años.",
+     "cuantia": "Hasta 200 €/mes (entre el 20 % y el 40 % de la renta) según información municipal",
+     "estado": "Cerrada (plazo de abril a mayo de 2026).",
+     "url": "https://habitatge.gencat.cat",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Agència de l'Habitatge de Catalunya",
+    "url": "https://habitatge.gencat.cat",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Institut Català del Sòl (INCASÒL). Plazo de dos meses desde la firma.",
+    "url": "https://incasol.gencat.cat/ca/serveis-i-tramits/fiances-de-lloguers",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Reallotjament d'emergència: las personas en riesgo de exclusión residencial pueden pedir realojo a la mesa de emergencias de su municipio (si tiene) o a la Mesa d'emergències de Catalunya, a través de servicios sociales o de la Agència de l'Habitatge.",
+    "phone": null,
+    "url": "https://habitatge.gencat.cat/ca/ambits/mesures-evitar-perdua-habitatge/reallotjament-emergencia",
+    "verified": true
+   }
+  },
+  {
+   "code": "10",
+   "name": "Comunitat Valenciana",
+   "ayudas": [
+    {
+     "name": "Ayudas Bono Alquiler Joven. Convocatoria 2026",
+     "summary": "Resolución de 18/08/2026 (DOGV núm. 10434, 21/08/2026). Para jóvenes con escasos medios económicos.",
+     "cuantia": "250 €/mes",
+     "estado": "Plazo de solicitud cerrado (24/08/2026 a 11/09/2026); fase de alegaciones y aportación abierta desde el 14/09/2026.",
+     "url": "https://sede.gva.es/es/detall-tramit?id_proc=G110699",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Entitat Valenciana d'Habitatge i Sòl (EVHA)",
+    "url": "https://www.evha.es",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Generalitat Valenciana (Conselleria de Hacienda, Tesorería / fianzas urbanas). Plazo de un mes desde la firma.",
+    "url": "http://atv.gva.es/es/tributos-modelos-fianzas",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "11",
+   "name": "Extremadura",
+   "ayudas": [
+    {
+     "name": "Bono Alquiler Joven 2026-2027",
+     "summary": "Resolución de 17/06/2026. Para jóvenes de hasta 35 años; renta máxima de 600 €/mes (300 € por habitación).",
+     "cuantia": "250 €/mes durante 2 años",
+     "estado": "Cerrada: plazo del 15/07/2026, terminado anticipadamente el 28/08/2026.",
+     "url": "https://www.juntaex.es/w/6073",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Junta de Extremadura. Secretaría General de Vivienda, Arquitectura, Accesibilidad y Regeneración Urbana",
+    "url": "https://www.juntaex.es/temas/vivienda/alquiler",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Según el Ministerio de Vivienda no existe obligación de depósito; otras fuentes citan la Caja General de Depósitos de la Junta. Confirmar con la Junta.",
+    "url": null,
+    "verified": false
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": "https://www.juntaex.es/temas/vivienda/alquiler",
+    "verified": true
+   }
+  },
+  {
+   "code": "12",
+   "name": "Galicia",
+   "ayudas": [
+    {
+     "name": "Bono de alquiler social (VI482F)",
+     "summary": "Ayuda urgente al alquiler para colectivos vulnerables (por ejemplo, personas desahuciadas o víctimas de violencia de género), tramitada por la Xunta.",
+     "cuantia": null,
+     "estado": "Procedimiento de la sede electrónica de la Xunta; consultar plazos.",
+     "url": "https://sede.xunta.gal/es/detalle-procedemento?codtram=VI482F",
+     "verified": true
+    },
+    {
+     "name": "Bono Alugueiro Mocidade",
+     "summary": "Ayuda autonómica para menores de 36 años con ingresos regulares no superiores a 3 veces el IPREM.",
+     "cuantia": "250 €/mes",
+     "estado": "Edición vigente hasta el 31/12/2026 según información publicada; sin URL oficial verificada.",
+     "url": null,
+     "verified": false
+    }
+   ],
+   "agencia": {
+    "name": "Instituto Galego da Vivenda e Solo (IGVS)",
+    "url": "https://igvs.xunta.gal",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Instituto Galego da Vivenda e Solo (IGVS). Trámite VI436A. Plazo de un mes desde la firma.",
+    "url": "https://igvs.xunta.gal/es/deposito-de-fianzas",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "13",
+   "name": "Comunidad de Madrid",
+   "ayudas": [
+    {
+     "name": "Bono Alquiler Joven",
+     "summary": "Ayuda estatal gestionada por la Comunidad de Madrid para jóvenes de hasta 35 años.",
+     "cuantia": "250 €/mes hasta 2 años",
+     "estado": "En tramitación: plazo de subsanación del 23/09/2026 al 06/10/2026 y de aportación de documentos hasta el 14/10/2026 (Resolución de 10/09/2026). Sin plazo de nuevas solicitudes abierto.",
+     "url": "https://sede.comunidad.madrid/node/285843",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Agencia de Vivienda Social de la Comunidad de Madrid",
+    "url": "https://www.comunidad.madrid/centros/agencia-vivienda-social",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Agencia de Vivienda Social de la Comunidad de Madrid. Plazo de 30 días naturales.",
+    "url": "https://www.comunidad.madrid/servicios/vivienda/fianzas-arrendamiento",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Información general de la Comunidad: 012. En la ciudad de Madrid, el Servicio de Asesoramiento de Vivienda (Ayuntamiento y Colegio de la Abogacía de Madrid) da asesoría jurídica gratuita con cita previa. Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": "012 / 900 814 815 (SAV, ciudad de Madrid)",
+    "url": "https://www.comunidad.madrid/vivienda",
+    "verified": true
+   }
+  },
+  {
+   "code": "14",
+   "name": "Región de Murcia",
+   "ayudas": [
+    {
+     "name": "Ayudas al alquiler de vivienda «Bono Alquiler Joven» (procedimiento 3934)",
+     "summary": "Ayuda estatal para personas de hasta 35 años; pago trimestral previa justificación.",
+     "cuantia": "250 €/mes",
+     "estado": "Sujeto a convocatoria; sin plazo abierto confirmado a 27/09/2026.",
+     "url": "https://sede.carm.es/web/pagina?IDCONTENIDO=3934&IDTIPO=240&RASTRO=c%24m40",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Dirección General de Vivienda (CARM)",
+    "url": "https://www.carm.es/web/pagina?IDCONTENIDO=70515&IDTIPO=100&RASTRO=c2759%24m69577",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Sin obligación de depósito desde el 11/05/2021 (Decreto-ley 1/2021).",
+    "url": null,
+    "verified": false
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "15",
+   "name": "Comunidad Foral de Navarra",
+   "ayudas": [
+    {
+     "name": "Emanzipa",
+     "summary": "Ayuda foral al pago del alquiler para personas de 23 a 35 años (ambos incluidos). Navarra no gestiona el Bono Alquiler Joven estatal.",
+     "cuantia": null,
+     "estado": "Programa permanente; consultar requisitos en navarra.es.",
+     "url": "https://www.navarra.es/es/vivienda/alquiler",
+     "verified": true
+    },
+    {
+     "name": "DAVID",
+     "summary": "Ayuda foral al pago del alquiler mensual para personas con bajos ingresos.",
+     "cuantia": null,
+     "estado": "Programa permanente.",
+     "url": "https://www.navarra.es/es/vivienda/alquiler",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Navarra de Suelo y Vivienda (NASUVINSA)",
+    "url": "https://www.nasuvinsa.es",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Sin obligación de depósito por ahora: la Ley Foral 9/2025 la introduce, pero su fecha de aplicación está pendiente.",
+    "url": null,
+    "verified": false
+   },
+   "emergencia": {
+    "text": "Consultas sobre alquiler del Gobierno de Navarra (L-V, 9 a 17 h) y consultas de Emanzipa (jueves, 12 a 14 h). Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": "900 841 648 (alquiler) / 848 420 120 (Emanzipa)",
+    "url": "https://www.navarra.es/es/vivienda/alquiler",
+    "verified": true
+   }
+  },
+  {
+   "code": "16",
+   "name": "País Vasco / Euskadi",
+   "ayudas": [
+    {
+     "name": "Gaztelagun",
+     "summary": "Ayuda directa del Gobierno Vasco al pago del alquiler para jóvenes de 18 a 35 años, gestionada por Alokabide. Convocatoria continua. Euskadi no gestiona el Bono Alquiler Joven estatal.",
+     "cuantia": null,
+     "estado": "Abierta: convocatoria 2026 continua.",
+     "url": "https://www.alokabide.euskadi.eus/gaztelagun/es",
+     "verified": true
+    },
+    {
+     "name": "Prestación Económica de Vivienda (PEV) / Prestación Complementaria de Vivienda (PCV)",
+     "summary": "Prestaciones del Gobierno Vasco para el pago del alquiler de personas con derecho subjetivo a vivienda o perceptoras de rentas de inserción.",
+     "cuantia": null,
+     "estado": "Vigente.",
+     "url": "https://www.euskadi.eus/gobierno-vasco/vivienda/inicio/",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Alokabide (Sociedad Pública de Alquiler) / Etxebide (Servicio Vasco de Vivienda)",
+    "url": "https://www.alokabide.euskadi.eus",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Gobierno Vasco, servicio Bizilagun. Plazo de un mes desde la firma. Tel. 945 01 68 38.",
+    "url": "https://www.euskadi.eus/fianzas-de-alquiler/web01-a2bizila/es",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "17",
+   "name": "La Rioja",
+   "ayudas": [
+    {
+     "name": "Bono Alquiler Joven",
+     "summary": "Ayuda estatal gestionada por el Gobierno de La Rioja. Renta máxima de 600 €/mes (300 € por habitación).",
+     "cuantia": "250 €/mes hasta 24 meses (máx. 6.000 €)",
+     "estado": "Abierta del 02/06/2026 al 30/04/2027.",
+     "url": "https://www.vuelarioja.es/bono-alquiler-joven",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Instituto Riojano de la Vivienda (IRVI)",
+    "url": "https://www.irvi.es",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Sin obligación de depósito en organismo público.",
+    "url": null,
+    "verified": false
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "18",
+   "name": "Ceuta",
+   "ayudas": [
+    {
+     "name": "Bono Alquiler Joven / ayudas al alquiler",
+     "summary": "Gestionadas por la Ciudad Autónoma a través de EMVICESA.",
+     "cuantia": null,
+     "estado": "Sin convocatoria abierta conocida a 27/09/2026.",
+     "url": "http://www.emvicesa.es",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Empresa Municipal de la Vivienda de Ceuta (EMVICESA)",
+    "url": "http://www.emvicesa.es",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Empresa Municipal de la Vivienda de Ceuta (EMVICESA).",
+    "url": "http://www.emvicesa.es",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  },
+  {
+   "code": "19",
+   "name": "Melilla",
+   "ayudas": [
+    {
+     "name": "Ayuda al alquiler privado 2026",
+     "summary": "Programa de la Ciudad Autónoma de Melilla gestionado por EMVISMESA.",
+     "cuantia": null,
+     "estado": "En tramitación: listas provisionales de admitidos publicadas en el BOME el 11/09/2026.",
+     "url": "https://emvismesa.es/ayuda-al-alquiler",
+     "verified": true
+    }
+   ],
+   "agencia": {
+    "name": "Empresa Municipal de la Vivienda y Suelo de Melilla (EMVISMESA)",
+    "url": "https://emvismesa.es",
+    "verified": true
+   },
+   "fianzas": {
+    "organismo": "Empresa Municipal de la Vivienda y Suelo de Melilla (EMVISMESA).",
+    "url": "https://emvismesa.es/fianzas/",
+    "verified": true
+   },
+   "emergencia": {
+    "text": "Si tienes una demanda o fecha de lanzamiento, acude cuanto antes a los servicios sociales de tu ayuntamiento: son quienes elaboran el informe de vulnerabilidad que el juzgado puede tener en cuenta (art. 441.5 LEC).",
+    "phone": null,
+    "url": null,
+    "verified": false
+   }
+  }
+ ],
+ "guia_desahucio": [
+  {
+   "paso": 1,
+   "titulo": "Antes de la demanda: el intento de negociación (MASC)",
+   "texto": "Desde el 3 de abril de 2025, antes de presentar una demanda de desahucio el propietario debe haber intentado un medio adecuado de solución de controversias (negociación, mediación, conciliación, oferta vinculante...). Si recibes un burofax o una propuesta de este tipo, respóndela por escrito y guarda copia: es el momento de negociar un aplazamiento o un plan de pagos. Sin ese intento previo (o la justificación de su imposibilidad) la demanda no debe admitirse.",
+   "base_legal": "Ley Orgánica 1/2025, art. 5; arts. 399.3 y 403.2 LEC",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-76",
+   "verified": true
+  },
+  {
+   "paso": 2,
+   "titulo": "Recibes la demanda: lee el requerimiento y apunta las fechas",
+   "texto": "En el desahucio por falta de pago, el juzgado te requiere para que en 10 días hagas una de estas cosas: desalojar, pagar, pagar todo lo debido para enervar (si procede) o presentar oposición explicando por qué no debes todo o parte. El requerimiento ya indica la fecha de la vista (si te opones) y la fecha y hora exactas del lanzamiento (si no haces nada). Si no respondes, el procedimiento termina y se ejecuta el lanzamiento en la fecha fijada sin más aviso. No atender el requerimiento equivale a consentir la resolución del contrato.",
+   "base_legal": "Art. 438.5 LEC (redacción LO 1/2025)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+   "verified": true
+  },
+  {
+   "paso": 3,
+   "titulo": "Pide abogado de oficio en 3 días",
+   "texto": "Si quieres asistencia jurídica gratuita, debes pedirla en los 3 días siguientes al requerimiento. Tienen derecho, entre otros requisitos, las personas cuyos ingresos brutos anuales de la unidad familiar no superen 2 veces el IPREM (personas solas), 2,5 veces (unidades familiares de menos de cuatro miembros) o 3 veces (cuatro o más miembros o familia numerosa). Se solicita en el Servicio de Orientación Jurídica del colegio de la abogacía o en el propio juzgado.",
+   "base_legal": "Art. 438.5 LEC; art. 3 Ley 1/1996 de asistencia jurídica gratuita",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-750",
+   "verified": true
+  },
+  {
+   "paso": 4,
+   "titulo": "Acude a servicios sociales: informe de vulnerabilidad",
+   "texto": "Si la vivienda es tu residencia habitual, el decreto de admisión debe informarte de cómo contactar con los servicios sociales y de vivienda, y el juzgado les comunica de oficio el procedimiento. Si confirman que el hogar es vulnerable, lo notifican al juzgado en un máximo de 10 días con propuestas de alternativa habitacional y ayudas. Pide cita en tus servicios sociales municipales en cuanto recibas la demanda.",
+   "base_legal": "Art. 441.5 LEC (redacción Ley 12/2023)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+   "verified": true
+  },
+  {
+   "paso": 5,
+   "titulo": "Posible suspensión temporal por vulnerabilidad",
+   "texto": "Con el informe de servicios sociales y las alegaciones de las partes (5 días), el juez decide por auto si suspende el proceso para que la Administración aplique las medidas propuestas: hasta 2 meses si el propietario es persona física y hasta 4 meses si es persona jurídica. El juez pondera también la posible vulnerabilidad del propietario. Como referencia, puede considerar vulnerable al hogar cuyo alquiler más suministros supere el 30 % de sus ingresos y cuyos ingresos no alcancen 3 veces el IPREM mensual (con incrementos por hijos, mayores de 65, dependencia o discapacidad). La suspensión extraordinaria de la época COVID ya no está vigente (RDL 2/2026 derogado el 26/02/2026).",
+   "base_legal": "Art. 441.6 y 441.7 LEC",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+   "verified": true
+  },
+  {
+   "paso": 6,
+   "titulo": "Enervar el desahucio: pagar todo lo debido",
+   "texto": "Dentro del plazo de 10 días puedes pagar o consignar en el juzgado o ante notario todo lo reclamado más lo que debas en ese momento; el proceso termina y el contrato continúa. Solo se puede enervar una vez (salvo que el impago anterior se debiera al propietario) y no cabe si el propietario te requirió el pago de forma fehaciente al menos 30 días antes de la demanda y no pagaste. Al enervar normalmente pagarás las costas.",
+   "base_legal": "Art. 22.4 y 22.5 LEC",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+   "verified": true
+  },
+  {
+   "paso": 7,
+   "titulo": "Oposición y vista",
+   "texto": "Si no debes la cantidad (o solo parte), o hay otros motivos, formula oposición dentro del plazo de 10 días. Se celebrará la vista en la fecha indicada en el requerimiento. Lleva recibos, transferencias, comunicaciones y el informe de servicios sociales si lo tienes. Desde la reforma de la Ley 12/2023, la demanda debe indicar si la vivienda es tu residencia habitual y si el demandante es gran tenedor; el Tribunal Constitucional anuló en 2025 (STC 26/2025) la exigencia adicional de acreditar la vulnerabilidad o un intento de conciliación previo para grandes tenedores (art. 439.6.c y 439.7 LEC).",
+   "base_legal": "Arts. 438.5, 439.6 y 443 LEC; STC 26/2025",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-4079",
+   "verified": true
+  },
+  {
+   "paso": 8,
+   "titulo": "Pide ayuda de vivienda y organízate",
+   "texto": "Mientras dura el proceso, solicita las ayudas para personas objeto de desahucio de tu comunidad autónoma (Plan Estatal de Vivienda), inscríbete como demandante de vivienda protegida y contacta con la oficina municipal de vivienda. Organizaciones como la PAH o los sindicatos de inquilinas ofrecen asesoramiento colectivo gratuito. El Ministerio de Vivienda tiene un teléfono gratuito por el derecho a la vivienda: 047.",
+   "base_legal": "RD 326/2026 (Plan Estatal de Vivienda 2026-2030)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-8872",
+   "verified": true
+  }
+ ],
+ "derechos": [
+  {
+   "titulo": "Duración mínima: 5 años (7 si el casero es empresa)",
+   "texto": "Aunque firmes un contrato de un año, se prórroga obligatoriamente cada año hasta alcanzar 5 años, o 7 si el arrendador es persona jurídica. Tú puedes no renovar avisando con 30 días de antelación.",
+   "base_legal": "Art. 9.1 LAU",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+   "verified": true
+  },
+  {
+   "titulo": "Prórroga tácita de hasta 3 años más",
+   "texto": "Cumplidos los 5 o 7 años, si nadie avisa (el arrendador con 4 meses de antelación y el inquilino con 2), el contrato se prórroga por años hasta 3 años más.",
+   "base_legal": "Art. 10.1 LAU",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+   "verified": true
+  },
+  {
+   "titulo": "Prórroga extraordinaria por vulnerabilidad y en zonas tensionadas",
+   "texto": "Al terminar el contrato puedes pedir una prórroga extraordinaria de hasta 1 año si acreditas vulnerabilidad con informe de servicios sociales y el casero es gran tenedor (más de 10 inmuebles o 1.500 m² residenciales). En zonas de mercado residencial tensionado puedes pedir prórrogas anuales de hasta 3 años, que el arrendador debe aceptar salvo excepciones legales.",
+   "base_legal": "Art. 10.2 y 10.3 LAU; art. 3.k Ley 12/2023",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+   "verified": true
+  },
+  {
+   "titulo": "Desistimiento a partir de 6 meses",
+   "texto": "Puedes irte antes de tiempo si han pasado al menos 6 meses, avisando con 30 días. Solo tendrás que indemnizar si el contrato lo pacta: como máximo una mensualidad por año que falte, proporcional.",
+   "base_legal": "Art. 11 LAU",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+   "verified": true
+  },
+  {
+   "titulo": "Fianza: una mensualidad",
+   "texto": "La fianza legal en vivienda es de una mensualidad de renta. No se actualiza durante los primeros 5 (o 7) años. Además, el casero solo puede pedir garantías adicionales limitadas por la ley (hasta dos mensualidades en contratos de hasta 5 o 7 años). Según la comunidad, el propietario debe depositarla en un organismo público.",
+   "base_legal": "Art. 36 LAU",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+   "verified": true
+  },
+  {
+   "titulo": "La renta solo sube una vez al año y con límite (IRAV)",
+   "texto": "La renta solo puede actualizarse en cada aniversario del contrato si está pactado por escrito. En contratos firmados desde el 26/05/2023, el límite es el Índice de Referencia de Arrendamientos de Vivienda (IRAV) del INE: 2,47 % con el dato de agosto de 2026 (publicado el 15/09/2026); fue del 2,49 % en julio y del 2,14 % en enero de 2026. Sin pacto expreso, no hay actualización. La subida se aplica desde el mes siguiente a la notificación por escrito.",
+   "base_legal": "Art. 18 y disposición adicional undécima LAU (introducida por la Ley 12/2023)",
+   "url": "https://www.ine.es/uc/oC7D0Ncd",
+   "verified": true
+  },
+  {
+   "titulo": "Los gastos de inmobiliaria y de contrato los paga el propietario",
+   "texto": "Desde la Ley 12/2023, los gastos de gestión inmobiliaria y de formalización del contrato son a cargo del arrendador. Si te cobran honorarios de agencia por alquilar, puedes reclamarlos.",
+   "base_legal": "Art. 20.1 LAU (redacción Ley 12/2023)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+   "verified": true
+  },
+  {
+   "titulo": "Pago por medios electrónicos y sin adelantos abusivos",
+   "texto": "La renta se paga mensualmente en los primeros siete días del mes, salvo pacto. El casero no puede exigir el pago anticipado de más de una mensualidad y el pago se hace por medios electrónicos (en metálico solo si alguna parte no tiene cuenta y lo pide).",
+   "base_legal": "Art. 17.2 y 17.3 LAU",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+   "verified": true
+  },
+  {
+   "titulo": "Comprueba el precio con el índice SERPAVI",
+   "texto": "El Sistema Estatal de Referencia del Precio del Alquiler de Vivienda (SERPAVI) del Ministerio permite consultar precios de referencia por sección censal, distrito, municipio y comunidad, y un rango de valores individualizado para cada vivienda. En zonas tensionadas sirve para limitar la renta de nuevos contratos en determinados casos.",
+   "base_legal": "Ley 12/2023; art. 17.6 y 17.7 LAU",
+   "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi",
+   "verified": true
+  },
+  {
+   "titulo": "Zonas de mercado residencial tensionado",
+   "texto": "Si tu vivienda está en una zona tensionada, la renta de un nuevo contrato no puede superar la del contrato anterior (con excepciones) y, si el casero es gran tenedor, tiene el tope del índice de referencia. A septiembre de 2026 hay unos 317 municipios o ámbitos declarados en Cataluña, País Vasco, Navarra, Galicia y Asturias (última ampliación en el BOE del 29/07/2026). Consulta la lista oficial del Ministerio.",
+   "base_legal": "Art. 18 Ley 12/2023; art. 17.6 y 17.7 LAU",
+   "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado",
+   "verified": true
+  }
+ ],
+ "organizaciones": [
+  {
+   "name": "Confederación de Sindicatos de Inquilinas (Poder Inquilino)",
+   "type": "sindicato de inquilinas",
+   "scope": "estatal",
+   "city": null,
+   "url": "https://poderinquilino.org",
+   "verified": true,
+   "contacto": "organizate@poderinquilino.org"
+  },
+  {
+   "name": "Sindicato de Inquilinas e Inquilinos de Madrid",
+   "type": "sindicato de inquilinas",
+   "scope": "city",
+   "city": "Madrid",
+   "url": "https://inquilinato.org",
+   "verified": true,
+   "contacto": "sumate@inquilinato.org"
+  },
+  {
+   "name": "Sindicat de Llogateres (Catalunya)",
+   "type": "sindicato de inquilinas",
+   "scope": "09",
+   "city": "Barcelona",
+   "url": "https://sindicatdellogateres.org/es",
+   "verified": true,
+   "contacto": "sindicat@sindicatdellogateres.org"
+  },
+  {
+   "name": "Sindicato de Inquilinas e Inquilinos de Málaga",
+   "type": "sindicato de inquilinas",
+   "scope": "city",
+   "city": "Málaga",
+   "url": "https://inquilinatomalaga.org",
+   "verified": true,
+   "contacto": "info@inquilinatomalaga.org"
+  },
+  {
+   "name": "Sindicat de Llogateres de València",
+   "type": "sindicato de inquilinas",
+   "scope": "city",
+   "city": "València",
+   "url": "https://llogateresvalencia.org",
+   "verified": true,
+   "contacto": "sindicat@llogateresvalencia.org"
+  },
+  {
+   "name": "Sindicato de Inquilinas de Zaragoza",
+   "type": "sindicato de inquilinas",
+   "scope": "city",
+   "city": "Zaragoza",
+   "url": null,
+   "verified": false,
+   "contacto": "sindicatoinquilinaszgz@gmail.com"
+  },
+  {
+   "name": "Sindicato de Inquilinas de Sevilla",
+   "type": "sindicato de inquilinas",
+   "scope": "city",
+   "city": "Sevilla",
+   "url": null,
+   "verified": false,
+   "contacto": "inquilinatosevilla@gmail.com"
+  },
+  {
+   "name": "Sindicato de Inquilinas de Cádiz",
+   "type": "sindicato de inquilinas",
+   "scope": "city",
+   "city": "Cádiz",
+   "url": "https://inquilinatocadiz.org",
+   "verified": true,
+   "contacto": "info@inquilinatocadiz.org"
+  },
+  {
+   "name": "Sindicato de Inquilinas de Vigo",
+   "type": "sindicato de inquilinas",
+   "scope": "city",
+   "city": "Vigo",
+   "url": "https://sindicatoinquilinasvigo.org",
+   "verified": true,
+   "contacto": "info@sindicatoinquilinasvigo.org"
+  },
+  {
+   "name": "Sindicato de Inquilinas de Asturias",
+   "type": "sindicato de inquilinas",
+   "scope": "03",
+   "city": null,
+   "url": null,
+   "verified": false,
+   "contacto": "inquilinastur@gmail.com"
+  },
+  {
+   "name": "Sindicat de Llogateres d'Eivissa i Formentera",
+   "type": "sindicato de inquilinas",
+   "scope": "04",
+   "city": "Eivissa",
+   "url": null,
+   "verified": false,
+   "contacto": "llogaterseivissa@riseup.net"
+  },
+  {
+   "name": "PAH - Plataforma de Afectados por la Hipoteca",
+   "type": "movimiento por el derecho a la vivienda",
+   "scope": "estatal",
+   "city": null,
+   "url": "https://afectadosporlahipoteca.com",
+   "verified": true,
+   "contacto": "Asambleas locales: busca la PAH de tu ciudad en la web (mapa de plataformas) o en sus redes."
+  },
+  {
+   "name": "OCU - Organización de Consumidores y Usuarios (vivienda y alquiler)",
+   "type": "asociación de consumidores",
+   "scope": "estatal",
+   "city": null,
+   "url": "https://www.ocu.org/vivienda-y-energia/alquiler",
+   "verified": true,
+   "contacto": null
+  },
+  {
+   "name": "OCU - Dónde depositar la fianza del alquiler",
+   "type": "asociación de consumidores",
+   "scope": "estatal",
+   "city": null,
+   "url": "https://www.ocu.org/fincas-y-casas/gestion/alquiler/analisis-gratis/2022/12/donde-depositar-fianza-alquiler",
+   "verified": true,
+   "contacto": null
+  },
+  {
+   "name": "FACUA - Consumidores en Acción",
+   "type": "asociación de consumidores",
+   "scope": "estatal",
+   "city": null,
+   "url": "https://www.facua.org",
+   "verified": true,
+   "contacto": null
+  },
+  {
+   "name": "Ministerio de Justicia - Asistencia jurídica gratuita",
+   "type": "justicia gratuita",
+   "scope": "estatal",
+   "city": null,
+   "url": "https://www.mjusticia.gob.es/es/ciudadania/tramites/asistencia-juridica-gratuita",
+   "verified": true,
+   "contacto": "Se solicita en el Servicio de Orientación Jurídica del colegio de la abogacía de tu partido judicial o en el juzgado."
+  },
+  {
+   "name": "Consejo General de la Abogacía Española (turno de oficio y justicia gratuita)",
+   "type": "justicia gratuita",
+   "scope": "estatal",
+   "city": null,
+   "url": "https://www.abogacia.es",
+   "verified": true,
+   "contacto": null
+  },
+  {
+   "name": "Ministerio de Vivienda - Teléfono gratuito por el derecho a la vivienda",
+   "type": "atención pública",
+   "scope": "estatal",
+   "city": null,
+   "url": "https://www.mivau.gob.es/vivienda/actividades-servicios/contacto-vivienda",
+   "verified": true,
+   "contacto": "047 (gratuito) / 900 732 904, L-V de 9 a 18 h"
+  },
+  {
+   "name": "Servicio de Asesoramiento de Vivienda (SAV) - Ayuntamiento de Madrid y Colegio de la Abogacía de Madrid",
+   "type": "oficina municipal de vivienda",
+   "scope": "city",
+   "city": "Madrid",
+   "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Vivienda-urbanismo-y-obras/Vivienda/Puntos-de-informacion-y-asesoramiento-para-los-ciudadanos-en-materia-de-vivienda?vgnextfmt=default&vgnextoid=857c807c56e94810VgnVCM1000001d4a900aRCRD&vgnextchannel=a2e331d3b28fe410VgnVCM1000000b205a0aRCRD",
+   "verified": true,
+   "contacto": "900 814 815; atención con cita previa L, X y V de 9 a 14 h"
+  },
+  {
+   "name": "EMVS Madrid - Empresa Municipal de la Vivienda y Suelo",
+   "type": "empresa municipal de vivienda",
+   "scope": "city",
+   "city": "Madrid",
+   "url": "https://www.emvs.es",
+   "verified": true,
+   "contacto": null
+  },
+  {
+   "name": "Oficines de l'Habitatge de Barcelona (incluye servicio de mediación en desahucios SIPHO)",
+   "type": "oficina municipal de vivienda",
+   "scope": "city",
+   "city": "Barcelona",
+   "url": "https://www.barcelona.cat/habitatge/ca/contacte/oficines-de-lhabitatge-de-barcelona",
+   "verified": true,
+   "contacto": "010; una oficina por distrito, con cita previa"
+  },
+  {
+   "name": "Oficina por el Derecho a la Vivienda - Ajuntament de València",
+   "type": "oficina municipal de vivienda",
+   "scope": "city",
+   "city": "València",
+   "url": "https://www.valencia.es/cas/vivienda/oficina-derecho-vivienda",
+   "verified": true,
+   "contacto": "963 52 54 78; L-V de 8:30 a 14:00"
+  },
+  {
+   "name": "EMVISESA - Oficina Municipal por el Derecho a la Vivienda (Sevilla)",
+   "type": "oficina municipal de vivienda",
+   "scope": "city",
+   "city": "Sevilla",
+   "url": "https://www.emvisesa.org",
+   "verified": true,
+   "contacto": "Cita previa 955 476 000 (según el Ayuntamiento de Sevilla)"
+  },
+  {
+   "name": "Zaragoza Vivienda",
+   "type": "sociedad municipal de vivienda",
+   "scope": "city",
+   "city": "Zaragoza",
+   "url": "https://www.zaragozavivienda.es",
+   "verified": true,
+   "contacto": null
+  },
+  {
+   "name": "Oficina del Derecho a la Vivienda - Instituto Municipal de la Vivienda de Málaga",
+   "type": "oficina municipal de vivienda",
+   "scope": "city",
+   "city": "Málaga",
+   "url": "https://imv.malaga.eu/es/oficina-del-derecho-a-la-vivienda",
+   "verified": true,
+   "contacto": null
+  },
+  {
+   "name": "Viviendas Municipales de Bilbao",
+   "type": "organismo municipal de vivienda",
+   "scope": "city",
+   "city": "Bilbao",
+   "url": "https://www.bilbao.eus/Viviendas",
+   "verified": true,
+   "contacto": null
+  },
+  {
+   "name": "Departament d'Habitatge - Ajuntament de Palma (orientación jurídica y social ante desahucios)",
+   "type": "oficina municipal de vivienda",
+   "scope": "city",
+   "city": "Palma",
+   "url": "https://urbanisme.palma.es/ca/habitatge",
+   "verified": true,
+   "contacto": null
+  }
+ ],
+ "sources": [
+  {
+   "title": "Real Decreto 326/2026, Plan Estatal de Vivienda 2026-2030 (BOE-A-2026-8872)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-8872",
+   "verified": true
+  },
+  {
+   "title": "MIVAU - Información del Plan Estatal de Vivienda 2026-2030",
+   "url": "https://www.mivau.gob.es/vivienda/info-plan-estatal-de-vivienda-2026-2030",
+   "verified": true
+  },
+  {
+   "title": "MIVAU - Bono Alquiler Joven",
+   "url": "https://www.mivau.gob.es/vivienda/bono-alquiler-joven",
+   "verified": true
+  },
+  {
+   "title": "MIVAU - Depósito de fianzas por CCAA",
+   "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/alquiler/deposito-de-fianzas",
+   "verified": true
+  },
+  {
+   "title": "MIVAU - SERPAVI",
+   "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi",
+   "verified": true
+  },
+  {
+   "title": "MIVAU - Zonas de mercado residencial tensionado",
+   "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado",
+   "verified": true
+  },
+  {
+   "title": "MIVAU - Contacto Vivienda (047)",
+   "url": "https://www.mivau.gob.es/vivienda/actividades-servicios/contacto-vivienda",
+   "verified": true
+  },
+  {
+   "title": "INE - Índice de Referencia de Arrendamientos de Vivienda",
+   "url": "https://www.ine.es/uc/oC7D0Ncd",
+   "verified": true
+  },
+  {
+   "title": "Ley 29/1994 de Arrendamientos Urbanos (texto consolidado)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+   "verified": true
+  },
+  {
+   "title": "Ley 1/2000 de Enjuiciamiento Civil (texto consolidado)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+   "verified": true
+  },
+  {
+   "title": "Ley 12/2023 por el derecho a la vivienda",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203",
+   "verified": true
+  },
+  {
+   "title": "Ley Orgánica 1/2025 de eficiencia del Servicio Público de Justicia (MASC)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-76",
+   "verified": true
+  },
+  {
+   "title": "Ley 1/1996 de asistencia jurídica gratuita",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-750",
+   "verified": true
+  },
+  {
+   "title": "STC 26/2025 sobre la Ley 12/2023",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-4079",
+   "verified": true
+  },
+  {
+   "title": "RDL 2/2026 (derogado por el Congreso el 26/02/2026)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-2547",
+   "verified": true
+  },
+  {
+   "title": "ICO - Línea de avales hipoteca primera vivienda",
+   "url": "https://www.ico.es/linea-avales-hipoteca-primera-vivienda",
+   "verified": true
+  },
+  {
+   "title": "Civio - Claves del Plan Estatal de Vivienda 2026-2030 (secundaria)",
+   "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/04/23/claves-del-plan-estatal-de-vivienda-2026-2030",
+   "verified": false
+  },
+  {
+   "title": "Grupo JDA - Derogación del RDL 2/2026 (secundaria)",
+   "url": "https://www.jda.es/noticias/rechazo-real-decreto-ley-2-2026-moratoria-desahucios",
+   "verified": false
+  },
+  {
+   "title": "Demócrata - Estado del nuevo decreto de vivienda, septiembre 2026 (secundaria)",
+   "url": "https://www.democrata.es/politica/gobierno-acelera-evitar-otra-derrota-nuevo-decreto-vivienda-con-calle-presionando",
+   "verified": false
+  },
+  {
+   "title": "Notimérica/Europa Press - IRAV agosto 2026: 2,47 % (secundaria)",
+   "url": "https://www.notimerica.com/economia/noticia-indice-referencia-ine-actualizacion-alquiler-modera-247-agosto-20260915092726.html",
+   "verified": false
+  },
+  {
+   "title": "doMate - Depósito de la fianza por comunidad, revisado 13/09/2026 (secundaria)",
+   "url": "https://domateapp.com/guias/contratos/fianza-por-comunidad",
+   "verified": false
+  },
+  {
+   "title": "Poder Inquilino - directorio de sindicatos",
+   "url": "https://poderinquilino.org/quienes-somos",
+   "verified": true
+  }
+ ]
+}
