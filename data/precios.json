@@ -120,7 +120,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 11.9,
+    "key": 202620
+   }
   },
   {
    "code": "02",
@@ -242,7 +247,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 14.6,
+    "key": 202620
+   }
   },
   {
    "code": "03",
@@ -364,7 +374,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 15.0,
+    "key": 202620
+   }
   },
   {
    "code": "04",
@@ -486,7 +501,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 13.7,
+    "key": 202620
+   }
   },
   {
    "code": "05",
@@ -608,7 +628,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 11.0,
+    "key": 202620
+   }
   },
   {
    "code": "06",
@@ -730,7 +755,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 13.5,
+    "key": 202620
+   }
   },
   {
    "code": "07",
@@ -852,7 +882,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 14.8,
+    "key": 202620
+   }
   },
   {
    "code": "08",
@@ -974,7 +1009,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 11.7,
+    "key": 202620
+   }
   },
   {
    "code": "09",
@@ -1096,7 +1136,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 10.1,
+    "key": 202620
+   }
   },
   {
    "code": "10",
@@ -1218,7 +1263,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 13.0,
+    "key": 202620
+   }
   },
   {
    "code": "11",
@@ -1340,7 +1390,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 12.8,
+    "key": 202620
+   }
   },
   {
    "code": "12",
@@ -1462,7 +1517,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 12.9,
+    "key": 202620
+   }
   },
   {
    "code": "13",
@@ -1584,7 +1644,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 12.9,
+    "key": 202620
+   }
   },
   {
    "code": "14",
@@ -1706,7 +1771,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 14.4,
+    "key": 202620
+   }
   },
   {
    "code": "15",
@@ -1817,7 +1887,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 9.5,
+    "key": 202620
+   }
   },
   {
    "code": "16",
@@ -1928,7 +2003,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 10.0,
+    "key": 202620
+   }
   },
   {
    "code": "17",
@@ -2050,7 +2130,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 14.4,
+    "key": 202620
+   }
   },
   {
    "code": "18",
@@ -2172,7 +2257,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 15.2,
+    "key": 202620
+   }
   },
   {
    "code": "19",
@@ -2294,7 +2384,12 @@
     "INE ECV 9949",
     "INE EAES 28191",
     "INE ETDP 6150"
-   ]
+   ],
+   "ipv_latest": {
+    "periodo": "2T 2026",
+    "var_anual": 13.8,
+    "key": 202620
+   }
   }
  ],
  "cities": {
@@ -2657,7 +2752,12 @@
    "espana": "2,5% (UPF / estimaciones habituales); Funcas 2025: 1,5-2% alquiler social; Provivienda: 3,3%",
    "ue_media": "9,3% (UPF); 10,5% UE-27 (Funcas 2025); Austria 24%, Países Bajos 25%"
   },
-  "vivienda_social_parque_publico_unidades": "~318.000 (El Periódico, parque social titularidad pública ~1,72% hogares)"
+  "vivienda_social_parque_publico_unidades": "~318.000 (El Periódico, parque social titularidad pública ~1,72% hogares)",
+  "ipv_latest": {
+   "periodo": "2T 2026",
+   "var_anual": 12.2,
+   "key": 202620
+  }
  },
  "sources": [
   {

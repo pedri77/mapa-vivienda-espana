@@ -203,3 +203,24 @@ main, .wrap, .grid-2 > *, .grid-3 > *, .live-grid > * { min-width: 0; }
 .alertbar .wrap { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding-block: 10px; font-weight: 600; font-size: .92rem; }
 .alertbar a { color: var(--accent-ink); }
 .alertbar button { margin-left: auto; background: none; border: 1px solid currentColor; color: inherit; border-radius: 4px; padding: 3px 9px; cursor: pointer; font: inherit; font-size: .8rem; }
+
+/* calculadora */
+.calc { display: grid; grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: 24px; align-items: start; }
+@media (max-width: 860px) { .calc { grid-template-columns: 1fr; } }
+.calc-form { display: grid; gap: 14px; }
+.field { display: grid; gap: 4px; }
+.field label { font-weight: 600; font-size: .9rem; }
+.field input, .field select { font: inherit; padding: 9px 10px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--ink); width: 100%; font-variant-numeric: tabular-nums; }
+.field input[type="search"] { margin-top: 6px; }
+.unit { display: flex; align-items: center; gap: 8px; }
+.unit span { color: var(--ink-2); font-size: .9rem; white-space: nowrap; }
+.calc-out { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 640px) { .calc-out { grid-template-columns: 1fr; } }
+.calc-out .big { font: 800 2.4rem/1 var(--display); font-stretch: 80%; margin: 0 0 10px; font-variant-numeric: tabular-nums; }
+.calc-out .big small { font-size: 1rem; font-weight: 600; color: var(--ink-2); margin-left: 4px; }
+.calc-dl { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; font-size: .9rem; margin: 0 0 10px; }
+.calc-dl dt { color: var(--ink-2); }
+.calc-dl dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; }
+.meter { position: relative; height: 10px; background: var(--surface-2); border-radius: 5px; margin: 8px 0 10px; overflow: hidden; }
+.meter i { position: absolute; inset: 0 auto 0 0; background: var(--d4); border-radius: 5px; }
+.meter b { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--ink); opacity: .5; }

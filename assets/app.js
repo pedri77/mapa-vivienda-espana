@@ -1,6 +1,7 @@
 import { $, fmt, eur, pct, esc, load, ago, dateEs, link, quantileBreaks, classOf, cssVar, sparkline, sortableTable, CCAA } from "./util.js";
 import { renderLegislacion } from "./legislacion.js";
 import { renderAyudas } from "./ayudas.js";
+import { renderCalculadora } from "./calculadora.js";
 
 // ---------- tema ----------
 const THEME_KEY = "techo-theme";
@@ -33,6 +34,7 @@ const PRE = byCode(D.precios?.ccaa);
 const SAL = byCode(D.salarios?.ccaa);
 const LEG = byCode(D.legislacion?.ccaa);
 const AYU = byCode(D.ayudas?.ccaa);
+const ETCL_P = D.salarios?.national?.etcl?.periodo || "";
 const LAST_YEAR = D.desahucios ? String(D.desahucios.national.at(-1).year) : "2025";
 
 const ctx = { D, DES, PRE, SAL, LEG, AYU, LAST_YEAR };
@@ -40,6 +42,7 @@ const ctx = { D, DES, PRE, SAL, LEG, AYU, LAST_YEAR };
 renderKpis();
 renderDirecto();
 const mapApi = renderMapa();
+safe(() => renderCalculadora($("#calcBody"), ctx), "#calcBody");
 renderDesahucios();
 renderPrecios();
 renderFondos();
@@ -72,7 +75,7 @@ function renderKpis() {
     k.push({ v: `${fmt(pn.alquiler_80m2_fotocasa_ago2026)} €/mes`, l: "alquilar 80 m² (oferta, ago. 2026)", s: `${fmt(pn.alquiler_m2_fotocasa_ago2026, 1)} €/m² · Fotocasa` });
   }
   const et = D.salarios?.national?.etcl;
-  if (et) k.push({ v: `${fmt(et.mes_2T2026)} €/mes`, l: "sueldo bruto medio (2T 2026)", s: `${pct(et.yoy_pct)} interanual · alquilar 80 m² = ${fmt((pn?.alquiler_80m2_fotocasa_ago2026 / et.mes_2T2026) * 100)}% · INE` });
+  if (et) k.push({ v: `${fmt(et.mes)} €/mes`, l: `sueldo bruto medio (${et.periodo})`, s: `${pct(et.yoy_pct)} interanual · alquilar 80 m² = ${fmt((pn?.alquiler_80m2_fotocasa_ago2026 / et.mes) * 100)}% · INE` });
   const sol = D.acampadas?.camps?.find((c) => c.status === "activa");
   if (sol) {
     const days = Math.max(1, Math.floor((Date.now() - new Date(sol.start_date + "T00:00:00")) / 864e5) + 1);
@@ -142,10 +145,10 @@ function renderMapa() {
     alquiler: { label: "Alquiler €/m²", title: "Alquiler €/m²/mes (oferta Fotocasa, ago. 2026)", ramp: ramp("r"), get: (c) => PRE[c]?.alquiler_m2_latest, f: (v) => `${fmt(v, 1)} €` },
     esfuerzo: { label: "Esfuerzo alquiler", title: "% de la renta del hogar para alquilar 80 m²", ramp: ramp("d"), get: (c) => PRE[c]?.esfuerzo?.pct_renta_hogar_alquiler_80m2, f: (v) => `${fmt(v, 1)}%` },
     compra: { label: "Años para comprar", title: "Años de renta del hogar para comprar 80 m² (tasado)", ramp: ramp("d"), get: (c) => PRE[c]?.esfuerzo?.anios_renta_hogar_80m2_tasado, f: (v) => `${fmt(v, 1)} años` },
-    salario: { label: "Salario medio", title: "Salario bruto medio anual (INE, 2024)", ramp: ramp("p"), get: (c) => SAL[c]?.media, f: (v) => eur(v) },
-    mediano: { label: "Salario mediano", title: "Salario bruto mediano anual (INE, 2024): la mitad cobra menos", ramp: ramp("p"), get: (c) => SAL[c]?.mediana, f: (v) => eur(v) },
-    sueldo26: { label: "Sueldo 2026", title: "Coste salarial bruto por trabajador y mes (INE ETCL, 2T 2026)", ramp: ramp("p"), get: (c) => SAL[c]?.etcl?.mes_2T2026, f: (v) => `${fmt(v)} €/mes` },
-    alqsueldo: { label: "Alquiler / sueldo", title: "% de un sueldo bruto mensual (2T 2026) para alquilar 80 m² (ago. 2026)", ramp: ramp("d"), get: (c) => (PRE[c]?.alquiler_80m2_mes_latest && SAL[c]?.etcl?.mes_2T2026 ? (PRE[c].alquiler_80m2_mes_latest / SAL[c].etcl.mes_2T2026) * 100 : null), f: (v) => `${fmt(v, 1)}%` },
+    salario: { label: "Salario medio", title: `Salario bruto medio anual (INE, ${D.salarios?.year})`, ramp: ramp("p"), get: (c) => SAL[c]?.media, f: (v) => eur(v) },
+    mediano: { label: "Salario mediano", title: `Salario bruto mediano anual (INE, ${D.salarios?.year}): la mitad cobra menos`, ramp: ramp("p"), get: (c) => SAL[c]?.mediana, f: (v) => eur(v) },
+    sueldo26: { label: `Sueldo ${ETCL_P}`, title: `Coste salarial bruto por trabajador y mes (INE ETCL, ${ETCL_P})`, ramp: ramp("p"), get: (c) => SAL[c]?.etcl?.mes, f: (v) => `${fmt(v)} €/mes` },
+    alqsueldo: { label: "Alquiler / sueldo", title: `% de un sueldo bruto mensual (${ETCL_P}) para alquilar 80 m² (ago. 2026)`, ramp: ramp("d"), get: (c) => (PRE[c]?.alquiler_80m2_mes_latest && SAL[c]?.etcl?.mes ? (PRE[c].alquiler_80m2_mes_latest / SAL[c].etcl.mes) * 100 : null), f: (v) => `${fmt(v, 1)}%` },
   };
   let layer = "des";
   let selected = null;
@@ -258,7 +261,8 @@ function sideHtml(code) {
   if (p) {
     h += `<div class="stats">
       ${stat(p.venta_m2_latest ? `${fmt(p.venta_m2_latest)} €` : "—", "€/m² tasado (2T 2026)")}
-      ${stat(pct(p.venta_m2_latest_meta?.yoy_pct), "interanual")}
+      ${stat(pct(p.venta_m2_latest_meta?.yoy_pct), "interanual (tasación)")}
+      ${p.ipv_latest ? stat(pct(p.ipv_latest.var_anual), `precio compraventas INE (${p.ipv_latest.periodo})`) : ""}
       ${stat(p.alquiler_m2_latest ? `${fmt(p.alquiler_m2_latest, 1)} €` : "—", "alquiler €/m²/mes")}
       ${stat(p.alquiler_80m2_mes_latest ? `${fmt(p.alquiler_80m2_mes_latest)} €` : "—", "80 m² al mes")}
       ${stat(p.esfuerzo?.pct_renta_hogar_alquiler_80m2 != null ? `${fmt(p.esfuerzo.pct_renta_hogar_alquiler_80m2, 1)}%` : "—", "renta del hogar en alquiler")}
@@ -266,11 +270,11 @@ function sideHtml(code) {
     </div>`;
   }
   if (s?.media) h += `<div class="stats">
-    ${stat(s.etcl ? `${fmt(s.etcl.mes_2T2026)} €` : "—", "sueldo bruto al mes (2T 2026)")}
+    ${stat(s.etcl ? `${fmt(s.etcl.mes)} €` : "—", `sueldo bruto al mes (${s.etcl?.periodo || ""})`)}
     ${stat(pct(s.etcl?.yoy_pct), "interanual")}
-    ${stat(eur(s.media), "salario medio bruto anual (2024)")}
-    ${stat(eur(s.mediana), "salario mediano bruto anual (2024)")}
-    ${s.etcl && p?.alquiler_80m2_mes_latest ? stat(`${fmt((p.alquiler_80m2_mes_latest / s.etcl.mes_2T2026) * 100, 1)}%`, "de un sueldo para alquilar 80 m²") : ""}
+    ${stat(eur(s.media), `salario medio bruto anual (${D.salarios?.year})`)}
+    ${stat(eur(s.mediana), `salario mediano bruto anual (${D.salarios?.year})`)}
+    ${s.etcl && p?.alquiler_80m2_mes_latest ? stat(`${fmt((p.alquiler_80m2_mes_latest / s.etcl.mes) * 100, 1)}%`, "de un sueldo para alquilar 80 m²") : ""}
   </div>`;
   if (lg) {
     const gov = lg.government;
