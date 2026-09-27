@@ -1,0 +1,624 @@
+{
+ "meta": {
+  "generated": "2026-09-27",
+  "language_note": "Terminología neutral: 'grandes tenedores' / 'fondos de inversión'. 'Fondo buitre' es un termino coloquial usado por prensa y movimientos sociales, no una categoría jurídica.",
+  "definition_note": "Ley 12/2023 por el derecho a la vivienda: gran tenedor = titular de más de 10 viviendas (o más de 1.500 m2 residenciales); las CCAA pueden bajarlo a 5 en zonas tensionadas. Civio usa 'megatenedor' = entidad jurídica con >=50 alquileres con fianza depositada.",
+  "caveat": "No existe registro oficial estatal de propiedad por tenedor. Las cifras varian mucho según fuente y metodología (fianzas depositadas vs cuentas anuales vs estimaciones AEAT/INE). Las cifras de 'activos gestionados' de servicers incluyen suelo, locales y créditos, no solo viviendas."
+ },
+ "entities": [
+  {
+   "name": "Blackstone (Fidere, Testa Residencial, Albirana, Torbel, Euripo, Anticipa, Aliseda, Quasar)",
+   "type": "fondo private equity / gestora de activos alternativos (opera vía Socimi y servicers)",
+   "origin": "Estados Unidos",
+   "units": 19638,
+   "units_year": 2022,
+   "notes": "19.638 viviendas alquiladas con fianza depositada vía 27 filiales en 11 CCAA (Civio, datos a 31/12/2022 en Madrid, hasta nov 2023 en otras CCAA); >13.000 en la Comunidad de Madrid (13.125 según Sindicato de Inquilinas sobre datos Civio). Otras estimaciones: ~30.000 viviendas en alquiler vía 5 Socimi en 2019 (eldiario.es, 83% del parque de Socimi residenciales, valor 5.643 M EUR); ~15.000 (El Periódico, 2026); ~40.000 en propiedad (Libertad Digital 2023, sin metodología). Anticipa+Aliseda gestionan ~100.000 activos y créditos (no solo viviendas). En 2026 inicia desinversión: venta de Fidere a Brookfield.",
+   "acquisitions": [
+    {
+     "year": 2013,
+     "seller": "EMVS (Empresa Municipal de la Vivienda y Suelo, Ayuntamiento de Madrid)",
+     "units": 1860,
+     "price_eur": 128500000,
+     "location": "Madrid (Centro, Carabanchel, Arganzuela, Villaverde, Vallecas); VPO transferidas a Fidere"
+    },
+    {
+     "year": 2014,
+     "seller": "FROB / Catalunya Banc (cartera hipotecaria)",
+     "units": null,
+     "price_eur": 3615000000,
+     "location": "Principalmente Cataluña; ~40.000 hipotecas, valor nominal ~6.400 M EUR (base de Anticipa). Precio final revisado a ~3.600 M EUR en 2015"
+    },
+    {
+     "year": 2014,
+     "seller": "Sareb",
+     "units": null,
+     "price_eur": null,
+     "location": "Varias provincias, vía Fidere Gestión de Vivienda 2 (Civio; Sareb no facilito precio)"
+    },
+    {
+     "year": 2017,
+     "seller": "Banco Santander / Banco Popular (Proyecto Quasar, 51%)",
+     "units": null,
+     "price_eur": null,
+     "location": "España; cartera ~30.000 M EUR valor bruto (inmuebles y créditos) valorada en ~10.000 M EUR, incluye servicer Aliseda. Blackstone 51%, Popular 49%"
+    },
+    {
+     "year": 2018,
+     "seller": "Banco Santander, BBVA y Merlin Properties (Testa Residencial, 50,01% inicial, luego 99,52%)",
+     "units": 10600,
+     "price_eur": 947900000,
+     "location": "Principales ciudades, ~70% del valor en Madrid; 11.096 viviendas a cierre 2018"
+    },
+    {
+     "year": 2026,
+     "seller": "VENTA por Blackstone a Brookfield (Fidere)",
+     "units": 5000,
+     "price_eur": 1050000000,
+     "location": "Comunidad de Madrid, 47 edificios"
+    }
+   ],
+   "regions": [
+    "Comunidad de Madrid (>13.000)",
+    "Cataluña (~2.600 según Atlas; 5.500 según La Directa 2022)",
+    "Canarias (961, mayor casero de la región según Atlas)",
+    "Galicia (337)"
+   ],
+   "source_urls": [
+    "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas",
+    "https://inquilinato.org/los-grandes-tenedores-controlan-el-mercado-del-alquiler",
+    "https://www.eldiario.es/economia/blackstone-controla-viviendas-alquiler-socimis_1_2729732.html",
+    "https://www.idealista.com/news/inmobiliario/vivienda/2022/02/18/794907-como-se-fraguo-la-venta-legal-de-los-1-860-pisos-publicos-de-la-emvs-al-fondo",
+    "https://www.rtve.es/noticias/20140717/estado-aporta-572-millones-para-vender-a-blackstone-hipotecas-catalunya-banc/975284.shtml",
+    "https://www.lavanguardia.com/20150416/54429949731/blackstone-compra-las-hipotecas-de-catalunya-banc-por-3-600-millones-oscar-munoz.html",
+    "https://www.blackstone.com/news/press/banco-popular-agrees-to-sell-majority-stake-in-its-real-estate-asset-portfolio-to-blackstone",
+    "https://www.stblaw.com/about-us/news/view/2018/09/17/blackstone-acquires-majority-stake-in-testa-residencial",
+    "https://cincodias.elpais.com/companias/2026-03-31/blackstone-cierra-la-venta-de-5000-viviendas-de-fidere-a-brookfield-por-1050-millones.html",
+    "https://www.infobae.com/espana/2026/05/03/el-mayor-casero-de-espana-es-estadounidense-blackstone-el-fondo-buitre-que-controla-19000-viviendas-en-el-mercado-del-alquiler",
+    "https://www.infobae.com/espana/2026/04/27/quienes-son-los-grandes-tenedores-de-vivienda-en-espana-bancos-y-fondos-estadounidenses-devoran-la-oferta-de-alquiler-residencial",
+    "https://cadenaser.com/nacional/2026/09/27/como-frenar-la-especulacion-inmobiliaria-de-los-fondos-buitre-cadena-ser",
+    "https://www.elperiodico.com/es/economia/20260301/grandes-tenedores-espana-127360670"
+   ]
+  },
+  {
+   "name": "CaixaBank (BuildingCenter)",
+   "type": "banco",
+   "origin": "España",
+   "units": 22000,
+   "units_year": 2022,
+   "notes": "Mayor casero de España según Civio: ~22.000 viviendas alquiladas con fianza depositada (aprox., 11 CCAA). El Periódico (2026) cifra ~12.000 vía BuildingCenter, procedentes de adjudicaciones hipotecarias. Mayor casero privado en Andalucía (~7.500), Aragón (~500), Cataluña (>5.000; 5.060 según Atlas) y C. Valenciana (2.671). 4.755 en Madrid. Compro 25 veces a Sareb (2016-2023).",
+   "acquisitions": [
+    {
+     "year": 2018,
+     "seller": "VENTA por CaixaBank a Lone Star (80% negocio inmobiliario, ver Lone Star)",
+     "units": null,
+     "price_eur": null,
+     "location": "España"
+    }
+   ],
+   "regions": [
+    "Andalucía (~7.500)",
+    "Cataluña (>5.000)",
+    "Madrid (4.755)",
+    "C. Valenciana (2.671)",
+    "Aragón (~500)"
+   ],
+   "source_urls": [
+    "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas",
+    "https://inquilinato.org/los-grandes-tenedores-controlan-el-mercado-del-alquiler",
+    "https://www.elperiodico.com/es/economia/20260301/grandes-tenedores-espana-127360670"
+   ]
+  },
+  {
+   "name": "Cerberus Capital Management (Divarian, Haya Real Estate, Promontoria, Global Licata)",
+   "type": "fondo private equity (y antiguo servicer Haya)",
+   "origin": "Estados Unidos",
+   "units": 7000,
+   "units_year": 2022,
+   "notes": "~7.000 viviendas alquiladas con fianza (Civio, segundo fondo tras Blackstone). Atlas: 2.880 en Cataluña, 2.450 en Madrid, 980 en Valencia. Cadena SER: ~5.000 pisos. Sindicato de Inquilinas: 1.893 en Madrid. En 2025 estudio vender 3.500-4.000 viviendas (principalmente Madrid) por 750-900 M EUR. Global Licata: 735 viviendas (Madrid, Cataluña, Baleares). Haya Real Estate vendida a Intrum en 2023 por 136 M EUR.",
+   "acquisitions": [
+    {
+     "year": 2018,
+     "seller": "BBVA (Proyecto Marina, 80% de Divarian)",
+     "units": null,
+     "price_eur": null,
+     "location": "España; activos inmobiliarios ~13.000 M EUR brutos (prensa ~4.000 M EUR por el 80%, no verificado en fuente primaria)"
+    },
+    {
+     "year": 2023,
+     "seller": "VENTA por Cerberus a Intrum (Haya Real Estate)",
+     "units": null,
+     "price_eur": 136000000,
+     "location": "España; ~11.000 M EUR activos bajo gestión"
+    }
+   ],
+   "regions": [
+    "Cataluña (2.880)",
+    "Madrid (2.450; 1.893 según fianzas AVS)",
+    "C. Valenciana (980)",
+    "Andalucía"
+   ],
+   "source_urls": [
+    "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas",
+    "https://www.cerberus.com/media/cerberus-finalizes-the-acquisition-of-bbvas-real-estate-business",
+    "https://www.bbva.com/es/bbva-cierra-la-venta-de-su-negocio-inmobiliario-en-espana-a-cerberus",
+    "https://www.infobae.com/espana/2026/04/27/quienes-son-los-grandes-tenedores-de-vivienda-en-espana-bancos-y-fondos-estadounidenses-devoran-la-oferta-de-alquiler-residencial",
+    "https://www.infobae.com/espana/2026/05/03/el-mayor-casero-de-espana-es-estadounidense-blackstone-el-fondo-buitre-que-controla-19000-viviendas-en-el-mercado-del-alquiler",
+    "https://cadenaser.com/nacional/2026/09/27/como-frenar-la-especulacion-inmobiliaria-de-los-fondos-buitre-cadena-ser",
+    "https://www.cbinsights.com/company/dobank"
+   ]
+  },
+  {
+   "name": "Lone Star Funds (Coral Homes, Servihabitat)",
+   "type": "fondo private equity (y servicer)",
+   "origin": "Estados Unidos",
+   "units": 10000,
+   "units_year": 2026,
+   "notes": "Cadena SER: 'más de 10.000 viviendas' tras comprar el negocio inmobiliario de CaixaBank (cifra periodistica sin desglose). En los datos de fianzas de Civio aparece por detras de Blackstone, Cerberus, TPG y Ares (sin cifra publicada). Según CB Insights, Lone Star salio de Servihabitat en agosto 2026 (comprador Hipoges); dato no contrastado con fuente primaria.",
+   "acquisitions": [
+    {
+     "year": 2018,
+     "seller": "CaixaBank (Proyecto Coliseum, 80% del negocio inmobiliario + 100% Servihabitat)",
+     "units": null,
+     "price_eur": null,
+     "location": "España; valor bruto ~12.800 M EUR, neto ~6.700 M EUR; cierre previsto Q4 2018/Q1 2019"
+    }
+   ],
+   "regions": [],
+   "source_urls": [
+    "https://www.caixabank.com/en/headlines/news/caixabank-transfers-real-estate-business-worth-approximately-7-billion-euros-to-lone-star",
+    "https://www.caixabank.com/StaticFiles/pdfs/180628_HR_Real_Estate_en.pdf",
+    "https://cadenaser.com/nacional/2026/09/27/como-frenar-la-especulacion-inmobiliaria-de-los-fondos-buitre-cadena-ser",
+    "https://www.cbinsights.com/investor/lone-star-funds"
+   ]
+  },
+  {
+   "name": "TPG (Tempore Properties; antiguo 51% de Servihabitat)",
+   "type": "fondo private equity",
+   "origin": "Estados Unidos",
+   "units": 1700,
+   "units_year": 2022,
+   "notes": "Casi 1.700 viviendas alquiladas con fianza (Civio). Atlas/Infobae: 840 en Madrid y 570 en Valencia. Tempore Properties tenia >2.200 viviendas en alquiler al comprarla; Eje Prime cita ~3.000 unidades al ponerla en venta (2024).",
+   "acquisitions": [
+    {
+     "year": 2013,
+     "seller": "la Caixa (51% de Servihabitat Gestión Inmobiliaria)",
+     "units": null,
+     "price_eur": null,
+     "location": "España; valoración máxima de la firma 370 M EUR. CaixaBank lo recompro en 2018"
+    },
+    {
+     "year": 2019,
+     "seller": "Sareb (75% de Tempore Properties SOCIMI)",
+     "units": 2200,
+     "price_eur": null,
+     "location": "Áreas metropolitanas de grandes ciudades; valor estimado 100% de acciones 329,5 M EUR. Sareb retuvo 24,12%. Año de la operación según prensa (2019), no explicito en el extracto"
+    }
+   ],
+   "regions": [
+    "Madrid (840)",
+    "C. Valenciana (570)"
+   ],
+   "source_urls": [
+    "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas",
+    "https://temporeproperties.es/sareb-acuerda-la-venta-del-75-de-tempore-properties-a-tpg-real-estate-partners",
+    "https://www.ejeprime.com/residencial/el-fondo-estadounidense-tpg-pone-en-venta-la-socimi-tempore-properties",
+    "https://www.caixabank.com/en/headlines/news/la-caixa-group-sells-51-of-servihabitat-gestion-inmobiliaria-to-tpg--1775-c-18878--",
+    "https://www.ejeprime.com/empresa/caixabank-recompra-el-51-de-servihabitat-a-tpg-por-1765-millones-de-euros",
+    "https://www.infobae.com/espana/2026/04/27/quienes-son-los-grandes-tenedores-de-vivienda-en-espana-bancos-y-fondos-estadounidenses-devoran-la-oferta-de-alquiler-residencial"
+   ]
+  },
+  {
+   "name": "Goldman Sachs / Azora (Encasa Cibeles)",
+   "type": "banco de inversión + gestora (vehículo Encasa Cibeles S.L.)",
+   "origin": "Estados Unidos (Goldman Sachs) / España (Azora)",
+   "units": 2935,
+   "units_year": 2013,
+   "notes": "Compra al IVIMA (Comunidad de Madrid) de 2.935 viviendas protegidas (32 promociones) + 3.084 garajes, 1.865 trasteros y 45 locales. Venta anulada judicialmente (Juzgado Contencioso n.29 Madrid, 21/05/2018; confirmada por el Tribunal Supremo 2019-2020). Goldman demando a la Comunidad de Madrid en 2020. Civio sita a Goldman Sachs entre los fondos con viviendas con fianza, sin cifra publicada. Algunas fuentes citan 2.939 o 2.953 viviendas.",
+   "acquisitions": [
+    {
+     "year": 2013,
+     "seller": "IVIMA (Instituto de la Vivienda de Madrid, Comunidad de Madrid)",
+     "units": 2935,
+     "price_eur": 201000000,
+     "location": "Comunidad de Madrid (32 promociones: Parla, Ensanche de Vallecas, entre otras)"
+    }
+   ],
+   "regions": [
+    "Comunidad de Madrid"
+   ],
+   "source_urls": [
+    "https://www.idealista.com/news/inmobiliario/vivienda/2020/03/11/780730-el-supremo-falla-contra-la-cam-y-confirma-la-nulidad-de-la-venta-de-3-000-viviendas",
+    "https://www.expansion.com/empresas/banca/2020/10/16/5f89a090e5fdeadd268b46ac.html",
+    "https://caescooperativa.es/2020/09/nulidad-de-la-venta-de-viviendas-del-ivima-en-2013",
+    "https://www.economiadigital.es/empresas/a-goldman-sachs-se-le-atraganta-el-ladrillo-comprado-en-madrid_176016_102.html",
+    "https://elpais.com/economia/2013/11/28/vivienda/1385634340_082607.html"
+   ]
+  },
+  {
+   "name": "Azora (Nestar)",
+   "type": "gestora de inversión inmobiliaria (fondos; Nestar socios CBRE IM, GIC)",
+   "origin": "España",
+   "units": 9500,
+   "units_year": 2025,
+   "notes": "Nestar: ~9.500 viviendas de alquiler asequible (web Azora); Azora gestiona ~15.000 unidades residenciales en total (nota de prensa 2023). Atlas/Infobae: 4.640 en Madrid, 970 C. Valenciana, 500 Andalucía. El Periódico cita Nestar ~9.000 pisos, controlada por CBRE IM. Civio: CBRE aparece como mayor inmobiliaria con >8.000 viviendas alquiladas (4.848 en Madrid). En 2026 Norges Bank y Azora ultiman compra de 1.910 viviendas a Greystar/Vía Celere (>500 M EUR).",
+   "acquisitions": [
+    {
+     "year": 2026,
+     "seller": "Greystar y Vía Celere (con Norges Bank)",
+     "units": 1910,
+     "price_eur": null,
+     "location": "España; valor algo más de 500 M EUR (en negociación según Expansión)"
+    }
+   ],
+   "regions": [
+    "Madrid (4.640)",
+    "C. Valenciana (970)",
+    "Andalucía (500)"
+   ],
+   "source_urls": [
+    "https://www.azora.com/en/our-strategies/living-multifamily",
+    "https://www.azora.com/downloads/Press%20Releases/Press%20Releases%202023/pr-azora-secures-eur-636-million-financing-package-for-nestar.pdf",
+    "https://www.infobae.com/espana/2026/04/27/quienes-son-los-grandes-tenedores-de-vivienda-en-espana-bancos-y-fondos-estadounidenses-devoran-la-oferta-de-alquiler-residencial",
+    "https://www.elperiodico.com/es/economia/20260301/grandes-tenedores-espana-127360670",
+    "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas"
+   ]
+  },
+  {
+   "name": "Vivenio (APG + Renta Corporacion)",
+   "type": "SOCIMI (fondo de pensiones)",
+   "origin": "Países Bajos (APG) / España (Renta Corporacion)",
+   "units": 6253,
+   "units_year": 2024,
+   "notes": "Cartera a cierre 2024: 49 promociones, 6.253 viviendas y 66 locales/oficinas; renta media 11,83 EUR/m2/mes. Constituida 2017 (657 viviendas iniciales alrededor de Madrid).",
+   "acquisitions": [],
+   "regions": [
+    "Comunidad de Madrid (origen)"
+   ],
+   "source_urls": [
+    "https://www.economiadigital.es/empresas/vivenio-resultados-2024.html",
+    "https://www.elperiodico.com/es/economia/20171204/renta-corporacion-sacara-bolsa-socimi-6472593",
+    "https://www.vivenio.com/investors"
+   ]
+  },
+  {
+   "name": "Apollo Global Management (Altamira Asset Management)",
+   "type": "fondo private equity (servicer)",
+   "origin": "Estados Unidos",
+   "units": null,
+   "units_year": null,
+   "notes": "Servicer, no gran casero identificado. Compro con CPPIB y ADIA el 85% de Altamira (Santander) y lo vendió a doBank en 2018/2019 (100% valorado en 412 M EUR; ~55.000 M EUR bajo gestión en España, Portugal, Chipre y Grecia).",
+   "acquisitions": [
+    {
+     "year": 2014,
+     "seller": "Banco Santander (85% de Altamira, con CPPIB y ADIA)",
+     "units": null,
+     "price_eur": 664000000,
+     "location": "España"
+    },
+    {
+     "year": 2019,
+     "seller": "VENTA por Apollo a doBank (85% Altamira)",
+     "units": null,
+     "price_eur": null,
+     "location": "España y otros"
+    }
+   ],
+   "regions": [],
+   "source_urls": [
+    "https://cincodias.elpais.com/cincodias/2018/12/31/companias/1546273555_450663.html",
+    "https://observatorioinmobiliario.es/noticias/organizaciones/dobank-compra-el-85-de-altamira-a-apollo"
+   ]
+  },
+  {
+   "name": "CPPIB / CPP Investments (Canada Pensión Plan Investment Board)",
+   "type": "fondo de pensiones público",
+   "origin": "Canada",
+   "units": null,
+   "units_year": null,
+   "notes": "No se encontro cartera de vivienda en alquiler en España cuantificada. Participo como socio de Apollo en la compra del 85% de Altamira (2014). Tiene alianza build-to-rent con Lendlease (no verificado si incluye España).",
+   "acquisitions": [
+    {
+     "year": 2014,
+     "seller": "Banco Santander (Altamira, coinversor con Apollo y ADIA)",
+     "units": null,
+     "price_eur": null,
+     "location": "España"
+    }
+   ],
+   "regions": [],
+   "source_urls": [
+    "https://observatorioinmobiliario.es/noticias/organizaciones/dobank-compra-el-85-de-altamira-a-apollo"
+   ]
+  },
+  {
+   "name": "Brookfield",
+   "type": "gestora de activos alternativos",
+   "origin": "Canada",
+   "units": 5000,
+   "units_year": 2026,
+   "notes": "Compra de Fidere a Blackstone (marzo 2026), ~5.000 viviendas en 47 edificios en la Comunidad de Madrid (otras fuentes 5.300-5.400). Tasación de Fidere fin 2025: 1.302 M EUR.",
+   "acquisitions": [
+    {
+     "year": 2026,
+     "seller": "Blackstone (Fidere)",
+     "units": 5000,
+     "price_eur": 1050000000,
+     "location": "Comunidad de Madrid"
+    }
+   ],
+   "regions": [
+    "Comunidad de Madrid"
+   ],
+   "source_urls": [
+    "https://cincodias.elpais.com/companias/2026-03-31/blackstone-cierra-la-venta-de-5000-viviendas-de-fidere-a-brookfield-por-1050-millones.html",
+    "https://www.ejeprime.com/residencial/blackstone-convoca-junta-para-vender-a-brookfield-5400-viviendas-en-alquiler-en-espana",
+    "https://www.infobae.com/espana/2026/05/03/el-mayor-casero-de-espana-es-estadounidense-blackstone-el-fondo-buitre-que-controla-19000-viviendas-en-el-mercado-del-alquiler"
+   ]
+  },
+  {
+   "name": "Ares Management",
+   "type": "gestora de activos alternativos",
+   "origin": "Estados Unidos",
+   "units": 1330,
+   "units_year": 2022,
+   "notes": "1.330 viviendas con fianza en la Comunidad de Madrid (Sindicato de Inquilinas sobre datos Civio); aparece entre los fondos de Civio tras Blackstone, Cerberus y TPG.",
+   "acquisitions": [],
+   "regions": [
+    "Comunidad de Madrid"
+   ],
+   "source_urls": [
+    "https://inquilinato.org/los-grandes-tenedores-controlan-el-mercado-del-alquiler",
+    "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas"
+   ]
+  },
+  {
+   "name": "Sareb (Sociedad de Gestión de Activos procedentes de la Reestructuracion Bancaria)",
+   "type": "público-Sareb (control público mayoritario vía FROB desde 2022)",
+   "origin": "España",
+   "units": 37500,
+   "units_year": 2025,
+   "notes": "~37.500 viviendas en cartera en 2025 (idealista, según portal Sareb); el Gobierno traspasa ~40.000 viviendas y ~2.400 suelos (capacidad ~55.000 viviendas) a Sepes/Casa 47, valor ~5.900 M EUR (acuerdo Consejo de Ministros 1/07/2025). 10.100 contratos de alquiler social (resultados 2025). Más de 5.600 entidades le compraron viviendas; 41 megatenedores entre ellos (Civio).",
+   "acquisitions": [
+    {
+     "year": 2019,
+     "seller": "VENTA por Sareb a TPG (75% Tempore Properties)",
+     "units": 2200,
+     "price_eur": null,
+     "location": "Áreas metropolitanas"
+    },
+    {
+     "year": 2025,
+     "seller": "TRASPASO por Sareb a Sepes (Casa 47)",
+     "units": 40000,
+     "price_eur": null,
+     "location": "Cataluña (13.000), C. Valenciana (6.700), Andalucía (4.000), Madrid (2.995), Castilla-La Mancha (2.331), Murcia (2.047), Castilla y León (1.309)"
+    }
+   ],
+   "regions": [
+    "Cataluña (13.000)",
+    "C. Valenciana (6.700)",
+    "Andalucía (4.000)",
+    "Madrid (2.995)",
+    "Castilla-La Mancha (2.331)",
+    "Murcia (2.047)",
+    "Castilla y León (1.309)"
+   ],
+   "source_urls": [
+    "https://www.idealista.com/news/inmobiliario/vivienda/2025/07/01/851594-sareb-traspasa-40-000-viviendas-y-2-400-suelos-a-la-empresa-publica-sepes",
+    "https://www.mivau.gob.es/vivienda/traspaso-vivienda-y-suelo-sareb",
+    "https://www.sareb.es/sareb-publica-sus-resultados-de-2025",
+    "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas"
+   ]
+  },
+  {
+   "name": "Intrum (antes Lindorff; Solvia, Aktua, Haya Real Estate)",
+   "type": "servicer (gestión de crédito y activos inmobiliarios)",
+   "origin": "Suecia",
+   "units": null,
+   "units_year": null,
+   "notes": "Servicer: gestiona activos de terceros (BBVA, Ibercaja, etc.), no casero propietario. ~135.000 activos gestionados; >60.000 M EUR bajo gestión en España tras integrar Haya.",
+   "acquisitions": [
+    {
+     "year": 2016,
+     "seller": "Aktua (vía Lindorff)",
+     "units": null,
+     "price_eur": null,
+     "location": "España"
+    },
+    {
+     "year": 2019,
+     "seller": "Banco Sabadell (80% de Solvia)",
+     "units": null,
+     "price_eur": 241000000,
+     "location": "España; 100% valorado ~300 M EUR. 20% restante en 2022"
+    },
+    {
+     "year": 2023,
+     "seller": "Cerberus (Haya Real Estate)",
+     "units": null,
+     "price_eur": 136000000,
+     "location": "España"
+    }
+   ],
+   "regions": [],
+   "source_urls": [
+    "https://www.expansion.com/empresas/2026/08/24/6a88884b468aeb4d088b459e.html",
+    "https://www.elconfidencial.com/empresas/2019-04-24/sabadell-refuerza-su-capital-con-la-venta-de-solvia-a-intrum_1959238",
+    "https://www.cbinsights.com/company/dobank",
+    "https://www.cbinsights.com/company/servihabitat-gestion-inmobiliaria"
+   ]
+  },
+  {
+   "name": "Otros bancos (BBVA, Banco Santander, Banco Sabadell)",
+   "type": "banco",
+   "origin": "España",
+   "units": 40500,
+   "units_year": 2022,
+   "notes": "Civio: 15 bancos suman ~40.500 viviendas alquiladas con fianza (la mitad CaixaBank). Atlas/Infobae Cataluña: BBVA 2.450, Sabadell 2.040. Banco Santander 2.048 en Madrid (Sindicato de Inquilinas/Civio). La cifra units = total 15 bancos incluyendo CaixaBank.",
+   "acquisitions": [],
+   "regions": [
+    "Cataluña (BBVA 2.450, Sabadell 2.040)",
+    "Madrid (Santander 2.048)"
+   ],
+   "source_urls": [
+    "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas",
+    "https://inquilinato.org/los-grandes-tenedores-controlan-el-mercado-del-alquiler",
+    "https://www.infobae.com/espana/2026/04/27/quienes-son-los-grandes-tenedores-de-vivienda-en-espana-bancos-y-fondos-estadounidenses-devoran-la-oferta-de-alquiler-residencial"
+   ]
+  }
+ ],
+ "aggregates": [
+  {
+   "metric": "Viviendas alquiladas por empresas privadas con >=50 fianzas (megatenedores privados, 11 CCAA)",
+   "value": "~178.000-185.000 (737 empresas/grupos); ~10% de 1,8 M hogares en alquiler (SERPAVI) de esas CCAA",
+   "year": 2022,
+   "source_url": "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas"
+  },
+  {
+   "metric": "Total megatenedores (privados + públicos + entidades sin animo de lucro) con >=50 fianzas",
+   "value": "303.150 viviendas, >15-16% de las alquiladas con fianza (117.857 públicas, ~7.300 asociaciones/fundaciones)",
+   "year": 2022,
+   "source_url": "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas"
+  },
+  {
+   "metric": "Viviendas en manos de fondos de inversión (16 fondos, 11 CCAA)",
+   "value": "~32.200 (10 fondos con sede en EEUU acumulan ~32.000)",
+   "year": 2022,
+   "source_url": "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas"
+  },
+  {
+   "metric": "Viviendas en manos de bancos (15 bancos, 11 CCAA)",
+   "value": "~40.500 (la mitad CaixaBank)",
+   "year": 2022,
+   "source_url": "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas"
+  },
+  {
+   "metric": "Megatenedores con sede en otro país",
+   "value": "49 entidades, 49.460 viviendas alquiladas",
+   "year": 2022,
+   "source_url": "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas"
+  },
+  {
+   "metric": "Peso de megatenedores en la Comunidad de Madrid",
+   "value": "23% de las viviendas alquiladas registradas (16% solo empresas privadas); Aragón: 1% privadas",
+   "year": 2022,
+   "source_url": "https://civio.es/novedades/2024/10/01/por-que-nuestros-datos-sobre-grandes-tenedores-de-vivienda-en-alquiler-difieren-de-los-del-banco-de-espana"
+  },
+  {
+   "metric": "Madrid: sociedades con >50 inmuebles alquilados (fianzas AVS)",
+   "value": "380 sociedades, 90.310 inmuebles, 17,6% de contratos; 7 fondos y bancos 32.273 (6,3%)",
+   "year": 2022,
+   "source_url": "https://inquilinato.org/los-grandes-tenedores-controlan-el-mercado-del-alquiler"
+  },
+  {
+   "metric": "Banco de España: viviendas de alquiler propiedad de empresas (personas jurídicas)",
+   "value": "~8% del parque de alquiler (estimación con datos AEAT e INE)",
+   "year": 2023,
+   "source_url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/23/Fich/InfAnual_2023_Cap4.pdf"
+  },
+  {
+   "metric": "Banco de España: tamano del mercado de alquiler",
+   "value": "~3,6 millones de viviendas principales en alquiler, 18,7% de hogares",
+   "year": 2023,
+   "source_url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/23/Fich/InfAnual_2023_Cap4.pdf"
+  },
+  {
+   "metric": "AEAT (vía Cadena SER Hora 25): parque de alquiler en manos de personas jurídicas",
+   "value": "~15%",
+   "year": 2024,
+   "source_url": "https://civio.es/novedades/2024/10/01/por-que-nuestros-datos-sobre-grandes-tenedores-de-vivienda-en-alquiler-difieren-de-los-del-banco-de-espana"
+  },
+  {
+   "metric": "Grandes tenedores institucionales más conocidos (Atlas Real Estate, CBRE IM)",
+   "value": "~80.000-100.000 viviendas; estimación total grandes tenedores 180.000-200.000 (~10% del alquiler, ~1% del parque total de ~27 M viviendas)",
+   "year": 2026,
+   "source_url": "https://www.elperiodico.com/es/economia/20260301/grandes-tenedores-espana-127360670"
+  },
+  {
+   "metric": "Atlas Real Estate Analytics: viviendas de alquiler de grandes tenedores",
+   "value": ">110.000 viviendas, ~5% de la oferta",
+   "year": 2026,
+   "source_url": "https://www.infobae.com/espana/2026/04/27/quienes-son-los-grandes-tenedores-de-vivienda-en-espana-bancos-y-fondos-estadounidenses-devoran-la-oferta-de-alquiler-residencial"
+  },
+  {
+   "metric": "Ministerio de Consumo (DG Consumo, microdatos Catastro): inmuebles de titulares con >10 bienes",
+   "value": "de 138.000 a 626.000 inmuebles (2008-2025); hogares con un solo inmueble -22%",
+   "year": 2025,
+   "source_url": "https://www.dsca.gob.es/sites/default/files/consumo_masinfo/Informe_2_concentracion_inmobiliaria.pdf"
+  },
+  {
+   "metric": "Ministerio de Consumo (AEAT 2023): caseros particulares con 2+ viviendas en alquiler",
+   "value": "~53% de caseros personas fisicas; parque alquilado por particulares 1.900.883 (2016) a 2.570.845 (2023)",
+   "year": 2023,
+   "source_url": "https://elpais.com/economia/vivienda/2026-04-23/mas-de-la-mitad-de-los-caseros-en-espana-tienen-dos-o-mas-viviendas-en-alquiler.html"
+  },
+  {
+   "metric": "EsadeEcPol: stock residencial en alquiler de hogares con <=4 viviendas",
+   "value": "~75%; hogares con 5+ viviendas = 13,7% del stock",
+   "year": 2026,
+   "source_url": "https://www.esade.edu/ecpol/es/radiografia-del-alquiler-residencial-en-espana-en-manos-de-personas-fisicas"
+  },
+  {
+   "metric": "Socimi residenciales: cuota de Blackstone",
+   "value": "~30.000 viviendas, 83% del parque de Socimi residenciales",
+   "year": 2019,
+   "source_url": "https://www.eldiario.es/economia/blackstone-controla-viviendas-alquiler-socimis_1_2729732.html"
+  },
+  {
+   "metric": "Barcelona: desahucios instados por grandes propietarios (>10 viviendas)",
+   "value": "41% (2018-2019) a 51% (2020-2022) según registro PAH; 47,3% según Ayuntamiento 2021. Estos 1.726 grandes caseros controlan 14,7% del parque total y 23,3% del alquiler",
+   "year": 2022,
+   "source_url": "https://valorsocial.info/quien-desahucia-en-nuestras-ciudades"
+  },
+  {
+   "metric": "Barcelona: desahucios por fondos de inversión vs bancos",
+   "value": "Fondos: 11% (2018-19) a 25% (2020-21); bancos: 25% a 14%. Blackstone 11,7%, Sareb 11,2%, Cerberus 7,3%, Lone Star 2,9%",
+   "year": 2021,
+   "source_url": "https://valorsocial.info/quien-desahucia-en-nuestras-ciudades"
+  },
+  {
+   "metric": "Grandes operaciones de compra de carteras (Blackstone, Lone Star, Cerberus)",
+   "value": "Las 6 mayores sumaron >400.000 viviendas/activos (investigador Manuel Gabarre, Observatorio CODE)",
+   "year": 2024,
+   "source_url": "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas"
+  },
+  {
+   "metric": "Vivienda pública vendida a fondos en Madrid (2013)",
+   "value": "~4.800 viviendas (EMVS 1.860 a Blackstone + IVIMA 2.935 a Goldman/Azora); Javier Gil (CSIC) cita 'casi 5.000'",
+   "year": 2013,
+   "source_url": "https://cadenaser.com/nacional/2026/09/27/como-frenar-la-especulacion-inmobiliaria-de-los-fondos-buitre-cadena-ser"
+  }
+ ],
+ "sources": [
+  "https://civio.es/poder/2024/04/02/caixabank-y-blackstone-los-dos-mayores-caseros-del-pais-suman-cerca-de-41-dot-400-viviendas-alquiladas",
+  "https://civio.es/novedades/2024/10/01/por-que-nuestros-datos-sobre-grandes-tenedores-de-vivienda-en-alquiler-difieren-de-los-del-banco-de-espana",
+  "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/23/Fich/InfAnual_2023_Cap4.pdf",
+  "https://inquilinato.org/los-grandes-tenedores-controlan-el-mercado-del-alquiler",
+  "https://www.dsca.gob.es/sites/default/files/consumo_masinfo/Informe_2_concentracion_inmobiliaria.pdf",
+  "https://www.esade.edu/ecpol/es/radiografia-del-alquiler-residencial-en-espana-en-manos-de-personas-fisicas",
+  "https://elpais.com/economia/vivienda/2026-04-23/mas-de-la-mitad-de-los-caseros-en-espana-tienen-dos-o-mas-viviendas-en-alquiler.html",
+  "https://www.elperiodico.com/es/economia/20260301/grandes-tenedores-espana-127360670",
+  "https://www.infobae.com/espana/2026/04/27/quienes-son-los-grandes-tenedores-de-vivienda-en-espana-bancos-y-fondos-estadounidenses-devoran-la-oferta-de-alquiler-residencial",
+  "https://www.infobae.com/espana/2026/05/03/el-mayor-casero-de-espana-es-estadounidense-blackstone-el-fondo-buitre-que-controla-19000-viviendas-en-el-mercado-del-alquiler",
+  "https://www.eldiario.es/economia/blackstone-controla-viviendas-alquiler-socimis_1_2729732.html",
+  "https://cadenaser.com/nacional/2026/09/27/como-frenar-la-especulacion-inmobiliaria-de-los-fondos-buitre-cadena-ser",
+  "https://www.idealista.com/news/inmobiliario/vivienda/2022/02/18/794907-como-se-fraguo-la-venta-legal-de-los-1-860-pisos-publicos-de-la-emvs-al-fondo",
+  "https://www.idealista.com/news/inmobiliario/vivienda/2020/03/11/780730-el-supremo-falla-contra-la-cam-y-confirma-la-nulidad-de-la-venta-de-3-000-viviendas",
+  "https://www.economiadigital.es/empresas/a-goldman-sachs-se-le-atraganta-el-ladrillo-comprado-en-madrid_176016_102.html",
+  "https://www.rtve.es/noticias/20140717/estado-aporta-572-millones-para-vender-a-blackstone-hipotecas-catalunya-banc/975284.shtml",
+  "https://www.blackstone.com/news/press/banco-popular-agrees-to-sell-majority-stake-in-its-real-estate-asset-portfolio-to-blackstone",
+  "https://www.stblaw.com/about-us/news/view/2018/09/17/blackstone-acquires-majority-stake-in-testa-residencial",
+  "https://cincodias.elpais.com/companias/2026-03-31/blackstone-cierra-la-venta-de-5000-viviendas-de-fidere-a-brookfield-por-1050-millones.html",
+  "https://www.cerberus.com/media/cerberus-finalizes-the-acquisition-of-bbvas-real-estate-business",
+  "https://www.caixabank.com/en/headlines/news/caixabank-transfers-real-estate-business-worth-approximately-7-billion-euros-to-lone-star",
+  "https://temporeproperties.es/sareb-acuerda-la-venta-del-75-de-tempore-properties-a-tpg-real-estate-partners",
+  "https://www.caixabank.com/en/headlines/news/la-caixa-group-sells-51-of-servihabitat-gestion-inmobiliaria-to-tpg--1775-c-18878--",
+  "https://cincodias.elpais.com/cincodias/2018/12/31/companias/1546273555_450663.html",
+  "https://www.expansion.com/empresas/2026/08/24/6a88884b468aeb4d088b459e.html",
+  "https://www.azora.com/en/our-strategies/living-multifamily",
+  "https://www.economiadigital.es/empresas/vivenio-resultados-2024.html",
+  "https://www.idealista.com/news/inmobiliario/vivienda/2025/07/01/851594-sareb-traspasa-40-000-viviendas-y-2-400-suelos-a-la-empresa-publica-sepes",
+  "https://www.mivau.gob.es/vivienda/traspaso-vivienda-y-suelo-sareb",
+  "https://valorsocial.info/quien-desahucia-en-nuestras-ciudades"
+ ]
+}

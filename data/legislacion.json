@@ -1,0 +1,1760 @@
+{
+ "meta": {
+  "generated": "2026-09-27",
+  "note": "Datos verificados con búsqueda web; campos null = no verificado. 'votes' refleja voto en Congreso sobre convalidación/toma en consideración/aprobación.",
+  "party_keys": [
+   "PSOE",
+   "PP",
+   "Vox",
+   "Sumar",
+   "ERC",
+   "Junts",
+   "Bildu",
+   "PNV",
+   "Podemos",
+   "BNG",
+   "CC",
+   "UPN"
+  ]
+ },
+ "normas": [
+  {
+   "id": "BOE-A-2023-12203",
+   "title": "Ley 12/2023, de 24 de mayo, por el derecho a la vivienda",
+   "date": "2023-05-24",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203",
+   "summary": "Primera ley estatal de vivienda: define zonas de mercado residencial tensionado, permite limitar rentas en ellas, redefine gran tenedor y añade requisitos procesales en desahucios de vulnerables.",
+   "status": "vigente (parcialmente anulada por SSTC 79/2024 y 26/2025)",
+   "votes": {
+    "PSOE": "si",
+    "Podemos": "si",
+    "ERC": "si",
+    "Bildu": "si",
+    "PP": "no",
+    "Vox": "no",
+    "Junts": "no",
+    "PNV": "no",
+    "CC": "no",
+    "UPN": "no",
+    "BNG": "abstencion",
+    "Sumar": null
+   },
+   "vote_source": "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml",
+   "vote_note": "Votación en Congreso 27/04/2023 (XIV legislatura): 176 sí, 167 no, 1 abstención. 'Podemos' = Unidas Podemos; Sumar no existía (Más País y Compromís votaron sí); también votaron no Cs, PDeCAT y CUP."
+  },
+  {
+   "id": "STC 79/2024",
+   "title": "Sentencia TC 79/2024, de 21 de mayo (recurso 5491-2023, Consejo de Gobierno de Andalucía)",
+   "date": "2024-05-21",
+   "level": "estatal",
+   "ccaa_code": "01",
+   "url": "https://hj.tribunalconstitucional.es/es/Resolucion/Show/30177",
+   "summary": "Declara inconstitucionales y nulos el art. 16, parte del 19.3, el tercer párrafo del 27.1, el 27.3 y la DT 1ª de la Ley 12/2023; desestima el resto.",
+   "status": "firme",
+   "votes": {},
+   "vote_source": null
+  },
+  {
+   "id": "BOE-A-2025-4079",
+   "title": "Sentencia TC 26/2025, de 29 de enero (recurso 5514-2023, diputados del GP Popular)",
+   "date": "2025-01-29",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-4079",
+   "summary": "Estima parcialmente: anula los apartados 6 c) y 7 del art. 439 y 1 y 2 del art. 655 bis LEC introducidos por la Ley 12/2023 (requisitos a grandes tenedores en demandas de recuperación de posesión); avala la limitación de rentas.",
+   "status": "firme",
+   "votes": {},
+   "vote_source": null
+  },
+  {
+   "id": "BOE-A-2026-1756",
+   "title": "Sentencia TC 190/2025, de 16 de diciembre (recurso 5516-2023, Consejo de Gobierno de Illes Balears)",
+   "date": "2025-12-16",
+   "level": "estatal",
+   "ccaa_code": "04",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1756",
+   "summary": "Desestima el recurso balear; avala uso dotacional para vivienda pública, obligaciones de información y requisitos de admisión de demandas de desahucio de grandes tenedores.",
+   "status": "firme",
+   "votes": {},
+   "vote_source": null
+  },
+  {
+   "id": "BOE-A-2026-7118",
+   "title": "Sentencia TC 17/2026, de 24 de febrero (recurso 5518-2023, Consejo de Gobierno de la Comunidad de Madrid)",
+   "date": "2026-02-24",
+   "level": "estatal",
+   "ccaa_code": "13",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-7118",
+   "summary": "Desestima el recurso de Madrid; avala el art. 8.a) (derecho a la vivienda de todos los ciudadanos) y el art. 17.4.",
+   "status": "firme",
+   "votes": {},
+   "vote_source": null
+  },
+  {
+   "id": "BOE-A-2026-13753",
+   "title": "Sentencia TC 41/2026, de 26 de mayo (recurso 5580-2023, Parlamento de Cataluña)",
+   "date": "2026-05-26",
+   "level": "estatal",
+   "ccaa_code": "09",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-13753",
+   "summary": "Desestima el recurso del Parlament; avala fines comunes, vivienda asequible incentivada, zonas tensionadas y financiación de parques públicos.",
+   "status": "firme",
+   "votes": {},
+   "vote_source": null
+  },
+  {
+   "id": "BOE-A-2026-16928",
+   "title": "Sentencia TC 53/2026, de 8 de julio (recurso 1278-2024, Gobierno de la Generalitat de Cataluña)",
+   "date": "2026-07-08",
+   "level": "estatal",
+   "ccaa_code": "09",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16928",
+   "summary": "Desestima el recurso de la Generalitat contra varios preceptos de la Ley 12/2023.",
+   "status": "firme",
+   "votes": {},
+   "vote_source": null
+  },
+  {
+   "id": null,
+   "title": "Sentencia TC (2026) sobre recurso del Gobierno Vasco contra la Ley 12/2023",
+   "date": null,
+   "level": "estatal",
+   "ccaa_code": "16",
+   "url": "https://www.idealista.com/news/etiquetas/ley-de-vivienda",
+   "summary": "Desestima el recurso del Gobierno Vasco (siete artículos, una DT, una DA y dos DF impugnados). Número y fecha no verificados.",
+   "status": "firme",
+   "votes": {},
+   "vote_source": null
+  },
+  {
+   "id": null,
+   "title": "Sentencia TC de 23/09/2026 sobre recurso de la Xunta de Galicia contra la Ley 12/2023 (octava sentencia)",
+   "date": "2026-09-23",
+   "level": "estatal",
+   "ccaa_code": "12",
+   "url": "https://www.infobae.com/espana/agencias/2026/09/23/el-constitucional-desestima-el-recurso-de-la-xunta-de-galicia-contra-la-ley-de-vivienda",
+   "summary": "Desestima el recurso de la Xunta; octava y última sentencia sobre la Ley 12/2023. Número pendiente de publicación en BOE.",
+   "status": "firme",
+   "votes": {},
+   "vote_source": null
+  },
+  {
+   "id": "RDL 8/2023",
+   "title": "Real Decreto-ley 8/2023, de 27 de diciembre (medidas por conflictos de Ucrania y Oriente Próximo y sequía)",
+   "date": "2023-12-27",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-666",
+   "summary": "Prorrogó la suspensión de desahucios de hogares vulnerables y la compensación a arrendadores, entre otras medidas. URL enlaza a la resolución de convalidación.",
+   "status": "convalidado 10/01/2024 (medidas temporales ya expiradas)",
+   "votes": {},
+   "vote_source": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-666",
+   "vote_note": "Voto por partido no verificado. El id BOE del propio RDL no se ha verificado."
+  },
+  {
+   "id": "RDL 9/2024",
+   "title": "Real Decreto-ley 9/2024, de 23 de diciembre (ómnibus: medidas económicas, tributarias, transporte, Seguridad Social y vulnerabilidad social)",
+   "date": "2024-12-23",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-1136",
+   "summary": "Incluía la prórroga de la moratoria de desahucios junto a revalorización de pensiones y ayudas al transporte. Derogado por el Congreso.",
+   "status": "derogado (22/01/2025)",
+   "votes": {
+    "PP": "no",
+    "Vox": "no",
+    "Junts": "no"
+   },
+   "vote_source": "https://maldita.es/malditobulo/20250123/decreto-omnibus-medidas-por-separado",
+   "vote_note": "Votos 'no' = contra la convalidación. Resto de grupos no verificados individualmente."
+  },
+  {
+   "id": "BOE-A-2025-1560",
+   "title": "Real Decreto-ley 1/2025, de 28 de enero, medidas urgentes en materia económica, de transporte, de Seguridad Social y para hacer frente a situaciones de vulnerabilidad",
+   "date": "2025-01-28",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-1560",
+   "summary": "Nuevo ómnibus tras la derogación del RDL 9/2024: prorrogó la moratoria de desahucios hasta 31/12/2025 con más compensaciones a propietarios.",
+   "status": "convalidado (12/02/2025); medidas de moratoria vencidas 31/12/2025",
+   "votes": {
+    "PSOE": "si",
+    "Sumar": "si",
+    "PP": "si",
+    "Junts": "si"
+   },
+   "vote_source": "https://www.rtve.es/noticias/20250212/congreso-decreto-omnibus/16446619.shtml",
+   "vote_note": "Resto de grupos no verificados."
+  },
+  {
+   "id": "BOE-A-2025-76",
+   "title": "Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia",
+   "date": "2025-01-02",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-76",
+   "summary": "Exige intentar un medio adecuado de solución de controversias (MASC) antes de demandar en procesos civiles, incluidos muchos de desahucio; suprime la 'golden visa' por inversión inmobiliaria (efectos 3/04/2025).",
+   "status": "vigente (desde 03/04/2025)",
+   "votes": {},
+   "vote_source": null,
+   "vote_note": "Voto por partido no verificado."
+  },
+  {
+   "id": "RD 1312/2024",
+   "title": "Real Decreto 1312/2024, de 23 de diciembre, Registro Único de Arrendamientos y Ventanilla Única Digital",
+   "date": "2024-12-23",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunal-Supremo/Oficina-de-Comunicacion/Notas-de-prensa/El-Tribunal-Supremo-anula-el-Registro-Unico-de-arrendamientos-de-corta-duracion-por-considerar-que-el-Estado-carece-de-competencia-para-su-creacion",
+   "summary": "Creó un registro estatal para alquileres de corta duración (aplicación del Reglamento UE 2024/1028). La STS 620/2026 anuló el registro único por falta de competencia estatal, manteniendo la ventanilla digital y la transmisión de datos.",
+   "status": "parcialmente anulado (STS 620/2026)",
+   "votes": {},
+   "vote_source": null
+  },
+  {
+   "id": "BOE-A-2025-25270",
+   "title": "Real Decreto 1123/2025, de 10 de diciembre, que modifica el Estatuto de SEPES (CASA 47 Entidad Pública Empresarial)",
+   "date": "2025-12-10",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-25270",
+   "summary": "Transforma SEPES en CASA 47, entidad pública empresarial estatal orientada a vivienda asequible.",
+   "status": "vigente",
+   "votes": {},
+   "vote_source": null,
+   "vote_note": "Real decreto: no requiere votación parlamentaria."
+  },
+  {
+   "id": "RD 1135/2025",
+   "title": "Real Decreto 1135/2025, de 10 de diciembre, línea de ayudas para cobertura de impagos del alquiler de jóvenes y colectivos vulnerables",
+   "date": "2025-12-10",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-8872",
+   "summary": "Línea estatal de 304 millones para cubrir impagos de alquiler (citado en el preámbulo del RD 326/2026; BOE propio no verificado).",
+   "status": "vigente",
+   "votes": {},
+   "vote_source": null
+  },
+  {
+   "id": "BOE-A-2025-26458",
+   "title": "Real Decreto-ley 16/2025, de 23 de diciembre (prórroga de medidas de vulnerabilidad social y medidas tributarias y de Seguridad Social)",
+   "date": "2025-12-23",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26458",
+   "summary": "Prorrogaba la suspensión de desahucios hasta 31/12/2026 junto a revalorización de pensiones del 2,7% y otras medidas. Derogado por el Congreso.",
+   "status": "derogado (27/01/2026)",
+   "votes": {
+    "PP": "no",
+    "Vox": "no",
+    "Junts": "no",
+    "PSOE": "si",
+    "Sumar": "si"
+   },
+   "vote_source": "https://www.elsaltodiario.com/vivienda/pp-vox-junts-rechazan-moratoria-desahucios-dejan-incertidumbre-60-000-familias-vulnerables"
+  },
+  {
+   "id": "BOE-A-2026-2547",
+   "title": "Real Decreto-ley 2/2026, de 3 de febrero (escudo social: moratoria de desahucios modificada)",
+   "date": "2026-02-03",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-2547",
+   "summary": "Separó el escudo social de las pensiones; mantenía la suspensión de desahucios en 2026 pero la excluía cuando el arrendador tuviera menos de tres viviendas. Derogado.",
+   "status": "derogado (26/02/2026)",
+   "votes": {
+    "PP": "no",
+    "Vox": "no",
+    "Junts": "no",
+    "PSOE": "si",
+    "Sumar": "si"
+   },
+   "vote_source": "https://cadenaser.com/nacional/2026/02/26/las-medidas-del-escudo-social-que-decaen-si-se-cumple-el-guion-y-el-congreso-rechaza-el-decreto-cadena-ser"
+  },
+  {
+   "id": "BOE-A-2026-6545",
+   "title": "Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a las consecuencias de la Guerra de Irán",
+   "date": "2026-03-20",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6545",
+   "summary": "Prórroga extraordinaria de hasta dos años de contratos de vivienda habitual que vencieran antes del 31/12/2027 y tope del 2% a la actualización anual de la renta.",
+   "status": "derogado (28/04/2026: 166 sí, 177 no, 5 abstenciones)",
+   "votes": {
+    "PP": "no",
+    "Vox": "no",
+    "Junts": "no",
+    "UPN": "no",
+    "PNV": "abstencion",
+    "PSOE": "si",
+    "Sumar": "si",
+    "ERC": "si",
+    "Bildu": "si",
+    "Podemos": "si",
+    "BNG": "si",
+    "CC": "si"
+   },
+   "vote_source": "https://www.ejeprime.com/residencial/el-congreso-tumba-el-decreto-ley-para-la-prorroga-y-tope-del-2-de-subida-de-los-alquileres",
+   "vote_note": "ERC, Bildu, Podemos, BNG y CC inferidos de 'el resto del hemiciclo ha votado a favor' (EjePrime); PNV abstención confirmada por El País."
+  },
+  {
+   "id": "BOE-A-2026-8872",
+   "title": "Real Decreto 326/2026, de 22 de abril, por el que se regula el Plan Estatal de Vivienda 2026-2030",
+   "date": "2026-04-22",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-8872",
+   "summary": "Plan quinquenal de ayudas (7.000 M EUR según MIVAU) centrado en vivienda protegida permanente, rehabilitación y emancipación joven; sustituye al Bono Alquiler Joven por ayudas de emancipación (hasta 300 EUR/mes). Cofinanciación autonómica del 40% desde 2027.",
+   "status": "vigente (desde 24/04/2026)",
+   "votes": {},
+   "vote_source": null,
+   "vote_note": "Real decreto: sin votación parlamentaria."
+  },
+  {
+   "id": "BOE-A-2022-802",
+   "title": "Real Decreto 42/2022, de 18 de enero (Bono Alquiler Joven y Plan Estatal 2022-2025)",
+   "date": "2022-01-18",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-802",
+   "summary": "Ayuda de 250 EUR/mes durante dos años a menores de 36 años; relevada por las ayudas de emancipación del Plan 2026-2030 (quedan convocatorias autonómicas en resolución).",
+   "status": "sustituido por RD 326/2026",
+   "votes": {},
+   "vote_source": null
+  },
+  {
+   "id": "RDL 5/2023",
+   "title": "Real Decreto-ley 5/2023, de 28 de junio (incluye línea de avales ICO para primera vivienda de jóvenes y familias con menores)",
+   "date": "2023-06-28",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.ico.es/entidades-linea-avales-hipoteca-primera-vivienda",
+   "summary": "Aval público de hasta el 20% (25% con eficiencia energética alta) del préstamo hipotecario para menores de 35 años y familias con menores; plazo de solicitud hasta 31/12/2025 con posible prórroga.",
+   "status": "vigente (línea ICO)",
+   "votes": {},
+   "vote_source": null,
+   "vote_note": "Id BOE y voto de convalidación no verificados."
+  },
+  {
+   "id": "122/000150",
+   "title": "Proposición de Ley Orgánica de Junts de medidas urgentes para hacer frente a la ocupación ilegal de inmuebles",
+   "date": "2025-03-18",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.congreso.es/es/proposiciones-de-ley?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura=XV&_iniciativas_id=122%2F000150",
+   "summary": "Tomada en consideración el 18/03/2025 (300 sí, 44 no); en Comisión de Justicia con ampliaciones sucesivas del plazo de enmiendas (última hasta 30/09/2026).",
+   "status": "en tramitación",
+   "votes": {
+    "Junts": "si"
+   },
+   "vote_source": "https://www.congreso.es/es/proposiciones-de-ley?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura=XV&_iniciativas_id=122%2F000150",
+   "vote_note": "Desglose por partido no verificado; total 300-44-0."
+  },
+  {
+   "id": null,
+   "title": "Proposición de ley de vivienda del PP (reforma Ley del Suelo, derogación de zonas tensionadas e índice de referencia, juicios rápidos contra ocupación)",
+   "date": "2026-04-21",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.idealista.com/news/finanzas/economia/2026/04/22/894165-el-congreso-admite-a-tramite-la-ley-de-vivienda-del-pp-con-junts-a-favor-y-el-no-del",
+   "summary": "Aprobada previamente por el Senado; el Congreso la tomó en consideración el 21/04/2026.",
+   "status": "en tramitación",
+   "votes": {
+    "PP": "si",
+    "Vox": "si",
+    "Junts": "si",
+    "UPN": "si",
+    "PNV": "abstencion",
+    "CC": "abstencion",
+    "PSOE": "no",
+    "Sumar": "no",
+    "ERC": "no",
+    "Bildu": "no",
+    "Podemos": "no",
+    "BNG": "no"
+   },
+   "vote_source": "https://www.idealista.com/news/finanzas/economia/2026/04/22/894165-el-congreso-admite-a-tramite-la-ley-de-vivienda-del-pp-con-junts-a-favor-y-el-no-del"
+  },
+  {
+   "id": null,
+   "title": "Proposición de ley del PP contra la ocupación ilegal de inmuebles (desalojo en 24 horas, veto al empadronamiento)",
+   "date": "2026-05-19",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.heraldo.es/noticias/nacional/2026/05/20/congreso-toma-consideracion-ley-antiokupas-pp-gracias-abstencion-pnv-junts-2021786.html",
+   "summary": "Tomada en consideración con 171 sí, 164 no y 11 abstenciones.",
+   "status": "en tramitación",
+   "votes": {
+    "PP": "si",
+    "Vox": "si",
+    "UPN": "si",
+    "CC": "si",
+    "Junts": "abstencion",
+    "PNV": "abstencion",
+    "PSOE": "no",
+    "Sumar": "no",
+    "ERC": "no",
+    "Bildu": "no",
+    "Podemos": "no",
+    "BNG": "no"
+   },
+   "vote_source": "https://www.heraldo.es/noticias/nacional/2026/05/20/congreso-toma-consideracion-ley-antiokupas-pp-gracias-abstencion-pnv-junts-2021786.html"
+  },
+  {
+   "id": null,
+   "title": "Proposición de ley de Sumar para prohibir a personas jurídicas comprar vivienda con fines especulativos (reforma Ley 12/2023)",
+   "date": "2026-09-15",
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.publico.es/politica/congreso/congreso-vuelve-oponerse-tramitar-ley-sumar-prohibe-empresas-comprar-casas-especular.html",
+   "summary": "Rechazada su toma en consideración por segunda vez (antes en noviembre de 2025): 44 sí, 175 no, 127 abstenciones.",
+   "status": "rechazada",
+   "votes": {
+    "Sumar": "si",
+    "ERC": "si",
+    "Bildu": "si",
+    "Podemos": "si",
+    "BNG": "si",
+    "PP": "no",
+    "Vox": "no",
+    "Junts": "no",
+    "PSOE": "abstencion",
+    "PNV": "abstencion"
+   },
+   "vote_source": "https://www.publico.es/politica/congreso/congreso-vuelve-oponerse-tramitar-ley-sumar-prohibe-empresas-comprar-casas-especular.html"
+  },
+  {
+   "id": null,
+   "title": "Proposición de ley para regular el alquiler de temporada y de habitaciones (Sumar, ERC, EH Bildu, Podemos, BNG; impulsada por el Sindicato de Inquilinas)",
+   "date": null,
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.publico.es/politica/sindicato-inquilinas-sumar-erc-unen-fuerzas-obligar-psoe-desbloquear-ley-pondria-coto-alquiler-temporada.html",
+   "summary": "Superó la toma en consideración y lleva más de un año pendiente de dictamen en la Comisión de Vivienda.",
+   "status": "en tramitación (bloqueada en comisión)",
+   "votes": {},
+   "vote_source": null,
+   "vote_note": "Fecha y votos de la toma en consideración no verificados."
+  },
+  {
+   "id": null,
+   "title": "Nuevo real decreto-ley de vivienda (prórroga de alquileres, alquiler de temporada, IVA 21% a pisos turísticos, medidas antidesahucios)",
+   "date": null,
+   "level": "estatal",
+   "ccaa_code": null,
+   "url": "https://www.rtve.es/noticias/20260925/reacciones-medidas-decreto-vivienda-gobierno-grupos/17239741.shtml",
+   "summary": "Anunciado desde junio de 2026 y negociado con Junts y Podemos; a 27/09/2026 no aprobado en Consejo de Ministros (previsto para el martes siguiente). La subida del IVA de pisos turísticos del 10% al 21% sigue siendo una propuesta.",
+   "status": "anunciado, no aprobado",
+   "votes": {},
+   "vote_source": null
+  }
+ ],
+ "ccaa": [
+  {
+   "code": "01",
+   "name": "Andalucía",
+   "government": {
+    "parties": [
+     "PP",
+     "Vox"
+    ],
+    "president": "Juan Manuel Moreno Bonilla",
+    "since": "2019-01-18 (tercer mandato desde 2026-07-02, coalición con Vox)"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": true,
+    "url": "https://hj.tribunalconstitucional.es/es/Resolucion/Show/30177",
+    "outcome": "STC 79/2024: estimado parcialmente (arts. 16, 19.3 parcial, 27.1 párr. 3, 27.3 y DT 1ª nulos)"
+   },
+   "normas_propias": [
+    {
+     "title": "Decreto-ley 1/2025, de 24 de febrero, de medidas urgentes en materia de vivienda",
+     "date": "2025-02-24",
+     "url": "https://www.boe.es/buscar/doc.php?id=BOJA-b-2025-90042",
+     "summary": "Suelo para vivienda protegida y dotacional, agilización de adjudicaciones. Convalidado por el Parlamento (marzo 2025)."
+    },
+    {
+     "title": "Ley 5/2025, de 16 de diciembre, de Vivienda de Andalucía",
+     "date": "2025-12-16",
+     "url": "https://www.juntadeandalucia.es/boja/2025/247/1",
+     "summary": "Ley autonómica de vivienda propia."
+    }
+   ],
+   "notes": "Sin zonas tensionadas en la relación del MIVAU a julio de 2026. Gobierno PP-Vox desde julio 2026 (Manuel Gavira, Vox, vicepresidente).",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Tercer_Gobierno_Moreno",
+    "https://www.europapress.es/andalucia/noticia-moreno-situa-gavira-vox-vicepresidente-segundo-mantiene-nucleo-duro-gobierno-tres-caras-nuevas-20260709140641.html",
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   ]
+  },
+  {
+   "code": "02",
+   "name": "Aragón",
+   "government": {
+    "parties": [
+     "PP",
+     "Vox"
+    ],
+    "president": "Jorge Azcón",
+    "since": "2023-08 (reelegido 2026-04-29 con pacto de gobierno PP-Vox)"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [
+    {
+     "title": "Proyecto de Ley de Vivienda de Aragón",
+     "date": null,
+     "url": "https://www.aragonplay.es/aragonnoticias/aragon/ley-vivienda-comparecencia-presidente-centran-primer-pleno-curso-politico-cortes-aragon.html",
+     "summary": "Superó el debate de totalidad (PP y Vox a favor; PSOE, CHA, IU en contra; Aragón-Teruel Existe abstención); aprobación prevista a principios de 2027."
+    }
+   ],
+   "notes": "No figura entre los 8 recurrentes ante el TC. Sin zonas tensionadas declaradas.",
+   "sources": [
+    "https://www.infobae.com/espana/2026/04/29/el-popular-jorge-azcon-es-investido-presidente-de-aragon-con-los-votos-de-vox-la-prioridad-absoluta-es-la-legalidad",
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   ]
+  },
+  {
+   "code": "03",
+   "name": "Principado de Asturias",
+   "government": {
+    "parties": [
+     "PSOE",
+     "IU-Convocatoria por Asturias"
+    ],
+    "president": "Adrián Barbón",
+    "since": "2019"
+   },
+   "zonas_tensionadas": {
+    "declared": true,
+    "municipios": [
+     "Llanes (núcleos de Llanes, Posada, Nueva, Poo, Barro y Celorio)",
+     "Cabrales (Arenas y Poo)",
+     "Gijón (La Arena y Cimadevilla)",
+     "Avilés (La Magdalena)",
+     "Gozón (Luanco)"
+    ],
+    "date": "2026-07-30",
+    "url": "https://boe.es/diario_boe/txt.php?id=BOE-A-2026-16532"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [],
+   "notes": "Primeras zonas tensionadas, vigentes 30/07/2026-30/07/2029. El Gobierno anunció un decreto para limitar viviendas turísticas en zonas tensionadas (no localizado su texto). Composición del gobierno no verificada en esta sesión.",
+   "sources": [
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado",
+    "https://actualidad.asturias.es/-/0303plenovivienda"
+   ]
+  },
+  {
+   "code": "04",
+   "name": "Illes Balears",
+   "government": {
+    "parties": [
+     "PP"
+    ],
+    "president": "Marga Prohens",
+    "since": "2023-07"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": true,
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1756",
+    "outcome": "STC 190/2025: desestimado"
+   },
+   "normas_propias": [
+    {
+     "title": "Ley 4/2025, de 18 de julio, de actuaciones urgentes destinadas a la obtención de suelo mediante proyectos residenciales estratégicos",
+     "date": "2025-07-18",
+     "url": "https://www.caib.es/sites/institutestudisautonomics/es/n/ley_42025_de_18_de_julio_de_actuaciones_urgentes_destinadas_a_la_obtencian_de_suelo_mediante_proyectos_residenciales_estratagicos_en_las_illes_balears",
+     "summary": "Proyectos residenciales estratégicos para generar suelo de vivienda."
+    }
+   ],
+   "notes": "Gobierno en minoría del PP (no verificado en esta sesión).",
+   "sources": [
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   ]
+  },
+  {
+   "code": "05",
+   "name": "Canarias",
+   "government": {
+    "parties": [
+     "CC",
+     "PP"
+    ],
+    "president": "Fernando Clavijo",
+    "since": "2023-07"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [
+    {
+     "title": "Ley 6/2025, de 10 de diciembre, de Ordenación Sostenible del Uso Turístico de Viviendas",
+     "date": "2025-12-10",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-26358",
+     "summary": "Restringe la vivienda vacacional (90% edificabilidad residencial a vivienda habitual; prohibición en zonas tensionadas y suelos protegidos)."
+    }
+   ],
+   "notes": "Gobierno CC-PP no verificado en esta sesión.",
+   "sources": [
+    "https://www.gobiernodecanarias.org/boc/2025/246/4229.html"
+   ]
+  },
+  {
+   "code": "06",
+   "name": "Cantabria",
+   "government": {
+    "parties": [
+     "PP"
+    ],
+    "president": "María José Sáenz de Buruaga",
+    "since": "2023-07"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [
+    {
+     "title": "Anteproyecto de Ley de Vivienda de Cantabria",
+     "date": null,
+     "url": "https://www.cantabria.es/web/comunicados/w/el-gobierno-presenta-el-anteproyecto-de-ley-de-vivienda-de-cantabria-que-garantiza-su-acceso-efectivo-y-ofrece-mayor-seguridad-jur%C3%ADdica-a-los-propietarios-",
+     "summary": "Anteproyecto presentado por el Gobierno; estado de tramitación no verificado."
+    },
+    {
+     "title": "Ley 3/2024, de 23 de diciembre, de Medidas Fiscales y Administrativas",
+     "date": "2024-12-23",
+     "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-643",
+     "summary": "Incluye deducción de 500 EUR por vivienda vacía puesta en alquiler y cambios en la Ley de Vivienda Protegida."
+    }
+   ],
+   "notes": "Gobierno no verificado en esta sesión.",
+   "sources": [
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   ]
+  },
+  {
+   "code": "07",
+   "name": "Castilla y León",
+   "government": {
+    "parties": [
+     "PP",
+     "Vox"
+    ],
+    "president": "Alfonso Fernández Mañueco",
+    "since": "2017 (tercer gobierno desde junio 2026, coalición PP-Vox)"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [],
+   "notes": "Se cita un decreto-ley autonómico de medidas urgentes que permite vivienda protegida en suelos dotacionales, pero no se ha verificado su número ni fecha.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Tercer_gobierno_de_Alfonso_Fern%C3%A1ndez_Ma%C3%B1ueco",
+    "https://elpais.com/espana/2026-06-09/manueco-asume-la-prioridad-nacional-de-vox-en-su-discurso-de-investidura-y-pide-evitar-demagogias-interesadas.html"
+   ]
+  },
+  {
+   "code": "08",
+   "name": "Castilla-La Mancha",
+   "government": {
+    "parties": [
+     "PSOE"
+    ],
+    "president": "Emiliano García-Page",
+    "since": "2015"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [
+    {
+     "title": "Ley 4/2026, de 7 de mayo, de medidas urgentes en materia de acceso a la vivienda y suelo de Castilla-La Mancha",
+     "date": "2026-05-07",
+     "url": "https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90121",
+     "summary": "Préstamos al 0% para el 20% de la compra no financiado por bancos y agilización urbanística. Aprobada con votos del PSOE, abstención de Vox y voto en contra del PP."
+    }
+   ],
+   "notes": "Agenda de Acción por la Vivienda 2026-2030 (500 M EUR, 32 medidas).",
+   "sources": [
+    "https://somosclm.com/clm/las-cortes-de-castilla-la-mancha-aprueban-la-ley-urgente-de-vivienda-en-un-pleno-marcado-por-mercosur-fiscalidad-y-discapacidad/578907"
+   ]
+  },
+  {
+   "code": "09",
+   "name": "Cataluña",
+   "government": {
+    "parties": [
+     "PSC"
+    ],
+    "president": "Salvador Illa",
+    "since": "2024-08"
+   },
+   "zonas_tensionadas": {
+    "declared": true,
+    "municipios": [
+     "Abrera",
+     "Alella",
+     "Amposta",
+     "Arenys de Mar",
+     "Arenys de Munt",
+     "Argentona",
+     "Badalona",
+     "Badia del Vallès",
+     "Balaguer",
+     "Banyoles",
+     "Barberà del Vallès",
+     "Barcelona",
+     "Berga",
+     "la Bisbal d'Empordà",
+     "Blanes",
+     "Cabrera de Mar",
+     "Cabrils",
+     "Caldes de Montbui",
+     "Caldes d'Estrac",
+     "Calella",
+     "Calldetenes",
+     "Cambrils",
+     "Canet de Mar",
+     "la Canonja",
+     "Canovelles",
+     "Cardedeu",
+     "Castellar del Vallès",
+     "Castellbisbal",
+     "Castelldefels",
+     "Cerdanyola del Vallès",
+     "Cervelló",
+     "Cervera",
+     "Corbera de Llobregat",
+     "Cornellà de Llobregat",
+     "Cubelles",
+     "Esparreguera",
+     "Esplugues de Llobregat",
+     "Falset",
+     "Figueres",
+     "les Franqueses del Vallès",
+     "la Garriga",
+     "Gavà",
+     "Girona",
+     "Granollers",
+     "Guissona",
+     "l'Hospitalet de Llobregat",
+     "Igualada",
+     "la Llagosta",
+     "Lleida",
+     "Llinars del Vallès",
+     "Lloret de Mar",
+     "Malgrat de Mar",
+     "Manlleu",
+     "Manresa",
+     "el Masnou",
+     "Matadepera",
+     "Mataró",
+     "Molins de Rei",
+     "Mollerussa",
+     "Mollet del Vallès",
+     "Montcada i Reixac",
+     "Montgat",
+     "Montmeló",
+     "Montornès del Vallès",
+     "Móra la Nova",
+     "Olesa de Montserrat",
+     "Olot",
+     "Palafolls",
+     "Palafrugell",
+     "Palamós",
+     "Palau-solità i Plegamans",
+     "el Papiol",
+     "Parets del Vallès",
+     "Pineda de Mar",
+     "Polinyà",
+     "Porqueres",
+     "el Prat de Llobregat",
+     "Premià de Dalt",
+     "Premià de Mar",
+     "Puigcerdà",
+     "Reus",
+     "Ripoll",
+     "Ripollet",
+     "la Roca del Vallès",
+     "Roquetes",
+     "Rubí",
+     "Sabadell",
+     "Salou",
+     "Salt",
+     "Sant Adrià de Besòs",
+     "Sant Andreu de Llavaneres",
+     "Sant Boi de Llobregat",
+     "Sant Celoni",
+     "Sant Climent de Llobregat",
+     "Sant Cugat del Vallès",
+     "Sant Esteve Sesrovires",
+     "Sant Feliu de Guíxols",
+     "Sant Feliu de Llobregat",
+     "Sant Fost de Campsentelles",
+     "Sant Fruitós de Bages",
+     "Sant Joan Despí",
+     "Sant Just Desvern",
+     "Sant Pere de Ribes",
+     "Sant Pol de Mar",
+     "Sant Quirze del Vallès",
+     "Sant Sadurní d'Anoia",
+     "Sant Vicenç de Montalt",
+     "Sant Vicenç dels Horts",
+     "Santa Coloma de Cervelló",
+     "Santa Coloma de Farners",
+     "Santa Coloma de Gramenet",
+     "Santa Margarida de Montbui",
+     "Santa Perpètua de Mogoda",
+     "Santa Susanna",
+     "Sarrià de Ter",
+     "la Seu d'Urgell",
+     "Sitges",
+     "Solsona",
+     "Sort",
+     "Tarragona",
+     "Tàrrega",
+     "Teià",
+     "Terrassa",
+     "Tiana",
+     "Tona",
+     "Torelló",
+     "Torredembarra",
+     "Torrelles de Llobregat",
+     "Tortosa",
+     "Tremp",
+     "Vallirana",
+     "Valls",
+     "el Vendrell",
+     "Vic",
+     "Viladecans",
+     "Vilafranca del Penedès",
+     "Vilanova del Camí",
+     "Vilanova i la Geltrú",
+     "Vilassar de Dalt",
+     "Vilassar de Mar",
+     "Aiguafreda",
+     "Albinyana",
+     "Alcanar",
+     "Alcarràs",
+     "Alcover",
+     "l'Aldea",
+     "Almacelles",
+     "Alpicat",
+     "Altafulla",
+     "l'Ametlla de Mar",
+     "l'Ametlla del Vallès",
+     "l'Ampolla",
+     "Anglès",
+     "l'Arboç",
+     "Arbúcies",
+     "Artés",
+     "Artesa de Segre",
+     "Bagà",
+     "Begues",
+     "Begur",
+     "Bellpuig",
+     "Bellver de Cerdanya",
+     "Besalú",
+     "Bigues i Riells del Fai",
+     "la Bisbal del Penedès",
+     "les Borges Blanques",
+     "Breda",
+     "Cadaqués",
+     "Calaf",
+     "Calafell",
+     "Caldes de Malavella",
+     "Calonge i Sant Antoni",
+     "Canyelles",
+     "Cassà de la Selva",
+     "Castellet i la Gornal",
+     "Castellgalí",
+     "Castelló d'Empúries",
+     "Castell d'Aro Platja d'Aro i S'Agaró",
+     "Castellterçol",
+     "Celrà",
+     "Centelles",
+     "Creixell",
+     "Cunit",
+     "Deltebre",
+     "Dosrius",
+     "l'Escala",
+     "l'Esquirol",
+     "Folgueroles",
+     "Fornells de la Selva",
+     "Gelida",
+     "Gironella",
+     "Hostalric",
+     "Linyola",
+     "Llançà",
+     "Lliçà d'Amunt",
+     "Lliçà de Vall",
+     "Maçanet de la Selva",
+     "Masquefa",
+     "Moià",
+     "Monistrol de Montserrat",
+     "Montblanc",
+     "Montbrió del Camp",
+     "Mont-roig del Camp",
+     "Móra d'Ebre",
+     "el Morell",
+     "Navàs",
+     "Òdena",
+     "Olèrdola",
+     "Olesa de Bonesvalls",
+     "Olivella",
+     "Pallejà",
+     "la Palma de Cervelló",
+     "Pals",
+     "Peralada",
+     "Piera",
+     "la Pobla de Montornès",
+     "el Pont de Suert",
+     "Ponts",
+     "Prats de Lluçanès",
+     "Puig-reig",
+     "la Ràpita",
+     "Riells i Viabrea",
+     "Riudarenes",
+     "Riudoms",
+     "Roda de Berà",
+     "Roda de Ter",
+     "Roses",
+     "Sant Antoni de Vilamajor",
+     "Sant Cebrià de Vallalta",
+     "Sant Esteve de Palautordera",
+     "Sant Feliu de Codines",
+     "Sant Hipòlit de Voltregà",
+     "Sant Jaume dels Domenys",
+     "Sant Jaume d'Enveja",
+     "Sant Joan de Vilatorrada",
+     "Sant Julià de Ramis",
+     "Sant Llorenç d'Hortons",
+     "Sant Llorenç Savall",
+     "Sant Martí Sarroca",
+     "Sant Pere de Riudebitlles",
+     "Sant Pere de Torelló",
+     "Sant Pere de Vilamajor",
+     "Sant Pere Pescador",
+     "Sant Quirze de Besora",
+     "Santa Bàrbara",
+     "Santa Coloma de Queralt",
+     "Santa Cristina d'Aro",
+     "Santa Eulàlia de Ronçana",
+     "Santa María de Palautordera",
+     "Santa Oliva",
+     "Santpedor",
+     "la Selva del Camp",
+     "la Sénia",
+     "Sentmenat",
+     "Seva",
+     "Sils",
+     "Súria",
+     "Taradell",
+     "Torrelles de Foix",
+     "Torroella de Montgrí",
+     "Tossa de Mar",
+     "Ulldecona",
+     "Vacarisses",
+     "Vallgorguina",
+     "Vidreres",
+     "Vielha e Mijaran",
+     "Viladecavalls",
+     "Vilafant",
+     "Vilanova del Vallès",
+     "Vilobí d'Onyar",
+     "Vinyols i els Arcs"
+    ],
+    "date": "2024-03-16",
+    "url": "https://boe.es/diario_boe/txt.php?id=BOE-A-2024-5214"
+   },
+   "recurso_tc": {
+    "filed": true,
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-13753",
+    "outcome": "Dos recursos: Parlament (STC 41/2026, desestimado) y Govern de la Generalitat (STC 53/2026, desestimado)"
+   },
+   "normas_propias": [
+    {
+     "title": "Llei 11/2025, de 29 de desembre, de mesures en matèria d'habitatge i urbanisme",
+     "date": "2025-12-29",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5547",
+     "summary": "Somete el alquiler de temporada y de habitaciones al régimen de contención de rentas y crea una comisión de supervisión de contratos; en vigor 01/01/2026."
+    }
+   ],
+   "notes": "140 municipios desde 16/03/2024 (BOE-A-2024-5214) y 131 desde 10/10/2024 (BOE-A-2024-20576): 271 en total en la relación MIVAU. Prensa (yaencontre) menciona una ampliación a 302 no reflejada en la página del MIVAU consultada.",
+   "sources": [
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado",
+    "https://boe.es/diario_boe/txt.php?id=BOE-A-2024-20576"
+   ]
+  },
+  {
+   "code": "10",
+   "name": "Comunitat Valenciana",
+   "government": {
+    "parties": [
+     "PP"
+    ],
+    "president": "Juan Francisco Pérez Llorca",
+    "since": "2025-11-27 (investido con votos de PP y Vox)"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [
+    {
+     "title": "Decreto-ley 9/2024, de 2 de agosto, del Consell, de modificación de la normativa reguladora de las viviendas de uso turístico",
+     "date": "2024-08-02",
+     "url": "https://www.boe.es/buscar/doc.php?id=DOGV-r-2024-90168",
+     "summary": "Endurece requisitos de viviendas turísticas y habilita a los ayuntamientos a limitarlas."
+    },
+    {
+     "title": "Decreto-ley 14/2025, de 26 de diciembre, del Consell, de medidas urgentes frente a la hiperregulación",
+     "date": "2025-12-26",
+     "url": "https://www.boe.es/buscar/doc.php?id=DOGV-r-2025-90320",
+     "summary": "Incluye tramitación de urgencia de licencias de vivienda nueva."
+    }
+   ],
+   "notes": "Sin zonas tensionadas declaradas.",
+   "sources": [
+    "https://elpais.com/espana/comunidad-valenciana/2025-11-27/llorca-se-pliega-a-las-exigencias-de-vox-en-su-discurso-para-ser-investido-presidente-de-la-generalitat.html",
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   ]
+  },
+  {
+   "code": "11",
+   "name": "Extremadura",
+   "government": {
+    "parties": [
+     "PP",
+     "Vox"
+    ],
+    "president": "María Guardiola",
+    "since": "2023-07 (reinvestida 2026-04-22, coalición PP-Vox)"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [
+    {
+     "title": "Decreto-ley 2/2025, de 19 de mayo, de simplificación en materia de urbanismo para el impulso a la promoción de vivienda",
+     "date": "2025-05-19",
+     "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-13563",
+     "summary": "No convalidado por la Asamblea (junio 2025). También el Decreto-ley 2/2024 fiscal de vivienda fue no convalidado."
+    },
+    {
+     "title": "Decreto-ley de medidas urgentes en urbanismo (agosto 2026)",
+     "date": "2026-08-04",
+     "url": "https://www.juntaex.es/w/20260804-el-doe-publica-el-decreto-ley-de-medidas-urgentes-en-urbanismo",
+     "summary": "Aumenta suelo para vivienda y reduce plazos; número no verificado."
+    }
+   ],
+   "notes": null,
+   "sources": [
+    "https://elpais.com/espana/2026-04-22/guardiola-investida-presidenta-de-extremadura-con-el-recado-de-vox-nadie-de-fuera-por-delante-de-un-espanol.html"
+   ]
+  },
+  {
+   "code": "12",
+   "name": "Galicia",
+   "government": {
+    "parties": [
+     "PP"
+    ],
+    "president": "Alfonso Rueda",
+    "since": "2022-05"
+   },
+   "zonas_tensionadas": {
+    "declared": true,
+    "municipios": [
+     "A Coruña",
+     "Santiago de Compostela"
+    ],
+    "date": "2025-07-30",
+    "url": "https://boe.es/diario_boe/txt.php?id=BOE-A-2025-15728"
+   },
+   "recurso_tc": {
+    "filed": true,
+    "url": "https://www.infobae.com/espana/agencias/2026/09/23/el-constitucional-desestima-el-recurso-de-la-xunta-de-galicia-contra-la-ley-de-vivienda",
+    "outcome": "Desestimado (23/09/2026)"
+   },
+   "normas_propias": [],
+   "notes": "A Coruña desde 30/07/2025 (BOE-A-2025-15728); Santiago desde 30/07/2026 (BOE-A-2026-16532). La Xunta declaró ambas pese a recurrir la ley estatal. No se han localizado leyes autonómicas específicas de vivienda 2023-2026 (sí la Ley 5/2025 de medidas fiscales y administrativas).",
+   "sources": [
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   ]
+  },
+  {
+   "code": "13",
+   "name": "Comunidad de Madrid",
+   "government": {
+    "parties": [
+     "PP"
+    ],
+    "president": "Isabel Díaz Ayuso",
+    "since": "2019-08"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": true,
+    "url": "https://www.boe.es/boe/dias/2026/03/27/pdfs/BOE-S-2026-76.pdf",
+    "outcome": "STC 17/2026: desestimado"
+   },
+   "normas_propias": [
+    {
+     "title": "Ley 2/2026, de 11 de junio, de medidas urgentes para el incremento de la oferta de vivienda con protección pública",
+     "date": "2026-06-11",
+     "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/06/15/BOCM-20260615-1.PDF",
+     "summary": "Medidas para ampliar vivienda protegida; se apoya en el Plan Territorial de la Ley 7/2024."
+    }
+   ],
+   "notes": "Sin zonas tensionadas declaradas. Plan Vive de alquiler asequible.",
+   "sources": [
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado",
+    "https://www.idealista.com/news/inmobiliario/vivienda/2026/02/24/885949-el-constitucional-tumba-el-recurso-del-gobierno-de-ayuso-contra-la-ley-de-vivienda"
+   ]
+  },
+  {
+   "code": "14",
+   "name": "Región de Murcia",
+   "government": {
+    "parties": [
+     "PP"
+    ],
+    "president": "Fernando López Miras",
+    "since": "2017-05"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [
+    {
+     "title": "Decreto-ley 3/2026, de 3 de julio, de Vivienda Asequible de la Región de Murcia y medidas urgentes en materia urbanística",
+     "date": "2026-07-03",
+     "url": "https://www.boe.es/buscar/doc.php?id=BORM-s-2026-90179",
+     "summary": "Crea la categoría 'vivienda asequible' dentro de la protegida; objetivo anunciado de 25.000 viviendas."
+    }
+   ],
+   "notes": null,
+   "sources": [
+    "https://www.coitirm.es/vivienda-asequible-decreto-ley-n-o-3-2026-3-de-julio"
+   ]
+  },
+  {
+   "code": "15",
+   "name": "Comunidad Foral de Navarra",
+   "government": {
+    "parties": [
+     "PSN-PSOE",
+     "Geroa Bai",
+     "Contigo-Zurekin"
+    ],
+    "president": "María Chivite",
+    "since": "2019-08"
+   },
+   "zonas_tensionadas": {
+    "declared": true,
+    "municipios": [
+     "Pamplona/Iruña",
+     "Tudela",
+     "Valle de Egüés/Eguesibar",
+     "Burlada/Burlata",
+     "Barañáin/Barañain",
+     "Zizur Mayor",
+     "Estella-Lizarra",
+     "Aranguren",
+     "Berriozar",
+     "Tafalla",
+     "Ansoáin/Antsoain",
+     "Villava/Atarrabia",
+     "Corella",
+     "Valle de Elorz/Elortzibar",
+     "Cintruénigo",
+     "Baztan",
+     "Altsasu/Alsasua",
+     "Huarte/Uharte",
+     "Berrioplano/Berriobeiti",
+     "San Adrián",
+     "Peralta/Azkoien"
+    ],
+    "date": "2025-07-30",
+    "url": "https://boe.es/diario_boe/txt.php?id=BOE-A-2025-15728"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [
+    {
+     "title": "Ley Foral 9/2025, de 30 de junio, para el Derecho a la Vivienda Asequible en Navarra",
+     "date": "2025-06-30",
+     "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-15656",
+     "summary": "Modifica la Ley Foral del derecho a la vivienda para ampliar vivienda asequible."
+    },
+    {
+     "title": "Ley Foral 15/2025, de 27 de noviembre, de modificación de la Ley Foral del Derecho a la Vivienda",
+     "date": "2025-11-27",
+     "url": "https://www.lexnavarra.navarra.es/detalle.asp?r=58285",
+     "summary": "Permite imponer el alquiler forzoso de viviendas desocupadas y extiende la protección indefinida a VPO en alquiler."
+    }
+   ],
+   "notes": "21 municipios tensionados vigentes 30/07/2025-30/07/2028.",
+   "sources": [
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   ]
+  },
+  {
+   "code": "16",
+   "name": "País Vasco",
+   "government": {
+    "parties": [
+     "PNV",
+     "PSE-EE"
+    ],
+    "president": "Imanol Pradales",
+    "since": "2024-06"
+   },
+   "zonas_tensionadas": {
+    "declared": true,
+    "municipios": [
+     "Errenteria",
+     "Lasarte-Oria",
+     "Zumaia",
+     "Barakaldo",
+     "Irun",
+     "Galdakao (Distrito 2)",
+     "Donostia/San Sebastián",
+     "Astigarraga",
+     "Bilbao",
+     "Usurbil",
+     "Vitoria-Gasteiz (trama urbana)",
+     "Hernani",
+     "Lezo",
+     "Tolosa",
+     "Pasaia",
+     "Zestoa",
+     "Arrasate/Mondragón",
+     "Basauri"
+    ],
+    "date": "2025-01-31",
+    "url": "https://boe.es/diario_boe/txt.php?id=BOE-A-2025-1721"
+   },
+   "recurso_tc": {
+    "filed": true,
+    "url": "https://www.idealista.com/news/etiquetas/ley-de-vivienda",
+    "outcome": "Desestimado (2026; número de sentencia no verificado)"
+   },
+   "normas_propias": [
+    {
+     "title": "Ley 6/2025, de 11 de diciembre, de Medidas Urgentes en materia de Vivienda, Suelo y Urbanismo",
+     "date": "2025-12-11",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-1256",
+     "summary": "Moviliza suelo para vivienda protegida y alojamientos dotacionales y agiliza su contratación."
+    },
+    {
+     "title": "Decreto de modificación urgente de disposiciones reglamentarias en materia de vivienda (Consejo de Gobierno 21/04/2026)",
+     "date": "2026-04-21",
+     "url": "https://www.iustel.com/diario_del_derecho/noticia.asp?ref_iustel=1265703",
+     "summary": "Amplía vivienda protegida en alquiler, eleva topes de Gaztelagun y simplifica ayudas a rehabilitación."
+    }
+   ],
+   "notes": "Declaraciones escalonadas desde 31/01/2025 (Errenteria) hasta 30/07/2026 (Basauri). Índice de referencia aplicable en los tres territorios desde 21/04/2026. El PNV votó contra la Ley 12/2023, pero el Gobierno Vasco la aplica.",
+   "sources": [
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado",
+    "https://cadenaser.com/euskadi/2026/04/21/euskadi-activa-el-nuevo-tope-del-alquiler-asi-cambia-desde-hoy-el-precio-de-la-vivienda-en-zonas-tensionadas-radio-bilbao"
+   ]
+  },
+  {
+   "code": "17",
+   "name": "La Rioja",
+   "government": {
+    "parties": [
+     "PP"
+    ],
+    "president": "Gonzalo Capellán",
+    "since": "2023-07"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [
+    {
+     "title": "Ley 1/2025, de 28 de febrero, de medidas urgentes para el acceso a la vivienda",
+     "date": "2025-02-28",
+     "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-5052",
+     "summary": "Simplificación de cargas administrativas e impositivas para facilitar vivienda habitual a jóvenes y familias."
+    }
+   ],
+   "notes": "Gobierno no verificado en esta sesión.",
+   "sources": [
+    "https://actualidad.larioja.org/noticia?n=not-la-rioja-impulsa-el-acceso-a-la-vivienda-con-una-ley-de-medidas-urgentes-que-aligera-y-simplif"
+   ]
+  },
+  {
+   "code": "18",
+   "name": "Ceuta",
+   "government": {
+    "parties": [
+     "PP"
+    ],
+    "president": "Juan Jesús Vivas",
+    "since": "2001"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [],
+   "notes": "Gobierno no verificado en esta sesión. Sin datos de normativa propia.",
+   "sources": [
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   ]
+  },
+  {
+   "code": "19",
+   "name": "Melilla",
+   "government": {
+    "parties": [
+     "PP"
+    ],
+    "president": "Juan José Imbroda",
+    "since": "2023-07"
+   },
+   "zonas_tensionadas": {
+    "declared": false,
+    "municipios": [],
+    "date": null,
+    "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   },
+   "recurso_tc": {
+    "filed": false,
+    "url": "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+    "outcome": "No figura entre los 8 recurrentes (Andalucía, Baleares, Madrid, País Vasco, Parlament y Govern de Cataluña, Galicia y diputados del PP)"
+   },
+   "normas_propias": [],
+   "notes": "Gobierno no verificado en esta sesión. Sin datos de normativa propia.",
+   "sources": [
+    "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado"
+   ]
+  }
+ ],
+ "partidos": [
+  {
+   "name": "PSOE",
+   "positions": [
+    {
+     "text": "Promovió la Ley 12/2023 por el derecho a la vivienda, pactada con ERC y EH Bildu; votó a favor.",
+     "date": "2023-04-27",
+     "url": "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml"
+    },
+    {
+     "text": "El Gobierno aprobó el Plan Estatal de Vivienda 2026-2030 (RD 326/2026) y transformó SEPES en CASA 47.",
+     "date": "2026-04-22",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-8872"
+    },
+    {
+     "text": "Se abstuvo en la toma en consideración de la ley de Sumar para prohibir compras especulativas de vivienda por personas jurídicas.",
+     "date": "2026-09-15",
+     "url": "https://www.publico.es/politica/congreso/congreso-vuelve-oponerse-tramitar-ley-sumar-prohibe-empresas-comprar-casas-especular.html"
+    },
+    {
+     "text": "Votó en contra de tomar en consideración la ley de vivienda y la ley antiokupación del PP.",
+     "date": "2026-05-19",
+     "url": "https://www.heraldo.es/noticias/nacional/2026/05/20/congreso-toma-consideracion-ley-antiokupas-pp-gracias-abstencion-pnv-junts-2021786.html"
+    }
+   ]
+  },
+  {
+   "name": "PP",
+   "positions": [
+    {
+     "text": "Más de 50 diputados del PP recurrieron la Ley 12/2023 ante el TC; STC 26/2025 estimó parcialmente (preceptos procesales sobre grandes tenedores).",
+     "date": "2025-01-29",
+     "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-4079"
+    },
+    {
+     "text": "Su proposición de ley de vivienda (reforma Ley del Suelo, derogación de zonas tensionadas e índice de precios) fue tomada en consideración en el Congreso tras su aprobación en el Senado.",
+     "date": "2026-04-21",
+     "url": "https://www.idealista.com/news/finanzas/economia/2026/04/22/894165-el-congreso-admite-a-tramite-la-ley-de-vivienda-del-pp-con-junts-a-favor-y-el-no-del"
+    },
+    {
+     "text": "Proposición de ley contra la ocupación ilegal (desalojo en 24 horas, veto al empadronamiento) tomada en consideración con 171 votos.",
+     "date": "2026-05-19",
+     "url": "https://www.heraldo.es/noticias/nacional/2026/05/20/congreso-toma-consideracion-ley-antiokupas-pp-gracias-abstencion-pnv-junts-2021786.html"
+    },
+    {
+     "text": "Votó contra la convalidación de los decretos con moratoria de desahucios (RDL 9/2024, 16/2025, 2/2026) y de prórroga de alquileres (RDL 8/2026).",
+     "date": "2026-04-28",
+     "url": "https://www.ejeprime.com/residencial/el-congreso-tumba-el-decreto-ley-para-la-prorroga-y-tope-del-2-de-subida-de-los-alquileres"
+    }
+   ]
+  },
+  {
+   "name": "Vox",
+   "positions": [
+    {
+     "text": "Votó en contra de la Ley 12/2023.",
+     "date": "2023-04-27",
+     "url": "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml"
+    },
+    {
+     "text": "Su iniciativa para aplicar la 'prioridad nacional' en el acceso a vivienda protegida y ayudas fue rechazada en el Congreso.",
+     "date": "2026-06-18",
+     "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/06/19/902675-el-congreso-rechaza-la-propuesta-de-vox-de-dar-prioridad-a-los-espanoles-en-ayudas"
+    },
+    {
+     "text": "Votó a favor de tomar en consideración las leyes de vivienda y antiokupación del PP y contra el RDL 8/2026.",
+     "date": "2026-05-19",
+     "url": "https://www.heraldo.es/noticias/nacional/2026/05/20/congreso-toma-consideracion-ley-antiokupas-pp-gracias-abstencion-pnv-junts-2021786.html"
+    },
+    {
+     "text": "Pactos de gobierno autonómico con el PP en Extremadura, Aragón, Castilla y León y Andalucía (2026) que incluyen la 'prioridad nacional'.",
+     "date": "2026-06-09",
+     "url": "https://elpais.com/espana/2026-06-09/manueco-asume-la-prioridad-nacional-de-vox-en-su-discurso-de-investidura-y-pide-evitar-demagogias-interesadas.html"
+    }
+   ]
+  },
+  {
+   "name": "Sumar",
+   "positions": [
+    {
+     "text": "Impulsó el RDL 8/2026 de prórroga extraordinaria de alquileres y tope del 2%, derogado por el Congreso.",
+     "date": "2026-04-28",
+     "url": "https://www.ejeprime.com/residencial/el-congreso-tumba-el-decreto-ley-para-la-prorroga-y-tope-del-2-de-subida-de-los-alquileres"
+    },
+    {
+     "text": "Proposición de ley para prohibir a personas jurídicas comprar vivienda con fines especulativos, rechazada en noviembre de 2025 y de nuevo el 15/09/2026.",
+     "date": "2026-09-15",
+     "url": "https://www.publico.es/politica/congreso/congreso-vuelve-oponerse-tramitar-ley-sumar-prohibe-empresas-comprar-casas-especular.html"
+    },
+    {
+     "text": "Coautor de la proposición de ley para regular el alquiler de temporada y habitaciones (con ERC, Bildu, Podemos y BNG), pendiente en Comisión de Vivienda.",
+     "date": "2026-06-27",
+     "url": "https://www.publico.es/politica/sindicato-inquilinas-sumar-erc-unen-fuerzas-obligar-psoe-desbloquear-ley-pondria-coto-alquiler-temporada.html"
+    },
+    {
+     "text": "Exige al PSOE aprobar un nuevo decreto de vivienda junto al escudo social.",
+     "date": "2026-09-23",
+     "url": "https://elpais.com/economia/2026-09-23/sumar-exige-que-el-gobierno-apruebe-el-decreto-de-vivienda-junto-con-el-escudo-anticrisis-la-proxima-semana.html"
+    }
+   ]
+  },
+  {
+   "name": "ERC",
+   "positions": [
+    {
+     "text": "Pactó con el Gobierno la Ley 12/2023 y votó a favor.",
+     "date": "2023-04-27",
+     "url": "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml"
+    },
+    {
+     "text": "Coimpulsa la ley de alquiler de temporada y habitaciones con Sumar y el Sindicato de Inquilinas.",
+     "date": "2026-06-27",
+     "url": "https://www.publico.es/politica/sindicato-inquilinas-sumar-erc-unen-fuerzas-obligar-psoe-desbloquear-ley-pondria-coto-alquiler-temporada.html"
+    },
+    {
+     "text": "Votó a favor de la ley de Sumar contra compras especulativas.",
+     "date": "2026-09-15",
+     "url": "https://www.publico.es/politica/congreso/congreso-vuelve-oponerse-tramitar-ley-sumar-prohibe-empresas-comprar-casas-especular.html"
+    }
+   ]
+  },
+  {
+   "name": "Junts",
+   "positions": [
+    {
+     "text": "Votó en contra de la Ley 12/2023 por invasión de competencias autonómicas.",
+     "date": "2023-04-27",
+     "url": "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml"
+    },
+    {
+     "text": "Su proposición de ley orgánica contra la ocupación ilegal fue tomada en consideración (300 sí, 44 no).",
+     "date": "2025-03-18",
+     "url": "https://www.congreso.es/es/proposiciones-de-ley?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura=XV&_iniciativas_id=122%2F000150"
+    },
+    {
+     "text": "Votó contra los decretos con moratoria antidesahucios (RDL 9/2024, 16/2025, 2/2026) y condiciona su apoyo a separar la moratoria; votó contra el RDL 8/2026.",
+     "date": "2026-02-26",
+     "url": "https://cadenaser.com/nacional/2026/02/26/las-medidas-del-escudo-social-que-decaen-si-se-cumple-el-guion-y-el-congreso-rechaza-el-decreto-cadena-ser"
+    },
+    {
+     "text": "Votó a favor de tramitar la ley de vivienda del PP y se abstuvo en la ley antiokupación del PP; propone bonificaciones fiscales a propietarios afectados por la prórroga de alquileres.",
+     "date": "2026-09-25",
+     "url": "https://www.rtve.es/noticias/20260925/reacciones-medidas-decreto-vivienda-gobierno-grupos/17239741.shtml"
+    }
+   ]
+  },
+  {
+   "name": "EH Bildu",
+   "positions": [
+    {
+     "text": "Pactó con el Gobierno la Ley 12/2023 y votó a favor.",
+     "date": "2023-04-27",
+     "url": "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml"
+    },
+    {
+     "text": "Firmante de la ley de alquiler de temporada y habitaciones.",
+     "date": "2026-06-27",
+     "url": "https://www.publico.es/politica/sindicato-inquilinas-sumar-erc-unen-fuerzas-obligar-psoe-desbloquear-ley-pondria-coto-alquiler-temporada.html"
+    },
+    {
+     "text": "Votó a favor de la ley de Sumar contra compras especulativas y en contra de las leyes del PP.",
+     "date": "2026-09-15",
+     "url": "https://www.publico.es/politica/congreso/congreso-vuelve-oponerse-tramitar-ley-sumar-prohibe-empresas-comprar-casas-especular.html"
+    }
+   ]
+  },
+  {
+   "name": "PNV",
+   "positions": [
+    {
+     "text": "Votó en contra de la Ley 12/2023 por invasión de competencias; el Gobierno Vasco la recurrió ante el TC (desestimado).",
+     "date": "2023-04-27",
+     "url": "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml"
+    },
+    {
+     "text": "Se abstuvo en la convalidación del RDL 8/2026 alegando que la crisis de vivienda no se aborda por decreto-ley.",
+     "date": "2026-04-28",
+     "url": "https://elpais.com/espana/2026-04-28/ultima-hora-de-la-actualidad-politica-en-directo.html"
+    },
+    {
+     "text": "Se abstuvo en la toma en consideración de las leyes de vivienda y antiokupación del PP y en la ley de Sumar contra compras especulativas.",
+     "date": "2026-09-15",
+     "url": "https://www.publico.es/politica/congreso/congreso-vuelve-oponerse-tramitar-ley-sumar-prohibe-empresas-comprar-casas-especular.html"
+    }
+   ]
+  },
+  {
+   "name": "Podemos",
+   "positions": [
+    {
+     "text": "Votó a favor de la Ley 12/2023 (como Unidas Podemos).",
+     "date": "2023-04-27",
+     "url": "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml"
+    },
+    {
+     "text": "Condiciona su apoyo a los Presupuestos a intervenir el mercado y bajar un 40% los alquileres (fecha no verificada).",
+     "date": null,
+     "url": "https://www.servimedia.es/noticias/podemos-exige-intervenir-mercado-vivienda-bajar-40-precios-alquileres-para-apoyar-presupuestos/1410285690"
+    },
+    {
+     "text": "Votó a favor de la ley de Sumar contra compras especulativas; su voto es necesario para el nuevo decreto de vivienda.",
+     "date": "2026-09-25",
+     "url": "https://www.rtve.es/noticias/20260925/reacciones-medidas-decreto-vivienda-gobierno-grupos/17239741.shtml"
+    }
+   ]
+  },
+  {
+   "name": "BNG",
+   "positions": [
+    {
+     "text": "Se abstuvo en la votación de la Ley 12/2023.",
+     "date": "2023-04-27",
+     "url": "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml"
+    },
+    {
+     "text": "Firmante de la ley de alquiler de temporada y habitaciones; votó a favor de la ley de Sumar contra compras especulativas.",
+     "date": "2026-09-15",
+     "url": "https://www.publico.es/politica/congreso/congreso-vuelve-oponerse-tramitar-ley-sumar-prohibe-empresas-comprar-casas-especular.html"
+    }
+   ]
+  },
+  {
+   "name": "CC",
+   "positions": [
+    {
+     "text": "Votó en contra de la Ley 12/2023.",
+     "date": "2023-04-27",
+     "url": "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml"
+    },
+    {
+     "text": "Se abstuvo en la ley de vivienda del PP y votó a favor de la ley antiokupación del PP.",
+     "date": "2026-05-19",
+     "url": "https://www.heraldo.es/noticias/nacional/2026/05/20/congreso-toma-consideracion-ley-antiokupas-pp-gracias-abstencion-pnv-junts-2021786.html"
+    },
+    {
+     "text": "El Gobierno canario (CC-PP) aprobó la Ley 6/2025 que restringe la vivienda vacacional.",
+     "date": "2025-12-10",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-26358"
+    }
+   ]
+  },
+  {
+   "name": "UPN",
+   "positions": [
+    {
+     "text": "Votó en contra de la Ley 12/2023.",
+     "date": "2023-04-27",
+     "url": "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml"
+    },
+    {
+     "text": "Votó en contra del RDL 8/2026 y a favor de las leyes de vivienda y antiokupación del PP.",
+     "date": "2026-04-28",
+     "url": "https://www.ejeprime.com/residencial/el-congreso-tumba-el-decreto-ley-para-la-prorroga-y-tope-del-2-de-subida-de-los-alquileres"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  "https://actualidad.asturias.es/-/0303plenovivienda",
+  "https://actualidad.larioja.org/noticia?n=not-la-rioja-impulsa-el-acceso-a-la-vivienda-con-una-ley-de-medidas-urgentes-que-aligera-y-simplif",
+  "https://boe.es/diario_boe/txt.php?id=BOE-A-2024-20576",
+  "https://cadenaser.com/euskadi/2026/04/21/euskadi-activa-el-nuevo-tope-del-alquiler-asi-cambia-desde-hoy-el-precio-de-la-vivienda-en-zonas-tensionadas-radio-bilbao",
+  "https://cadenaser.com/nacional/2026/02/26/las-medidas-del-escudo-social-que-decaen-si-se-cumple-el-guion-y-el-congreso-rechaza-el-decreto-cadena-ser",
+  "https://elpais.com/economia/2026-09-23/sumar-exige-que-el-gobierno-apruebe-el-decreto-de-vivienda-junto-con-el-escudo-anticrisis-la-proxima-semana.html",
+  "https://elpais.com/espana/2026-04-22/guardiola-investida-presidenta-de-extremadura-con-el-recado-de-vox-nadie-de-fuera-por-delante-de-un-espanol.html",
+  "https://elpais.com/espana/2026-04-28/ultima-hora-de-la-actualidad-politica-en-directo.html",
+  "https://elpais.com/espana/2026-06-09/manueco-asume-la-prioridad-nacional-de-vox-en-su-discurso-de-investidura-y-pide-evitar-demagogias-interesadas.html",
+  "https://elpais.com/espana/comunidad-valenciana/2025-11-27/llorca-se-pliega-a-las-exigencias-de-vox-en-su-discurso-para-ser-investido-presidente-de-la-generalitat.html",
+  "https://es.wikipedia.org/wiki/Tercer_Gobierno_Moreno",
+  "https://es.wikipedia.org/wiki/Tercer_gobierno_de_Alfonso_Fern%C3%A1ndez_Ma%C3%B1ueco",
+  "https://hj.tribunalconstitucional.es/es/Resolucion/Show/30177",
+  "https://maldita.es/malditobulo/20250123/decreto-omnibus-medidas-por-separado",
+  "https://somosclm.com/clm/las-cortes-de-castilla-la-mancha-aprueban-la-ley-urgente-de-vivienda-en-un-pleno-marcado-por-mercosur-fiscalidad-y-discapacidad/578907",
+  "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203",
+  "https://www.boe.es/buscar/act.php?id=BOE-A-2025-26358",
+  "https://www.boe.es/buscar/act.php?id=BOE-A-2025-76",
+  "https://www.boe.es/buscar/act.php?id=BOE-A-2026-2547",
+  "https://www.boe.es/buscar/act.php?id=BOE-A-2026-8872",
+  "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-802",
+  "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-666",
+  "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-1136",
+  "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-1560",
+  "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-25270",
+  "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-4079",
+  "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-13753",
+  "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1756",
+  "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-7118",
+  "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26458",
+  "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16928",
+  "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6545",
+  "https://www.coitirm.es/vivienda-asequible-decreto-ley-n-o-3-2026-3-de-julio",
+  "https://www.congreso.es/es/proposiciones-de-ley?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura=XV&_iniciativas_id=122%2F000150",
+  "https://www.ejeprime.com/residencial/el-congreso-tumba-el-decreto-ley-para-la-prorroga-y-tope-del-2-de-subida-de-los-alquileres",
+  "https://www.elconfidencial.com/inmobiliario/2026-02-24/tribunal-constitucional-ley-estatal-de-vivienda-inconstitucionalidad_4309159",
+  "https://www.elsaltodiario.com/vivienda/pp-vox-junts-rechazan-moratoria-desahucios-dejan-incertidumbre-60-000-familias-vulnerables",
+  "https://www.europapress.es/andalucia/noticia-moreno-situa-gavira-vox-vicepresidente-segundo-mantiene-nucleo-duro-gobierno-tres-caras-nuevas-20260709140641.html",
+  "https://www.gobiernodecanarias.org/boc/2025/246/4229.html",
+  "https://www.heraldo.es/noticias/nacional/2026/05/20/congreso-toma-consideracion-ley-antiokupas-pp-gracias-abstencion-pnv-junts-2021786.html",
+  "https://www.ico.es/entidades-linea-avales-hipoteca-primera-vivienda",
+  "https://www.idealista.com/news/etiquetas/ley-de-vivienda",
+  "https://www.idealista.com/news/finanzas/economia/2026/04/22/894165-el-congreso-admite-a-tramite-la-ley-de-vivienda-del-pp-con-junts-a-favor-y-el-no-del",
+  "https://www.idealista.com/news/inmobiliario/vivienda/2026/02/24/885949-el-constitucional-tumba-el-recurso-del-gobierno-de-ayuso-contra-la-ley-de-vivienda",
+  "https://www.idealista.com/news/inmobiliario/vivienda/2026/06/19/902675-el-congreso-rechaza-la-propuesta-de-vox-de-dar-prioridad-a-los-espanoles-en-ayudas",
+  "https://www.infobae.com/espana/2026/04/29/el-popular-jorge-azcon-es-investido-presidente-de-aragon-con-los-votos-de-vox-la-prioridad-absoluta-es-la-legalidad",
+  "https://www.infobae.com/espana/agencias/2026/09/23/el-constitucional-desestima-el-recurso-de-la-xunta-de-galicia-contra-la-ley-de-vivienda",
+  "https://www.iustel.com/diario_del_derecho/noticia.asp?ref_iustel=1243082",
+  "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi/consultar-zonas-de-mercado-residencial-tensionado",
+  "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunal-Supremo/Oficina-de-Comunicacion/Notas-de-prensa/El-Tribunal-Supremo-anula-el-Registro-Unico-de-arrendamientos-de-corta-duracion-por-considerar-que-el-Estado-carece-de-competencia-para-su-creacion",
+  "https://www.publico.es/politica/congreso/congreso-vuelve-oponerse-tramitar-ley-sumar-prohibe-empresas-comprar-casas-especular.html",
+  "https://www.publico.es/politica/sindicato-inquilinas-sumar-erc-unen-fuerzas-obligar-psoe-desbloquear-ley-pondria-coto-alquiler-temporada.html",
+  "https://www.revistacunal.com/actualidad/15179-recursos-de-inconstitucionalidad-frente-a-la-ley-por-el-derecho-a-la-vivienda",
+  "https://www.rtve.es/noticias/20230427/congreso-aprueba-ley-vivienda-limita-precios-alquiler-criticas-oposicion/2441887.shtml",
+  "https://www.rtve.es/noticias/20250212/congreso-decreto-omnibus/16446619.shtml",
+  "https://www.rtve.es/noticias/20260925/reacciones-medidas-decreto-vivienda-gobierno-grupos/17239741.shtml",
+  "https://www.servimedia.es/noticias/podemos-exige-intervenir-mercado-vivienda-bajar-40-precios-alquileres-para-apoyar-presupuestos/1410285690"
+ ]
+}

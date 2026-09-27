@@ -1,0 +1,135 @@
+{
+ "year": 2024,
+ "published": "2026-05-28",
+ "national": {
+  "media": 29540.26,
+  "mediana": 24497.17
+ },
+ "note": "Ganancia media anual bruta por trabajador (INE, EAES 2024, definitivos). Medianas por CCAA vía salariode.com (tabulación de EAES INE); Ceuta y Melilla sin dato publicado.",
+ "sources": [
+  {
+   "name": "INE, Encuesta Anual de Estructura Salarial 2024",
+   "url": "https://www.ine.es/dyngs/Prensa/EAES2024.htm"
+  },
+  {
+   "name": "salariode.com (tabulación EAES)",
+   "url": "https://salariode.com/comunidad"
+  }
+ ],
+ "ccaa": [
+  {
+   "code": "01",
+   "name": "Andalucía",
+   "media": 26090,
+   "mediana": 21557
+  },
+  {
+   "code": "02",
+   "name": "Aragón",
+   "media": 28062,
+   "mediana": 24936
+  },
+  {
+   "code": "03",
+   "name": "Asturias",
+   "media": 28562,
+   "mediana": 24197
+  },
+  {
+   "code": "04",
+   "name": "Illes Balears",
+   "media": 29075,
+   "mediana": 24962
+  },
+  {
+   "code": "05",
+   "name": "Canarias",
+   "media": 25120.38,
+   "mediana": 20632
+  },
+  {
+   "code": "06",
+   "name": "Cantabria",
+   "media": 27097,
+   "mediana": 23247
+  },
+  {
+   "code": "07",
+   "name": "Castilla y León",
+   "media": 26177,
+   "mediana": 22567
+  },
+  {
+   "code": "08",
+   "name": "Castilla-La Mancha",
+   "media": 26062.05,
+   "mediana": 22046
+  },
+  {
+   "code": "09",
+   "name": "Cataluña",
+   "media": 31730.05,
+   "mediana": 27133
+  },
+  {
+   "code": "10",
+   "name": "Comunitat Valenciana",
+   "media": 26817,
+   "mediana": 22652
+  },
+  {
+   "code": "11",
+   "name": "Extremadura",
+   "media": 24979.44,
+   "mediana": 20905
+  },
+  {
+   "code": "12",
+   "name": "Galicia",
+   "media": 26547,
+   "mediana": 22603
+  },
+  {
+   "code": "13",
+   "name": "Comunidad de Madrid",
+   "media": 34410.01,
+   "mediana": 28038
+  },
+  {
+   "code": "14",
+   "name": "Región de Murcia",
+   "media": 26349,
+   "mediana": 21672
+  },
+  {
+   "code": "15",
+   "name": "Navarra",
+   "media": 32605.28,
+   "mediana": 29385
+  },
+  {
+   "code": "16",
+   "name": "País Vasco",
+   "media": 35170.28,
+   "mediana": 31912
+  },
+  {
+   "code": "17",
+   "name": "La Rioja",
+   "media": 27855,
+   "mediana": 24501
+  },
+  {
+   "code": "18",
+   "name": "Ceuta",
+   "media": null,
+   "mediana": null
+  },
+  {
+   "code": "19",
+   "name": "Melilla",
+   "media": null,
+   "mediana": null
+  }
+ ]
+}

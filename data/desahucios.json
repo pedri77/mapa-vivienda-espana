@@ -1,0 +1,2473 @@
+{
+ "meta": {
+  "generated": "2026-09-27",
+  "unit": "lanzamientos practicados (Juzgados de 1ª Instancia y 1ª Instancia e Instrucción)",
+  "geography": "TSJ = Comunidad Autónoma (Andalucía incluye Ceuta y Melilla)",
+  "primary_file": "Series - Efecto de la crisis en los órganos judiciales por TSJ 1T-2026_revisado.xlsx (CGPJ, revisado; cifras más recientes, pueden diferir en unidades de los ficheros anuales originales)"
+ },
+ "national": [
+  {
+   "year": 2013,
+   "total": 67189,
+   "hipotecario": 25811,
+   "alquiler": 38141,
+   "otros": 3237
+  },
+  {
+   "year": 2014,
+   "total": 68091,
+   "hipotecario": 28877,
+   "alquiler": 36044,
+   "otros": 3170
+  },
+  {
+   "year": 2015,
+   "total": 67359,
+   "hipotecario": 29225,
+   "alquiler": 35677,
+   "otros": 2457
+  },
+  {
+   "year": 2016,
+   "total": 63037,
+   "hipotecario": 26397,
+   "alquiler": 34193,
+   "otros": 2447
+  },
+  {
+   "year": 2017,
+   "total": 60754,
+   "hipotecario": 22330,
+   "alquiler": 35666,
+   "otros": 2758
+  },
+  {
+   "year": 2018,
+   "total": 59671,
+   "hipotecario": 18945,
+   "alquiler": 37285,
+   "otros": 3441
+  },
+  {
+   "year": 2019,
+   "total": 54006,
+   "hipotecario": 14193,
+   "alquiler": 36468,
+   "otros": 3346,
+   "note": "hipotecario+alquiler+otros difiere en 1 del total en la serie revisada CGPJ (redondeo/revisión de origen)."
+  },
+  {
+   "year": 2020,
+   "total": 29406,
+   "hipotecario": 6915,
+   "alquiler": 21145,
+   "otros": 1346
+  },
+  {
+   "year": 2021,
+   "total": 41359,
+   "hipotecario": 10103,
+   "alquiler": 28993,
+   "otros": 2263
+  },
+  {
+   "year": 2022,
+   "total": 38266,
+   "hipotecario": 8509,
+   "alquiler": 27533,
+   "otros": 2225,
+   "note": "hipotecario+alquiler+otros difiere en 1 del total en la serie revisada CGPJ (redondeo/revisión de origen)."
+  },
+  {
+   "year": 2023,
+   "total": 26659,
+   "hipotecario": 5260,
+   "alquiler": 19676,
+   "otros": 1723
+  },
+  {
+   "year": 2024,
+   "total": 27564,
+   "hipotecario": 5073,
+   "alquiler": 20558,
+   "otros": 1933
+  },
+  {
+   "year": 2025,
+   "total": 24540,
+   "hipotecario": 4346,
+   "alquiler": 18317,
+   "otros": 1877,
+   "note": "La nota de prensa CGPJ (mar-2026) dice '25.540' en un titular; es errata: el propio texto y el Excel dan 24.540 (18.317+4.346+1.877)."
+  }
+ ],
+ "national_quarterly": [
+  {
+   "year": 2013,
+   "quarter": 1,
+   "total": 19468,
+   "hipotecario": 7300,
+   "alquiler": 11238,
+   "otros": 930
+  },
+  {
+   "year": 2013,
+   "quarter": 2,
+   "total": 18077,
+   "hipotecario": 6549,
+   "alquiler": 10527,
+   "otros": 1001
+  },
+  {
+   "year": 2013,
+   "quarter": 3,
+   "total": 12439,
+   "hipotecario": 4747,
+   "alquiler": 7147,
+   "otros": 545
+  },
+  {
+   "year": 2013,
+   "quarter": 4,
+   "total": 17205,
+   "hipotecario": 7215,
+   "alquiler": 9229,
+   "otros": 761
+  },
+  {
+   "year": 2014,
+   "quarter": 1,
+   "total": 18485,
+   "hipotecario": 7716,
+   "alquiler": 9944,
+   "otros": 825
+  },
+  {
+   "year": 2014,
+   "quarter": 2,
+   "total": 18749,
+   "hipotecario": 7907,
+   "alquiler": 9978,
+   "otros": 864
+  },
+  {
+   "year": 2014,
+   "quarter": 3,
+   "total": 13341,
+   "hipotecario": 5796,
+   "alquiler": 6849,
+   "otros": 696
+  },
+  {
+   "year": 2014,
+   "quarter": 4,
+   "total": 17516,
+   "hipotecario": 7458,
+   "alquiler": 9273,
+   "otros": 785
+  },
+  {
+   "year": 2015,
+   "quarter": 1,
+   "total": 18869,
+   "hipotecario": 8178,
+   "alquiler": 9917,
+   "otros": 774
+  },
+  {
+   "year": 2015,
+   "quarter": 2,
+   "total": 18739,
+   "hipotecario": 8120,
+   "alquiler": 9858,
+   "otros": 761
+  },
+  {
+   "year": 2015,
+   "quarter": 3,
+   "total": 13135,
+   "hipotecario": 5670,
+   "alquiler": 7040,
+   "otros": 425
+  },
+  {
+   "year": 2015,
+   "quarter": 4,
+   "total": 16616,
+   "hipotecario": 7257,
+   "alquiler": 8862,
+   "otros": 497
+  },
+  {
+   "year": 2016,
+   "quarter": 1,
+   "total": 16690,
+   "hipotecario": 6971,
+   "alquiler": 9083,
+   "otros": 636
+  },
+  {
+   "year": 2016,
+   "quarter": 2,
+   "total": 18402,
+   "hipotecario": 7744,
+   "alquiler": 9917,
+   "otros": 741
+  },
+  {
+   "year": 2016,
+   "quarter": 3,
+   "total": 12148,
+   "hipotecario": 4999,
+   "alquiler": 6688,
+   "otros": 461
+  },
+  {
+   "year": 2016,
+   "quarter": 4,
+   "total": 15797,
+   "hipotecario": 6683,
+   "alquiler": 8505,
+   "otros": 609
+  },
+  {
+   "year": 2017,
+   "quarter": 1,
+   "total": 17055,
+   "hipotecario": 6732,
+   "alquiler": 9612,
+   "otros": 711
+  },
+  {
+   "year": 2017,
+   "quarter": 2,
+   "total": 16859,
+   "hipotecario": 6197,
+   "alquiler": 9886,
+   "otros": 776
+  },
+  {
+   "year": 2017,
+   "quarter": 3,
+   "total": 11581,
+   "hipotecario": 4063,
+   "alquiler": 6969,
+   "otros": 549
+  },
+  {
+   "year": 2017,
+   "quarter": 4,
+   "total": 15259,
+   "hipotecario": 5338,
+   "alquiler": 9199,
+   "otros": 722
+  },
+  {
+   "year": 2018,
+   "quarter": 1,
+   "total": 15907,
+   "hipotecario": 5371,
+   "alquiler": 9719,
+   "otros": 817
+  },
+  {
+   "year": 2018,
+   "quarter": 2,
+   "total": 17152,
+   "hipotecario": 5672,
+   "alquiler": 10491,
+   "otros": 989
+  },
+  {
+   "year": 2018,
+   "quarter": 3,
+   "total": 11547,
+   "hipotecario": 3404,
+   "alquiler": 7518,
+   "otros": 625
+  },
+  {
+   "year": 2018,
+   "quarter": 4,
+   "total": 15065,
+   "hipotecario": 4498,
+   "alquiler": 9557,
+   "otros": 1010
+  },
+  {
+   "year": 2019,
+   "quarter": 1,
+   "total": 15544,
+   "hipotecario": 4351,
+   "alquiler": 10305,
+   "otros": 889
+  },
+  {
+   "year": 2019,
+   "quarter": 2,
+   "total": 14677,
+   "hipotecario": 3812,
+   "alquiler": 9896,
+   "otros": 969
+  },
+  {
+   "year": 2019,
+   "quarter": 3,
+   "total": 10173,
+   "hipotecario": 2527,
+   "alquiler": 6957,
+   "otros": 689
+  },
+  {
+   "year": 2019,
+   "quarter": 4,
+   "total": 13612,
+   "hipotecario": 3503,
+   "alquiler": 9310,
+   "otros": 799
+  },
+  {
+   "year": 2020,
+   "quarter": 1,
+   "total": 9665,
+   "hipotecario": 2392,
+   "alquiler": 6896,
+   "otros": 377
+  },
+  {
+   "year": 2020,
+   "quarter": 2,
+   "total": 1383,
+   "hipotecario": 300,
+   "alquiler": 1013,
+   "otros": 70
+  },
+  {
+   "year": 2020,
+   "quarter": 3,
+   "total": 7096,
+   "hipotecario": 1564,
+   "alquiler": 5190,
+   "otros": 342
+  },
+  {
+   "year": 2020,
+   "quarter": 4,
+   "total": 11262,
+   "hipotecario": 2659,
+   "alquiler": 8046,
+   "otros": 557
+  },
+  {
+   "year": 2021,
+   "quarter": 1,
+   "total": 10965,
+   "hipotecario": 2548,
+   "alquiler": 7866,
+   "otros": 551
+  },
+  {
+   "year": 2021,
+   "quarter": 2,
+   "total": 11574,
+   "hipotecario": 2849,
+   "alquiler": 8031,
+   "otros": 694
+  },
+  {
+   "year": 2021,
+   "quarter": 3,
+   "total": 8659,
+   "hipotecario": 2203,
+   "alquiler": 5999,
+   "otros": 457
+  },
+  {
+   "year": 2021,
+   "quarter": 4,
+   "total": 10161,
+   "hipotecario": 2503,
+   "alquiler": 7097,
+   "otros": 561
+  },
+  {
+   "year": 2022,
+   "quarter": 1,
+   "total": 11072,
+   "hipotecario": 2755,
+   "alquiler": 7625,
+   "otros": 692
+  },
+  {
+   "year": 2022,
+   "quarter": 2,
+   "total": 10816,
+   "hipotecario": 2377,
+   "alquiler": 7871,
+   "otros": 568
+  },
+  {
+   "year": 2022,
+   "quarter": 3,
+   "total": 7397,
+   "hipotecario": 1530,
+   "alquiler": 5455,
+   "otros": 412
+  },
+  {
+   "year": 2022,
+   "quarter": 4,
+   "total": 8981,
+   "hipotecario": 1847,
+   "alquiler": 6582,
+   "otros": 553
+  },
+  {
+   "year": 2023,
+   "quarter": 1,
+   "total": 6579,
+   "hipotecario": 1308,
+   "alquiler": 4860,
+   "otros": 411
+  },
+  {
+   "year": 2023,
+   "quarter": 2,
+   "total": 7279,
+   "hipotecario": 1497,
+   "alquiler": 5306,
+   "otros": 476
+  },
+  {
+   "year": 2023,
+   "quarter": 3,
+   "total": 5474,
+   "hipotecario": 963,
+   "alquiler": 4178,
+   "otros": 333
+  },
+  {
+   "year": 2023,
+   "quarter": 4,
+   "total": 7327,
+   "hipotecario": 1492,
+   "alquiler": 5332,
+   "otros": 503
+  },
+  {
+   "year": 2024,
+   "quarter": 1,
+   "total": 7424,
+   "hipotecario": 1448,
+   "alquiler": 5443,
+   "otros": 533
+  },
+  {
+   "year": 2024,
+   "quarter": 2,
+   "total": 7850,
+   "hipotecario": 1469,
+   "alquiler": 5874,
+   "otros": 507
+  },
+  {
+   "year": 2024,
+   "quarter": 3,
+   "total": 5308,
+   "hipotecario": 927,
+   "alquiler": 3985,
+   "otros": 396
+  },
+  {
+   "year": 2024,
+   "quarter": 4,
+   "total": 6982,
+   "hipotecario": 1229,
+   "alquiler": 5256,
+   "otros": 497
+  },
+  {
+   "year": 2025,
+   "quarter": 1,
+   "total": 7334,
+   "hipotecario": 1189,
+   "alquiler": 5644,
+   "otros": 501
+  },
+  {
+   "year": 2025,
+   "quarter": 2,
+   "total": 6960,
+   "hipotecario": 1217,
+   "alquiler": 5299,
+   "otros": 444
+  },
+  {
+   "year": 2025,
+   "quarter": 3,
+   "total": 4839,
+   "hipotecario": 847,
+   "alquiler": 3581,
+   "otros": 411
+  },
+  {
+   "year": 2025,
+   "quarter": 4,
+   "total": 5407,
+   "hipotecario": 1093,
+   "alquiler": 3793,
+   "otros": 521
+  },
+  {
+   "year": 2026,
+   "quarter": 1,
+   "total": 4005,
+   "hipotecario": 971,
+   "alquiler": 2600,
+   "otros": 434
+  }
+ ],
+ "ccaa": [
+  {
+   "code": "01",
+   "name": "Andalucía",
+   "population": 8676713,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 9266,
+     "alquiler": 4475,
+     "hipotecario": 4280,
+     "otros": 511
+    },
+    "2014": {
+     "total": 10344,
+     "alquiler": 4408,
+     "hipotecario": 5285,
+     "otros": 651
+    },
+    "2015": {
+     "total": 10694,
+     "alquiler": 4469,
+     "hipotecario": 5707,
+     "otros": 518
+    },
+    "2016": {
+     "total": 9998,
+     "alquiler": 4364,
+     "hipotecario": 5193,
+     "otros": 441
+    },
+    "2017": {
+     "total": 10437,
+     "alquiler": 4713,
+     "hipotecario": 5150,
+     "otros": 574
+    },
+    "2018": {
+     "total": 9795,
+     "alquiler": 5093,
+     "hipotecario": 4082,
+     "otros": 620
+    },
+    "2019": {
+     "total": 8806,
+     "alquiler": 5135,
+     "hipotecario": 3117,
+     "otros": 554
+    },
+    "2020": {
+     "total": 4517,
+     "alquiler": 2942,
+     "hipotecario": 1349,
+     "otros": 226
+    },
+    "2021": {
+     "total": 6615,
+     "alquiler": 4315,
+     "hipotecario": 1886,
+     "otros": 414
+    },
+    "2022": {
+     "total": 6717,
+     "alquiler": 4506,
+     "hipotecario": 1746,
+     "otros": 466
+    },
+    "2023": {
+     "total": 4449,
+     "alquiler": 2961,
+     "hipotecario": 1135,
+     "otros": 353
+    },
+    "2024": {
+     "total": 4027,
+     "alquiler": 2712,
+     "hipotecario": 994,
+     "otros": 321
+    },
+    "2025": {
+     "total": 3782,
+     "alquiler": 2600,
+     "hipotecario": 913,
+     "otros": 269
+    }
+   },
+   "q1_2026": {
+    "total": 616,
+    "hipotecario": 208,
+    "alquiler": 355,
+    "otros": 53
+   },
+   "population_tsj_incl_ceuta_melilla": 8847347,
+   "note": "CGPJ pública por TSJ; la cifra de Andalucía corresponde al TSJ de Andalucía, Ceuta y Melilla (incluye partidos judiciales de Ceuta y Melilla). Para tasas usar population_tsj_incl_ceuta_melilla.",
+   "rate_per_100k_2025": {
+    "total": 42.75,
+    "alquiler": 29.39,
+    "hipotecario": 10.32
+   }
+  },
+  {
+   "code": "02",
+   "name": "Aragón",
+   "population": 1364621,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 1787,
+     "alquiler": 1020,
+     "hipotecario": 685,
+     "otros": 82
+    },
+    "2014": {
+     "total": 1736,
+     "alquiler": 921,
+     "hipotecario": 748,
+     "otros": 67
+    },
+    "2015": {
+     "total": 1749,
+     "alquiler": 924,
+     "hipotecario": 785,
+     "otros": 40
+    },
+    "2016": {
+     "total": 1723,
+     "alquiler": 957,
+     "hipotecario": 681,
+     "otros": 85
+    },
+    "2017": {
+     "total": 1789,
+     "alquiler": 1070,
+     "hipotecario": 659,
+     "otros": 60
+    },
+    "2018": {
+     "total": 1565,
+     "alquiler": 1090,
+     "hipotecario": 436,
+     "otros": 39
+    },
+    "2019": {
+     "total": 1234,
+     "alquiler": 915,
+     "hipotecario": 280,
+     "otros": 39
+    },
+    "2020": {
+     "total": 791,
+     "alquiler": 609,
+     "hipotecario": 152,
+     "otros": 30
+    },
+    "2021": {
+     "total": 873,
+     "alquiler": 569,
+     "hipotecario": 264,
+     "otros": 40
+    },
+    "2022": {
+     "total": 918,
+     "alquiler": 685,
+     "hipotecario": 200,
+     "otros": 33
+    },
+    "2023": {
+     "total": 642,
+     "alquiler": 491,
+     "hipotecario": 131,
+     "otros": 20
+    },
+    "2024": {
+     "total": 638,
+     "alquiler": 517,
+     "hipotecario": 92,
+     "otros": 29
+    },
+    "2025": {
+     "total": 631,
+     "alquiler": 505,
+     "hipotecario": 104,
+     "otros": 22
+    }
+   },
+   "q1_2026": {
+    "total": 52,
+    "hipotecario": 6,
+    "alquiler": 44,
+    "otros": 2
+   },
+   "rate_per_100k_2025": {
+    "total": 46.24,
+    "alquiler": 37.01,
+    "hipotecario": 7.62
+   }
+  },
+  {
+   "code": "03",
+   "name": "Asturias, Principado de",
+   "population": 1015128,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 1178,
+     "alquiler": 798,
+     "hipotecario": 301,
+     "otros": 79
+    },
+    "2014": {
+     "total": 1241,
+     "alquiler": 779,
+     "hipotecario": 343,
+     "otros": 119
+    },
+    "2015": {
+     "total": 1228,
+     "alquiler": 814,
+     "hipotecario": 360,
+     "otros": 54
+    },
+    "2016": {
+     "total": 1144,
+     "alquiler": 791,
+     "hipotecario": 281,
+     "otros": 72
+    },
+    "2017": {
+     "total": 1085,
+     "alquiler": 762,
+     "hipotecario": 283,
+     "otros": 40
+    },
+    "2018": {
+     "total": 1091,
+     "alquiler": 811,
+     "hipotecario": 230,
+     "otros": 50
+    },
+    "2019": {
+     "total": 1000,
+     "alquiler": 777,
+     "hipotecario": 158,
+     "otros": 65
+    },
+    "2020": {
+     "total": 716,
+     "alquiler": 590,
+     "hipotecario": 108,
+     "otros": 18
+    },
+    "2021": {
+     "total": 743,
+     "alquiler": 598,
+     "hipotecario": 131,
+     "otros": 14
+    },
+    "2022": {
+     "total": 752,
+     "alquiler": 621,
+     "hipotecario": 108,
+     "otros": 23
+    },
+    "2023": {
+     "total": 485,
+     "alquiler": 422,
+     "hipotecario": 46,
+     "otros": 17
+    },
+    "2024": {
+     "total": 704,
+     "alquiler": 571,
+     "hipotecario": 88,
+     "otros": 45
+    },
+    "2025": {
+     "total": 603,
+     "alquiler": 467,
+     "hipotecario": 95,
+     "otros": 41
+    }
+   },
+   "q1_2026": {
+    "total": 48,
+    "hipotecario": 18,
+    "alquiler": 29,
+    "otros": 1
+   },
+   "rate_per_100k_2025": {
+    "total": 59.4,
+    "alquiler": 46.0,
+    "hipotecario": 9.36
+   }
+  },
+  {
+   "code": "04",
+   "name": "Balears, Illes",
+   "population": 1249844,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 2446,
+     "alquiler": 1580,
+     "hipotecario": 824,
+     "otros": 42
+    },
+    "2014": {
+     "total": 2518,
+     "alquiler": 1587,
+     "hipotecario": 889,
+     "otros": 42
+    },
+    "2015": {
+     "total": 2347,
+     "alquiler": 1438,
+     "hipotecario": 865,
+     "otros": 44
+    },
+    "2016": {
+     "total": 2291,
+     "alquiler": 1468,
+     "hipotecario": 802,
+     "otros": 21
+    },
+    "2017": {
+     "total": 2129,
+     "alquiler": 1465,
+     "hipotecario": 636,
+     "otros": 28
+    },
+    "2018": {
+     "total": 2001,
+     "alquiler": 1528,
+     "hipotecario": 428,
+     "otros": 45
+    },
+    "2019": {
+     "total": 1834,
+     "alquiler": 1470,
+     "hipotecario": 297,
+     "otros": 67
+    },
+    "2020": {
+     "total": 1109,
+     "alquiler": 926,
+     "hipotecario": 138,
+     "otros": 45
+    },
+    "2021": {
+     "total": 1351,
+     "alquiler": 1156,
+     "hipotecario": 158,
+     "otros": 37
+    },
+    "2022": {
+     "total": 1209,
+     "alquiler": 1036,
+     "hipotecario": 113,
+     "otros": 60
+    },
+    "2023": {
+     "total": 880,
+     "alquiler": 747,
+     "hipotecario": 93,
+     "otros": 40
+    },
+    "2024": {
+     "total": 880,
+     "alquiler": 745,
+     "hipotecario": 96,
+     "otros": 39
+    },
+    "2025": {
+     "total": 851,
+     "alquiler": 731,
+     "hipotecario": 89,
+     "otros": 31
+    }
+   },
+   "q1_2026": {
+    "total": 54,
+    "hipotecario": 2,
+    "alquiler": 48,
+    "otros": 4
+   },
+   "rate_per_100k_2025": {
+    "total": 68.09,
+    "alquiler": 58.49,
+    "hipotecario": 7.12
+   }
+  },
+  {
+   "code": "05",
+   "name": "Canarias",
+   "population": 2258866,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 4331,
+     "alquiler": 2176,
+     "hipotecario": 1905,
+     "otros": 250
+    },
+    "2014": {
+     "total": 4298,
+     "alquiler": 2086,
+     "hipotecario": 2042,
+     "otros": 170
+    },
+    "2015": {
+     "total": 4391,
+     "alquiler": 2139,
+     "hipotecario": 2159,
+     "otros": 93
+    },
+    "2016": {
+     "total": 3690,
+     "alquiler": 1913,
+     "hipotecario": 1644,
+     "otros": 133
+    },
+    "2017": {
+     "total": 3524,
+     "alquiler": 2096,
+     "hipotecario": 1246,
+     "otros": 182
+    },
+    "2018": {
+     "total": 3808,
+     "alquiler": 2450,
+     "hipotecario": 1163,
+     "otros": 195
+    },
+    "2019": {
+     "total": 3333,
+     "alquiler": 2343,
+     "hipotecario": 842,
+     "otros": 148
+    },
+    "2020": {
+     "total": 1779,
+     "alquiler": 1338,
+     "hipotecario": 382,
+     "otros": 59
+    },
+    "2021": {
+     "total": 2763,
+     "alquiler": 2154,
+     "hipotecario": 500,
+     "otros": 109
+    },
+    "2022": {
+     "total": 2445,
+     "alquiler": 1887,
+     "hipotecario": 429,
+     "otros": 129
+    },
+    "2023": {
+     "total": 1782,
+     "alquiler": 1398,
+     "hipotecario": 283,
+     "otros": 101
+    },
+    "2024": {
+     "total": 1732,
+     "alquiler": 1302,
+     "hipotecario": 306,
+     "otros": 124
+    },
+    "2025": {
+     "total": 1426,
+     "alquiler": 1129,
+     "hipotecario": 224,
+     "otros": 73
+    }
+   },
+   "q1_2026": {
+    "total": 103,
+    "hipotecario": 34,
+    "alquiler": 61,
+    "otros": 8
+   },
+   "rate_per_100k_2025": {
+    "total": 63.13,
+    "alquiler": 49.98,
+    "hipotecario": 9.92
+   }
+  },
+  {
+   "code": "06",
+   "name": "Cantabria",
+   "population": 593623,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 716,
+     "alquiler": 433,
+     "hipotecario": 205,
+     "otros": 78
+    },
+    "2014": {
+     "total": 625,
+     "alquiler": 350,
+     "hipotecario": 219,
+     "otros": 56
+    },
+    "2015": {
+     "total": 799,
+     "alquiler": 462,
+     "hipotecario": 311,
+     "otros": 26
+    },
+    "2016": {
+     "total": 721,
+     "alquiler": 438,
+     "hipotecario": 216,
+     "otros": 67
+    },
+    "2017": {
+     "total": 705,
+     "alquiler": 505,
+     "hipotecario": 165,
+     "otros": 35
+    },
+    "2018": {
+     "total": 576,
+     "alquiler": 427,
+     "hipotecario": 110,
+     "otros": 39
+    },
+    "2019": {
+     "total": 564,
+     "alquiler": 428,
+     "hipotecario": 102,
+     "otros": 34
+    },
+    "2020": {
+     "total": 461,
+     "alquiler": 371,
+     "hipotecario": 77,
+     "otros": 13
+    },
+    "2021": {
+     "total": 559,
+     "alquiler": 410,
+     "hipotecario": 125,
+     "otros": 24
+    },
+    "2022": {
+     "total": 448,
+     "alquiler": 350,
+     "hipotecario": 87,
+     "otros": 11
+    },
+    "2023": {
+     "total": 151,
+     "alquiler": 123,
+     "hipotecario": 18,
+     "otros": 10
+    },
+    "2024": {
+     "total": 257,
+     "alquiler": 207,
+     "hipotecario": 34,
+     "otros": 16
+    },
+    "2025": {
+     "total": 191,
+     "alquiler": 150,
+     "hipotecario": 20,
+     "otros": 21
+    }
+   },
+   "q1_2026": {
+    "total": 37,
+    "hipotecario": 7,
+    "alquiler": 30,
+    "otros": 0
+   },
+   "rate_per_100k_2025": {
+    "total": 32.18,
+    "alquiler": 25.27,
+    "hipotecario": 3.37
+   }
+  },
+  {
+   "code": "07",
+   "name": "Castilla y León",
+   "population": 2401221,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 2768,
+     "alquiler": 1689,
+     "hipotecario": 910,
+     "otros": 169
+    },
+    "2014": {
+     "total": 2798,
+     "alquiler": 1583,
+     "hipotecario": 1087,
+     "otros": 128
+    },
+    "2015": {
+     "total": 2719,
+     "alquiler": 1410,
+     "hipotecario": 1102,
+     "otros": 207
+    },
+    "2016": {
+     "total": 2720,
+     "alquiler": 1551,
+     "hipotecario": 1006,
+     "otros": 163
+    },
+    "2017": {
+     "total": 2716,
+     "alquiler": 1658,
+     "hipotecario": 849,
+     "otros": 209
+    },
+    "2018": {
+     "total": 2504,
+     "alquiler": 1652,
+     "hipotecario": 679,
+     "otros": 173
+    },
+    "2019": {
+     "total": 2239,
+     "alquiler": 1638,
+     "hipotecario": 479,
+     "otros": 122
+    },
+    "2020": {
+     "total": 1577,
+     "alquiler": 1256,
+     "hipotecario": 253,
+     "otros": 68
+    },
+    "2021": {
+     "total": 1629,
+     "alquiler": 1133,
+     "hipotecario": 394,
+     "otros": 102
+    },
+    "2022": {
+     "total": 1596,
+     "alquiler": 1090,
+     "hipotecario": 416,
+     "otros": 90
+    },
+    "2023": {
+     "total": 1027,
+     "alquiler": 794,
+     "hipotecario": 176,
+     "otros": 57
+    },
+    "2024": {
+     "total": 1122,
+     "alquiler": 825,
+     "hipotecario": 197,
+     "otros": 100
+    },
+    "2025": {
+     "total": 875,
+     "alquiler": 646,
+     "hipotecario": 132,
+     "otros": 97
+    }
+   },
+   "q1_2026": {
+    "total": 112,
+    "hipotecario": 45,
+    "alquiler": 57,
+    "otros": 10
+   },
+   "rate_per_100k_2025": {
+    "total": 36.44,
+    "alquiler": 26.9,
+    "hipotecario": 5.5
+   }
+  },
+  {
+   "code": "08",
+   "name": "Castilla - La Mancha",
+   "population": 2126378,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 2762,
+     "alquiler": 1161,
+     "hipotecario": 1519,
+     "otros": 82
+    },
+    "2014": {
+     "total": 2299,
+     "alquiler": 989,
+     "hipotecario": 1194,
+     "otros": 116
+    },
+    "2015": {
+     "total": 2664,
+     "alquiler": 1105,
+     "hipotecario": 1430,
+     "otros": 129
+    },
+    "2016": {
+     "total": 2364,
+     "alquiler": 1018,
+     "hipotecario": 1251,
+     "otros": 95
+    },
+    "2017": {
+     "total": 2420,
+     "alquiler": 1172,
+     "hipotecario": 1164,
+     "otros": 84
+    },
+    "2018": {
+     "total": 2401,
+     "alquiler": 1312,
+     "hipotecario": 957,
+     "otros": 132
+    },
+    "2019": {
+     "total": 1745,
+     "alquiler": 1144,
+     "hipotecario": 544,
+     "otros": 57
+    },
+    "2020": {
+     "total": 980,
+     "alquiler": 708,
+     "hipotecario": 249,
+     "otros": 23
+    },
+    "2021": {
+     "total": 1508,
+     "alquiler": 941,
+     "hipotecario": 516,
+     "otros": 51
+    },
+    "2022": {
+     "total": 1264,
+     "alquiler": 925,
+     "hipotecario": 269,
+     "otros": 70
+    },
+    "2023": {
+     "total": 748,
+     "alquiler": 573,
+     "hipotecario": 130,
+     "otros": 45
+    },
+    "2024": {
+     "total": 857,
+     "alquiler": 646,
+     "hipotecario": 174,
+     "otros": 37
+    },
+    "2025": {
+     "total": 740,
+     "alquiler": 518,
+     "hipotecario": 136,
+     "otros": 86
+    }
+   },
+   "q1_2026": {
+    "total": 108,
+    "hipotecario": 32,
+    "alquiler": 70,
+    "otros": 6
+   },
+   "rate_per_100k_2025": {
+    "total": 34.8,
+    "alquiler": 24.36,
+    "hipotecario": 6.4
+   }
+  },
+  {
+   "code": "09",
+   "name": "Cataluña",
+   "population": 8124126,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 16008,
+     "alquiler": 10817,
+     "hipotecario": 4426,
+     "otros": 765
+    },
+    "2014": {
+     "total": 15606,
+     "alquiler": 10009,
+     "hipotecario": 4861,
+     "otros": 736
+    },
+    "2015": {
+     "total": 15557,
+     "alquiler": 9685,
+     "hipotecario": 5337,
+     "otros": 535
+    },
+    "2016": {
+     "total": 14069,
+     "alquiler": 8971,
+     "hipotecario": 4452,
+     "otros": 646
+    },
+    "2017": {
+     "total": 13308,
+     "alquiler": 8624,
+     "hipotecario": 3832,
+     "otros": 852
+    },
+    "2018": {
+     "total": 13941,
+     "alquiler": 8877,
+     "hipotecario": 3778,
+     "otros": 1286
+    },
+    "2019": {
+     "total": 12446,
+     "alquiler": 8427,
+     "hipotecario": 2618,
+     "otros": 1401
+    },
+    "2020": {
+     "total": 5737,
+     "alquiler": 4211,
+     "hipotecario": 1069,
+     "otros": 457
+    },
+    "2021": {
+     "total": 9398,
+     "alquiler": 6729,
+     "hipotecario": 1766,
+     "otros": 903
+    },
+    "2022": {
+     "total": 8574,
+     "alquiler": 6160,
+     "hipotecario": 1567,
+     "otros": 847
+    },
+    "2023": {
+     "total": 7148,
+     "alquiler": 5158,
+     "hipotecario": 1264,
+     "otros": 726
+    },
+    "2024": {
+     "total": 7381,
+     "alquiler": 5539,
+     "hipotecario": 1121,
+     "otros": 721
+    },
+    "2025": {
+     "total": 6814,
+     "alquiler": 5025,
+     "hipotecario": 1050,
+     "otros": 739
+    }
+   },
+   "q1_2026": {
+    "total": 921,
+    "hipotecario": 217,
+    "alquiler": 489,
+    "otros": 215
+   },
+   "rate_per_100k_2025": {
+    "total": 83.87,
+    "alquiler": 61.85,
+    "hipotecario": 12.92
+   }
+  },
+  {
+   "code": "10",
+   "name": "Comunitat Valenciana",
+   "population": 5425182,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 9776,
+     "alquiler": 4164,
+     "hipotecario": 5353,
+     "otros": 259
+    },
+    "2014": {
+     "total": 10471,
+     "alquiler": 3928,
+     "hipotecario": 6268,
+     "otros": 275
+    },
+    "2015": {
+     "total": 10037,
+     "alquiler": 4034,
+     "hipotecario": 5767,
+     "otros": 236
+    },
+    "2016": {
+     "total": 9635,
+     "alquiler": 4056,
+     "hipotecario": 5398,
+     "otros": 181
+    },
+    "2017": {
+     "total": 8207,
+     "alquiler": 4134,
+     "hipotecario": 3885,
+     "otros": 188
+    },
+    "2018": {
+     "total": 8083,
+     "alquiler": 4485,
+     "hipotecario": 3344,
+     "otros": 254
+    },
+    "2019": {
+     "total": 7390,
+     "alquiler": 4486,
+     "hipotecario": 2633,
+     "otros": 271
+    },
+    "2020": {
+     "total": 4501,
+     "alquiler": 2765,
+     "hipotecario": 1620,
+     "otros": 116
+    },
+    "2021": {
+     "total": 6182,
+     "alquiler": 3807,
+     "hipotecario": 2192,
+     "otros": 183
+    },
+    "2022": {
+     "total": 5594,
+     "alquiler": 3511,
+     "hipotecario": 1902,
+     "otros": 181
+    },
+    "2023": {
+     "total": 3869,
+     "alquiler": 2673,
+     "hipotecario": 1049,
+     "otros": 147
+    },
+    "2024": {
+     "total": 3610,
+     "alquiler": 2517,
+     "hipotecario": 915,
+     "otros": 178
+    },
+    "2025": {
+     "total": 2992,
+     "alquiler": 2158,
+     "hipotecario": 637,
+     "otros": 197
+    }
+   },
+   "q1_2026": {
+    "total": 741,
+    "hipotecario": 158,
+    "alquiler": 513,
+    "otros": 70
+   },
+   "rate_per_100k_2025": {
+    "total": 55.15,
+    "alquiler": 39.78,
+    "hipotecario": 11.74
+   }
+  },
+  {
+   "code": "11",
+   "name": "Extremadura",
+   "population": 1053345,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 656,
+     "alquiler": 344,
+     "hipotecario": 281,
+     "otros": 31
+    },
+    "2014": {
+     "total": 770,
+     "alquiler": 373,
+     "hipotecario": 358,
+     "otros": 39
+    },
+    "2015": {
+     "total": 721,
+     "alquiler": 334,
+     "hipotecario": 343,
+     "otros": 44
+    },
+    "2016": {
+     "total": 748,
+     "alquiler": 384,
+     "hipotecario": 324,
+     "otros": 40
+    },
+    "2017": {
+     "total": 636,
+     "alquiler": 391,
+     "hipotecario": 207,
+     "otros": 38
+    },
+    "2018": {
+     "total": 697,
+     "alquiler": 428,
+     "hipotecario": 229,
+     "otros": 40
+    },
+    "2019": {
+     "total": 612,
+     "alquiler": 410,
+     "hipotecario": 155,
+     "otros": 47
+    },
+    "2020": {
+     "total": 339,
+     "alquiler": 236,
+     "hipotecario": 81,
+     "otros": 22
+    },
+    "2021": {
+     "total": 448,
+     "alquiler": 310,
+     "hipotecario": 104,
+     "otros": 34
+    },
+    "2022": {
+     "total": 415,
+     "alquiler": 319,
+     "hipotecario": 71,
+     "otros": 25
+    },
+    "2023": {
+     "total": 280,
+     "alquiler": 201,
+     "hipotecario": 65,
+     "otros": 14
+    },
+    "2024": {
+     "total": 269,
+     "alquiler": 200,
+     "hipotecario": 42,
+     "otros": 27
+    },
+    "2025": {
+     "total": 261,
+     "alquiler": 167,
+     "hipotecario": 53,
+     "otros": 41
+    }
+   },
+   "q1_2026": {
+    "total": 31,
+    "hipotecario": 10,
+    "alquiler": 18,
+    "otros": 3
+   },
+   "rate_per_100k_2025": {
+    "total": 24.78,
+    "alquiler": 15.85,
+    "hipotecario": 5.03
+   }
+  },
+  {
+   "code": "12",
+   "name": "Galicia",
+   "population": 2714741,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 2404,
+     "alquiler": 1611,
+     "hipotecario": 608,
+     "otros": 185
+    },
+    "2014": {
+     "total": 2519,
+     "alquiler": 1558,
+     "hipotecario": 803,
+     "otros": 158
+    },
+    "2015": {
+     "total": 2432,
+     "alquiler": 1507,
+     "hipotecario": 800,
+     "otros": 125
+    },
+    "2016": {
+     "total": 2384,
+     "alquiler": 1544,
+     "hipotecario": 766,
+     "otros": 74
+    },
+    "2017": {
+     "total": 2493,
+     "alquiler": 1639,
+     "hipotecario": 757,
+     "otros": 97
+    },
+    "2018": {
+     "total": 1709,
+     "alquiler": 1245,
+     "hipotecario": 410,
+     "otros": 54
+    },
+    "2019": {
+     "total": 2271,
+     "alquiler": 1800,
+     "hipotecario": 396,
+     "otros": 75
+    },
+    "2020": {
+     "total": 1398,
+     "alquiler": 1150,
+     "hipotecario": 206,
+     "otros": 42
+    },
+    "2021": {
+     "total": 1667,
+     "alquiler": 1294,
+     "hipotecario": 336,
+     "otros": 37
+    },
+    "2022": {
+     "total": 1559,
+     "alquiler": 1246,
+     "hipotecario": 277,
+     "otros": 36
+    },
+    "2023": {
+     "total": 1171,
+     "alquiler": 963,
+     "hipotecario": 164,
+     "otros": 44
+    },
+    "2024": {
+     "total": 1191,
+     "alquiler": 959,
+     "hipotecario": 181,
+     "otros": 51
+    },
+    "2025": {
+     "total": 1046,
+     "alquiler": 876,
+     "hipotecario": 118,
+     "otros": 52
+    }
+   },
+   "q1_2026": {
+    "total": 156,
+    "hipotecario": 33,
+    "alquiler": 114,
+    "otros": 9
+   },
+   "rate_per_100k_2025": {
+    "total": 38.53,
+    "alquiler": 32.27,
+    "hipotecario": 4.35
+   }
+  },
+  {
+   "code": "13",
+   "name": "Madrid, Comunidad de",
+   "population": 7113886,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 8753,
+     "alquiler": 5553,
+     "hipotecario": 2657,
+     "otros": 543
+    },
+    "2014": {
+     "total": 7966,
+     "alquiler": 5373,
+     "hipotecario": 2211,
+     "otros": 382
+    },
+    "2015": {
+     "total": 7194,
+     "alquiler": 5278,
+     "hipotecario": 1736,
+     "otros": 180
+    },
+    "2016": {
+     "total": 6674,
+     "alquiler": 4760,
+     "hipotecario": 1657,
+     "otros": 257
+    },
+    "2017": {
+     "total": 6476,
+     "alquiler": 5001,
+     "hipotecario": 1336,
+     "otros": 139
+    },
+    "2018": {
+     "total": 6435,
+     "alquiler": 5157,
+     "hipotecario": 1038,
+     "otros": 240
+    },
+    "2019": {
+     "total": 5936,
+     "alquiler": 4850,
+     "hipotecario": 859,
+     "otros": 228
+    },
+    "2020": {
+     "total": 2872,
+     "alquiler": 2398,
+     "hipotecario": 377,
+     "otros": 97
+    },
+    "2021": {
+     "total": 4039,
+     "alquiler": 3327,
+     "hipotecario": 541,
+     "otros": 171
+    },
+    "2022": {
+     "total": 3679,
+     "alquiler": 3230,
+     "hipotecario": 366,
+     "otros": 83
+    },
+    "2023": {
+     "total": 2367,
+     "alquiler": 2029,
+     "hipotecario": 280,
+     "otros": 58
+    },
+    "2024": {
+     "total": 2756,
+     "alquiler": 2375,
+     "hipotecario": 293,
+     "otros": 88
+    },
+    "2025": {
+     "total": 2267,
+     "alquiler": 1931,
+     "hipotecario": 252,
+     "otros": 84
+    }
+   },
+   "q1_2026": {
+    "total": 582,
+    "hipotecario": 107,
+    "alquiler": 454,
+    "otros": 21
+   },
+   "rate_per_100k_2025": {
+    "total": 31.87,
+    "alquiler": 27.14,
+    "hipotecario": 3.54
+   }
+  },
+  {
+   "code": "14",
+   "name": "Murcia, Región de",
+   "population": 1586989,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 2391,
+     "alquiler": 1014,
+     "hipotecario": 1318,
+     "otros": 59
+    },
+    "2014": {
+     "total": 2840,
+     "alquiler": 861,
+     "hipotecario": 1917,
+     "otros": 62
+    },
+    "2015": {
+     "total": 2750,
+     "alquiler": 826,
+     "hipotecario": 1851,
+     "otros": 73
+    },
+    "2016": {
+     "total": 3063,
+     "alquiler": 864,
+     "hipotecario": 2127,
+     "otros": 72
+    },
+    "2017": {
+     "total": 2789,
+     "alquiler": 1108,
+     "hipotecario": 1597,
+     "otros": 84
+    },
+    "2018": {
+     "total": 3178,
+     "alquiler": 1419,
+     "hipotecario": 1636,
+     "otros": 123
+    },
+    "2019": {
+     "total": 2934,
+     "alquiler": 1359,
+     "hipotecario": 1427,
+     "otros": 148
+    },
+    "2020": {
+     "total": 1504,
+     "alquiler": 744,
+     "hipotecario": 692,
+     "otros": 68
+    },
+    "2021": {
+     "total": 2239,
+     "alquiler": 1223,
+     "hipotecario": 929,
+     "otros": 87
+    },
+    "2022": {
+     "total": 1857,
+     "alquiler": 1018,
+     "hipotecario": 721,
+     "otros": 118
+    },
+    "2023": {
+     "total": 779,
+     "alquiler": 406,
+     "hipotecario": 315,
+     "otros": 58
+    },
+    "2024": {
+     "total": 1203,
+     "alquiler": 678,
+     "hipotecario": 423,
+     "otros": 102
+    },
+    "2025": {
+     "total": 780,
+     "alquiler": 458,
+     "hipotecario": 254,
+     "otros": 68
+    }
+   },
+   "q1_2026": {
+    "total": 198,
+    "hipotecario": 72,
+    "alquiler": 101,
+    "otros": 25
+   },
+   "rate_per_100k_2025": {
+    "total": 49.15,
+    "alquiler": 28.86,
+    "hipotecario": 16.01
+   }
+  },
+  {
+   "code": "15",
+   "name": "Navarra, Comunidad Foral de",
+   "population": 683854,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 390,
+     "alquiler": 274,
+     "hipotecario": 98,
+     "otros": 18
+    },
+    "2014": {
+     "total": 384,
+     "alquiler": 230,
+     "hipotecario": 144,
+     "otros": 10
+    },
+    "2015": {
+     "total": 442,
+     "alquiler": 240,
+     "hipotecario": 191,
+     "otros": 11
+    },
+    "2016": {
+     "total": 416,
+     "alquiler": 237,
+     "hipotecario": 167,
+     "otros": 12
+    },
+    "2017": {
+     "total": 415,
+     "alquiler": 254,
+     "hipotecario": 154,
+     "otros": 7
+    },
+    "2018": {
+     "total": 377,
+     "alquiler": 255,
+     "hipotecario": 97,
+     "otros": 25
+    },
+    "2019": {
+     "total": 329,
+     "alquiler": 262,
+     "hipotecario": 57,
+     "otros": 10
+    },
+    "2020": {
+     "total": 220,
+     "alquiler": 169,
+     "hipotecario": 36,
+     "otros": 15
+    },
+    "2021": {
+     "total": 247,
+     "alquiler": 201,
+     "hipotecario": 35,
+     "otros": 11
+    },
+    "2022": {
+     "total": 230,
+     "alquiler": 175,
+     "hipotecario": 45,
+     "otros": 10
+    },
+    "2023": {
+     "total": 134,
+     "alquiler": 108,
+     "hipotecario": 21,
+     "otros": 5
+    },
+    "2024": {
+     "total": 156,
+     "alquiler": 133,
+     "hipotecario": 17,
+     "otros": 6
+    },
+    "2025": {
+     "total": 167,
+     "alquiler": 135,
+     "hipotecario": 30,
+     "otros": 2
+    }
+   },
+   "q1_2026": {
+    "total": 21,
+    "hipotecario": 2,
+    "alquiler": 19,
+    "otros": 0
+   },
+   "rate_per_100k_2025": {
+    "total": 24.42,
+    "alquiler": 19.74,
+    "hipotecario": 4.39
+   }
+  },
+  {
+   "code": "16",
+   "name": "País Vasco",
+   "population": 2242343,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 1151,
+     "alquiler": 813,
+     "hipotecario": 273,
+     "otros": 65
+    },
+    "2014": {
+     "total": 1086,
+     "alquiler": 726,
+     "hipotecario": 231,
+     "otros": 129
+    },
+    "2015": {
+     "total": 1147,
+     "alquiler": 748,
+     "hipotecario": 268,
+     "otros": 131
+    },
+    "2016": {
+     "total": 960,
+     "alquiler": 632,
+     "hipotecario": 256,
+     "otros": 72
+    },
+    "2017": {
+     "total": 1196,
+     "alquiler": 834,
+     "hipotecario": 249,
+     "otros": 113
+    },
+    "2018": {
+     "total": 1191,
+     "alquiler": 847,
+     "hipotecario": 235,
+     "otros": 109
+    },
+    "2019": {
+     "total": 1043,
+     "alquiler": 806,
+     "hipotecario": 165,
+     "otros": 72
+    },
+    "2020": {
+     "total": 669,
+     "alquiler": 553,
+     "hipotecario": 76,
+     "otros": 40
+    },
+    "2021": {
+     "total": 863,
+     "alquiler": 659,
+     "hipotecario": 169,
+     "otros": 35
+    },
+    "2022": {
+     "total": 771,
+     "alquiler": 595,
+     "hipotecario": 141,
+     "otros": 35
+    },
+    "2023": {
+     "total": 593,
+     "alquiler": 518,
+     "hipotecario": 55,
+     "otros": 20
+    },
+    "2024": {
+     "total": 608,
+     "alquiler": 498,
+     "hipotecario": 78,
+     "otros": 32
+    },
+    "2025": {
+     "total": 974,
+     "alquiler": 716,
+     "hipotecario": 216,
+     "otros": 42
+    }
+   },
+   "q1_2026": {
+    "total": 213,
+    "hipotecario": 13,
+    "alquiler": 195,
+    "otros": 5
+   },
+   "rate_per_100k_2025": {
+    "total": 43.44,
+    "alquiler": 31.93,
+    "hipotecario": 9.63
+   }
+  },
+  {
+   "code": "17",
+   "name": "Rioja, La",
+   "population": 326803,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 406,
+     "alquiler": 219,
+     "hipotecario": 168,
+     "otros": 19
+    },
+    "2014": {
+     "total": 590,
+     "alquiler": 283,
+     "hipotecario": 277,
+     "otros": 30
+    },
+    "2015": {
+     "total": 488,
+     "alquiler": 264,
+     "hipotecario": 213,
+     "otros": 11
+    },
+    "2016": {
+     "total": 437,
+     "alquiler": 245,
+     "hipotecario": 176,
+     "otros": 16
+    },
+    "2017": {
+     "total": 429,
+     "alquiler": 240,
+     "hipotecario": 161,
+     "otros": 28
+    },
+    "2018": {
+     "total": 319,
+     "alquiler": 209,
+     "hipotecario": 93,
+     "otros": 17
+    },
+    "2019": {
+     "total": 290,
+     "alquiler": 218,
+     "hipotecario": 64,
+     "otros": 8
+    },
+    "2020": {
+     "total": 236,
+     "alquiler": 179,
+     "hipotecario": 50,
+     "otros": 7
+    },
+    "2021": {
+     "total": 235,
+     "alquiler": 167,
+     "hipotecario": 57,
+     "otros": 11
+    },
+    "2022": {
+     "total": 238,
+     "alquiler": 179,
+     "hipotecario": 51,
+     "otros": 8
+    },
+    "2023": {
+     "total": 154,
+     "alquiler": 111,
+     "hipotecario": 35,
+     "otros": 8
+    },
+    "2024": {
+     "total": 173,
+     "alquiler": 134,
+     "hipotecario": 22,
+     "otros": 17
+    },
+    "2025": {
+     "total": 140,
+     "alquiler": 105,
+     "hipotecario": 23,
+     "otros": 12
+    }
+   },
+   "q1_2026": {
+    "total": 12,
+    "hipotecario": 7,
+    "alquiler": 3,
+    "otros": 2
+   },
+   "rate_per_100k_2025": {
+    "total": 42.84,
+    "alquiler": 32.13,
+    "hipotecario": 7.04
+   }
+  },
+  {
+   "code": "18",
+   "name": "Ceuta",
+   "population": 83567,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 58,
+     "alquiler": 44,
+     "hipotecario": 5,
+     "otros": 9
+    },
+    "2014": {
+     "total": 26,
+     "alquiler": 14,
+     "hipotecario": 4,
+     "otros": 8
+    },
+    "2015": {
+     "total": 76,
+     "alquiler": 39,
+     "hipotecario": 16,
+     "otros": 21
+    },
+    "2016": {
+     "total": 66,
+     "alquiler": 27,
+     "hipotecario": 0,
+     "otros": 39
+    },
+    "2017": {
+     "total": 29,
+     "alquiler": 13,
+     "hipotecario": 0,
+     "otros": 16
+    },
+    "2018": {
+     "total": 32,
+     "alquiler": 23,
+     "hipotecario": 0,
+     "otros": 9
+    },
+    "2019": {
+     "total": 31,
+     "alquiler": 31,
+     "hipotecario": 0,
+     "otros": 0
+    },
+    "2020": {
+     "total": 36,
+     "alquiler": 35,
+     "hipotecario": 0,
+     "otros": 1
+    },
+    "2021": {
+     "total": 45,
+     "alquiler": 44,
+     "hipotecario": 0,
+     "otros": 1
+    },
+    "2022": {
+     "total": 33,
+     "alquiler": 33,
+     "hipotecario": 0,
+     "otros": 0
+    },
+    "2023": {
+     "total": 29,
+     "alquiler": 26,
+     "hipotecario": 3,
+     "otros": 0
+    },
+    "2024": {
+     "total": 26,
+     "alquiler": 24,
+     "hipotecario": 1,
+     "otros": 1
+    },
+    "2025": {
+     "total": 25,
+     "alquiler": 15,
+     "hipotecario": 6,
+     "otros": 4
+    }
+   },
+   "q1_2026": null,
+   "note": "Dato del fichero CGPJ 'Lanzamientos por PJs 2013-2025' (partido judicial). YA INCLUIDO en la cifra del TSJ de Andalucía: no sumar al total nacional.",
+   "source_detail": "partido_judicial",
+   "rate_per_100k_2025": {
+    "total": 29.92,
+    "alquiler": 17.95,
+    "hipotecario": 7.18
+   }
+  },
+  {
+   "code": "19",
+   "name": "Melilla",
+   "population": 87067,
+   "population_date": "2025-01-01",
+   "years": {
+    "2013": {
+     "total": 122,
+     "alquiler": 116,
+     "hipotecario": 4,
+     "otros": 2
+    },
+    "2014": {
+     "total": 135,
+     "alquiler": 125,
+     "hipotecario": 0,
+     "otros": 10
+    },
+    "2015": {
+     "total": 146,
+     "alquiler": 142,
+     "hipotecario": 1,
+     "otros": 3
+    },
+    "2016": {
+     "total": 72,
+     "alquiler": 68,
+     "hipotecario": 2,
+     "otros": 2
+    },
+    "2017": {
+     "total": 94,
+     "alquiler": 81,
+     "hipotecario": 4,
+     "otros": 9
+    },
+    "2018": {
+     "total": 87,
+     "alquiler": 80,
+     "hipotecario": 1,
+     "otros": 6
+    },
+    "2019": {
+     "total": 91,
+     "alquiler": 85,
+     "hipotecario": 5,
+     "otros": 1
+    },
+    "2020": {
+     "total": 65,
+     "alquiler": 62,
+     "hipotecario": 3,
+     "otros": 0
+    },
+    "2021": {
+     "total": 99,
+     "alquiler": 88,
+     "hipotecario": 9,
+     "otros": 2
+    },
+    "2022": {
+     "total": 76,
+     "alquiler": 67,
+     "hipotecario": 4,
+     "otros": 5
+    },
+    "2023": {
+     "total": 59,
+     "alquiler": 54,
+     "hipotecario": 2,
+     "otros": 3
+    },
+    "2024": {
+     "total": 40,
+     "alquiler": 36,
+     "hipotecario": 1,
+     "otros": 3
+    },
+    "2025": {
+     "total": 45,
+     "alquiler": 36,
+     "hipotecario": 6,
+     "otros": 3
+    }
+   },
+   "q1_2026": null,
+   "note": "Dato del fichero CGPJ 'Lanzamientos por PJs 2013-2025' (partido judicial). YA INCLUIDO en la cifra del TSJ de Andalucía: no sumar al total nacional.",
+   "source_detail": "partido_judicial",
+   "rate_per_100k_2025": {
+    "total": 51.68,
+    "alquiler": 41.35,
+    "hipotecario": 6.89
+   }
+  }
+ ],
+ "national_2026": {
+  "Q1": {
+   "total": 4005,
+   "hipotecario": 971,
+   "alquiler": 2600,
+   "otros": 434,
+   "var_interanual_total_pct": -45.4,
+   "var_interanual_alquiler_pct": -53.9,
+   "var_interanual_hipotecario_pct": -18.3
+  },
+  "Q2": null,
+  "Q2_status": "No publicado a 2026-09-27 (CGPJ pública el 2T en otoño)."
+ },
+ "notes": [
+  "Definición CGPJ: 'lanzamiento' = acto material de desalojo/entrega de posesión de un inmueble. Afecta a cualquier tipo de inmueble (no solo vivienda, ni solo vivienda habitual). Un lanzamiento no equivale a un hogar.",
+  "Tipos: 'hipotecario' = derivado de ejecución hipotecaria; 'alquiler' = derivado de procedimientos de la Ley de Arrendamientos Urbanos (mayoritariamente impago de renta); 'otros' = resto de causas (p.ej. laudos, familia, precario, ocupación, etc.).",
+  "Serie disponible desde 1T 2013 (primer año con dato de Juzgados de 1ª Instancia; no comparable con años anteriores). No sumar con los lanzamientos de Servicios Comunes (otra estadística parcial).",
+  "Cifras de la hoja de Series por TSJ revisada (1T-2026). Pueden diferir en pocas unidades de las notas de prensa/ficheros anuales originales (p.ej. 2022: 38.266 en serie vs 38.269 en fichero anual 2022; LAU 2019: 36.468 vs 36.467 en nota de prensa).",
+  "Geografía: el CGPJ pública por Tribunal Superior de Justicia. El TSJ de Andalucía incluye Ceuta y Melilla (verificado: suma de partidos judiciales andaluces + Ceuta + Melilla = total TSJ Andalucía 2023, 4.449). Ceuta y Melilla se dan aparte desde el fichero por partidos judiciales y NO deben sumarse al total nacional.",
+  "Población: INE Estadística Continua de Población, 1-ene-2025 (tabla 56940). Tasas 2025 por 100.000 hab. calculadas aquí con esa población (Andalucía con Andalucía+Ceuta+Melilla). El CGPJ pública sus propias tasas con población algo distinta (p.ej. total 49,96/100k en 2025; Cataluña 83,6).",
+  "Fichero por partidos judiciales 2013-2025: la columna 2025 suma 27.292 en total, por encima del total TSJ oficial 24.540 (inconsistencia interna del fichero CGPJ). Las cifras 2025 de Ceuta (25) y Melilla (45) proceden de ese fichero: confianza media.",
+  "Moratoria antidesahucios: RDL 11/2020 (31-mar-2020), arts. 1 y 1 bis, suspensión de desahucios y lanzamientos de hogares vulnerables sin alternativa habitacional. Prorrogada sucesivamente (RDL 37/2020, 1/2021, 16/2021, 21/2021, 11/2022, 20/2022, 8/2023, 1/2025) hasta 31-dic-2025. El RDL 16/2025 (23-dic-2025) que la prorrogaba fue derogado por el Congreso el 27-ene-2026; el RDL 2/2026 (3-feb-2026), que la extendía a 31-dic-2026 (excluyendo arrendadores con 2 o menos viviendas), fue derogado el 25-feb-2026 (BOE-A-2026-4667, 28-feb-2026). Desde entonces no hay suspensión extraordinaria vigente; el efecto sobre lanzamientos debería verse en 2T/3T 2026.",
+  "Caída de 2020 (-45,6%): confinamiento/suspensión de plazos procesales COVID (RD 463/2020) + moratoria RDL 11/2020.",
+  "Ley 12/2023 por el derecho a la vivienda (BOE 25-may-2023, vigor 26-may-2023): reforma LEC (arts. 439, 441, 549, 655 bis, 685, 704): exige indicar si el inmueble es vivienda habitual y si el demandante es gran tenedor, acreditación de vulnerabilidad y procedimiento previo de conciliación/intermediación para grandes tenedores con ocupante vulnerable, fija día y hora exactos del lanzamiento, y amplía la suspensión por vulnerabilidad (hasta 2 meses si el actor es persona física, 4 meses si es jurídica). Coincide con la caída de 2023 (-30,3%).",
+  "LO 1/2025 de eficiencia del Servicio Público de Justicia (vigor 3-abr-2025): introduce MASC como requisito de procedibilidad en el orden civil, lo que se cita como factor de retraso en nuevas demandas; la bajada de 1T 2026 (-45,4%) contrasta con ejecuciones hipotecarias presentadas al alza (+35,6% en 2025, +17,5% en 1T 2026) y con lanzamientos recibidos en Servicios Comunes (+19,2% en 1T 2026), señal de retraso más que de mejora (crítica de PAH Barcelona)."
+ ],
+ "context_indicators": {
+  "ejecuciones_hipotecarias_presentadas": {
+   "2025": 31416,
+   "2025_var_pct": 35.6,
+   "2026_Q1": 7194,
+   "2026_Q1_var_pct": 17.5,
+   "2019": 17411
+  },
+  "lanzamientos_servicios_comunes_recibidos": {
+   "2026_Q1": 16167,
+   "2025_Q1": 13563,
+   "cumplimiento_positivo_2026_Q1": 7696
+  }
+ },
+ "sources": [
+  {
+   "name": "CGPJ. Series - Efecto de la crisis en los órganos judiciales por TSJ (1T-2026, revisado). Hojas 'Lanzamientos practic. total/E.hipotecaria/L.A.U/Otros TSJ'",
+   "url": "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Series%20-%20Efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%20por%20TSJ%201T-2026_revisado.xlsx",
+   "accessed": "2026-09-27"
+  },
+  {
+   "name": "CGPJ. Datos de lanzamientos practicados por partidos judiciales 2013-2025 (Ceuta, Melilla)",
+   "url": "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Lanzamientos%20por%20PJs_2013_%202025.xlsx",
+   "accessed": "2026-09-27"
+  },
+  {
+   "name": "CGPJ. Datos sobre el efecto de la crisis en órganos judiciales - Anual 2025 (contraste)",
+   "url": "https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Crisis/Datos%20sobre%20el%20efecto%20de%20la%20crisis%20en%20los%20organos%20judiciales%20-%20Anual%202025.xlsx",
+   "accessed": "2026-09-27"
+  },
+  {
+   "name": "CGPJ. Página 'Efecto de la Crisis en los órganos judiciales' (índice de ficheros y definiciones)",
+   "url": "https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estudios-e-Informes/Efecto-de-la-Crisis-en-los-organos-judiciales",
+   "accessed": "2026-09-27"
+  },
+  {
+   "name": "CGPJ nota de prensa anual 2025",
+   "url": "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/En-Portada/Las-ejecuciones-hipotecarias-y-los-concursos-registrados-en-los-organos-judiciales-crecieron-en-2025-un-30---respecto-al-ano-anterior",
+   "accessed": "2026-09-27"
+  },
+  {
+   "name": "CGPJ nota de prensa 1T 2026",
+   "url": "https://www.poderjudicial.es/cgpj/gl/Poder-Xudicial/En-Portada/Todos-los-tipos-de-lanzamientos--tanto-los-derivados-del-impago-del-alquiler-como-de-la-hipoteca--disminuyeron-en-el-primer-trimestre-de-2026",
+   "accessed": "2026-09-27"
+  },
+  {
+   "name": "INE. Estadística Continua de Población, 1-ene-2025, por CCAA (tabla 56940, API Tempus)",
+   "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/56940?nult=1",
+   "accessed": "2026-09-27"
+  },
+  {
+   "name": "BOE. Derogación RDL 2/2026 (BOE-A-2026-4667)",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-4667",
+   "accessed": "2026-09-27"
+  },
+  {
+   "name": "BOE. RDL 2/2026 texto consolidado (prórroga suspensión hasta 31-12-2026, derogado)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-2547",
+   "accessed": "2026-09-27"
+  },
+  {
+   "name": "PAH Barcelona. Crítica datos 1T 2026 (servicios comunes)",
+   "url": "https://pahbarcelona.org/no-nos-creemos-la-bajada-de-los-desahucios-anunciada",
+   "accessed": "2026-09-27"
+  },
+  {
+   "name": "Cadena SER 2014, datos 2013 CGPJ (contraste)",
+   "url": "https://cadenaser.com/ser/2014/03/28/economia/1395967155_850215.html",
+   "accessed": "2026-09-27"
+  },
+  {
+   "name": "RTVE 2020, datos 2019 CGPJ (contraste)",
+   "url": "https://www.rtve.es/noticias/20200309/desahucios-cayeron-95-2019/2007503.shtml",
+   "accessed": "2026-09-27"
+  }
+ ]
+}

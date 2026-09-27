@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Techo · La vivienda en España, en datos</title>
+<meta name="description" content="Mapa interactivo de la vivienda en España: desahucios por comunidad, precios de venta y alquiler, grandes tenedores, acampadas en directo, legislación, cobertura en medios y ayudas para inquilinos.">
+<meta property="og:title" content="Techo · La vivienda en España, en datos">
+<meta property="og:description" content="Desahucios, precios, fondos, acampadas en directo, leyes y ayudas. Datos abiertos con fuentes.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M3 15 16 4l13 11v13H3z' fill='%23f2b200'/%3E%3Cpath d='M12 28v-8h8v8' fill='%23171b20'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;600&family=Public+Sans:ital,wght@0,400..700;1,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Techo, inicio">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 15 16 4l13 11v13H3z" fill="#f2b200"/><path d="M12 28v-8h8v8" fill="currentColor" opacity=".9"/></svg>Techo
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#directo">Directo</a>
+      <a href="#mapa">Mapa</a>
+      <a href="#desahucios">Desahucios</a>
+      <a href="#precios">Precios</a>
+      <a href="#fondos">Grandes tenedores</a>
+      <a href="#legislacion">Leyes y partidos</a>
+      <a href="#medios">Medios</a>
+      <a href="#ayudas">Ayudas</a>
+      <a href="#fuentes">Fuentes</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" type="button" aria-label="Cambiar tema">◐</button>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero wrap">
+    <p class="eyebrow"><span class="pill live" id="heroLive" hidden>En directo</span><span id="heroUpdated">Datos abiertos · fuentes enlazadas</span></p>
+    <h1>La vivienda en España, <mark>en datos</mark></h1>
+    <p class="lede">Desahucios, precios, grandes tenedores, leyes y protestas en un solo mapa. Cada cifra enlaza a su fuente oficial o periodística. Las noticias y acampadas se actualizan cada 30 minutos.</p>
+    <div class="kpis" id="kpis"></div>
+  </div>
+
+  <section class="block" id="directo">
+    <div class="wrap">
+      <p class="eyebrow">Última hora</p>
+      <h2>Acampadas y movilizaciones</h2>
+      <p class="intro" id="movSummary"></p>
+      <div class="live-grid">
+        <div class="card" id="camps"></div>
+        <div class="card">
+          <div class="tabs" id="feedTabs" role="group" aria-label="Filtrar noticias"></div>
+          <ul class="feed" id="feed"></ul>
+          <p class="note" id="feedNote"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="mapa">
+    <div class="wrap">
+      <p class="eyebrow">Por comunidad autónoma</p>
+      <h2>Mapa</h2>
+      <p class="intro">Elige una capa y pulsa una comunidad para ver su ficha: desahucios, precios, salarios, esfuerzo, gobierno y ayudas. Los puntos rojos son acampadas confirmadas; los círculos discontinuos, ciudades con menciones de acampadas en prensa en los últimos 14 días.</p>
+      <div class="tabs" id="layerBtns" role="group" aria-label="Capa del mapa"></div>
+      <div class="map-layout">
+        <div class="map-box">
+          <div id="map" role="region" aria-label="Mapa de España por comunidades"></div>
+          <div class="inset"><span class="inset-label">Canarias</span><div id="mapCanarias" style="position:absolute;inset:0"></div></div>
+          <div class="legend" id="legend"></div>
+        </div>
+        <aside class="side" id="side" aria-live="polite"></aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="desahucios">
+    <div class="wrap">
+      <p class="eyebrow">CGPJ · lanzamientos practicados</p>
+      <h2>Desahucios</h2>
+      <p class="intro" id="desIntro"></p>
+      <div class="card"><div class="chart" id="desChart"></div><div class="keys" id="desKeys"></div></div>
+      <h3 style="margin-top:32px">Por comunidad, 2025</h3>
+      <div class="table-wrap" id="desTable"></div>
+      <div id="desNotes"></div>
+    </div>
+  </section>
+
+  <section class="block" id="precios">
+    <div class="wrap">
+      <p class="eyebrow">Venta · alquiler · esfuerzo</p>
+      <h2>Precios</h2>
+      <p class="intro" id="preIntro"></p>
+      <div id="preBody"><div class="empty">Cargando datos de precios…</div></div>
+    </div>
+  </section>
+
+  <section class="block" id="fondos">
+    <div class="wrap">
+      <p class="eyebrow">Fondos de inversión, SOCIMI, bancos y servicers</p>
+      <h2>Grandes tenedores</h2>
+      <p class="intro">Popularmente llamados «fondos buitre». Aquí usamos el término neutro <em>grandes tenedores</em>. Las cifras proceden de fuentes distintas (fianzas depositadas, cuentas anuales, estimaciones de prensa) y no siempre son comparables entre sí; el gráfico solo compara cifras de la misma metodología.</p>
+      <div class="grid-2">
+        <div class="card"><h3>Viviendas alquiladas con fianza depositada</h3><p class="small muted" id="fonChartSub"></p><div class="hbar" id="fonChart"></div></div>
+        <div class="card"><h3>Qué parte del alquiler controlan</h3><div id="fonAgg"></div></div>
+      </div>
+      <div class="grid-2" style="margin-top:28px">
+        <div><h3>Grandes operaciones</h3><ul class="timeline" id="fonTimeline"></ul></div>
+        <div><h3>Entidades</h3><div id="fonEntities"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="legislacion">
+    <div class="wrap">
+      <p class="eyebrow">Decretos, leyes, votaciones y comunidades</p>
+      <h2>Leyes y partidos</h2>
+      <p class="intro">Normas estatales y autonómicas con enlace al boletín oficial, votaciones en el Congreso y qué ha hecho cada comunidad con la Ley de Vivienda. Solo hechos documentados: votos, recursos y normas aprobadas.</p>
+      <div id="legBody"><div class="empty">Cargando legislación…</div></div>
+    </div>
+  </section>
+
+  <section class="block" id="medios">
+    <div class="wrap">
+      <p class="eyebrow">Monitor automático de prensa</p>
+      <h2>Qué cuentan los medios</h2>
+      <p class="intro">Piezas sobre vivienda publicadas por cada medio, recogidas cada 30 minutos de Google News y de los RSS de los propios medios. Mide volumen de cobertura, no línea editorial.</p>
+      <div class="card"><h3>Piezas por día, todos los medios</h3><div class="chart" id="medChart"></div></div>
+      <div class="tabs" id="medTopics" role="group" aria-label="Filtrar por tema" style="margin-top:24px"></div>
+      <div class="table-wrap" id="medTable"></div>
+      <div class="tabs" style="margin-top:12px"><button type="button" id="medMore" hidden></button></div>
+      <p class="note" id="medNote"></p>
+    </div>
+  </section>
+
+  <section class="block" id="ayudas">
+    <div class="wrap">
+      <p class="eyebrow">Para inquilinos</p>
+      <h2>Ayudas y recursos</h2>
+      <div id="ayuBody"><div class="empty">Cargando ayudas…</div></div>
+    </div>
+  </section>
+</main>
+
+<footer id="fuentes">
+  <div class="wrap">
+    <h2>Fuentes y metodología</h2>
+    <div id="sources"></div>
+    <p>Proyecto sin ánimo de lucro, de código abierto. Si ves un error, <a href="https://github.com/pedri77/mapa-vivienda-espana/issues">abre una incidencia en GitHub</a>. Mapa base © <a href="https://www.esri.com/">Esri</a>, HERE, Garmin y © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>. Límites: <a href="https://github.com/martgnz/es-atlas">es-atlas</a> (IGN).</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin></script>
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>

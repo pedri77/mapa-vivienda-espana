@@ -1,0 +1,142 @@
+{
+ "updated": "2026-09-27",
+ "summary": "El 23 de septiembre fue desahuciada en Madrid Maricarmen Abascal, de 87 años, tras más de 70 años en su piso de alquiler, cuya renta había pasado de 500 a 1.300 euros. El sábado 26 el Sindicato de Inquilinas convocó marchas en unas 40 ciudades bajo el lema «Ni una Maricarmen más» (25.000 asistentes en Madrid según la Delegación del Gobierno; 300.000 según los convocantes). La marcha terminó en una acampada en la Puerta del Sol que exige al Consejo de Ministros del martes 29 un «decreto Maricarmen»: fin de los desahucios sin alternativa habitacional, contratos indefinidos, congelación de alquileres y regulación del alquiler de temporada, por habitaciones y turístico.",
+ "camps": [
+  {
+   "city": "Madrid",
+   "province": "Madrid",
+   "ccaa_code": "13",
+   "place": "Puerta del Sol (frente a la Casa de Correos)",
+   "lat": 40.4169,
+   "lng": -3.7035,
+   "coords_note": "Centro de la Puerta del Sol",
+   "theme": "vivienda / desahucios / decreto Maricarmen",
+   "start_date": "2026-09-26",
+   "status": "activa",
+   "organizers": "Sindicato de Inquilinas de Madrid (portavoces: Alicia del Río, Valeria Racu, Gonzalo Álvarez)",
+   "participants_estimate": "~500 personas la primera noche (Europa Press/EFE); 100-150+ tiendas (20minutos: >100; EL PAÍS: >150)",
+   "planned_until": "Al menos hasta el Consejo de Ministros del martes 2026-09-29; sin fecha de fin según el sindicato",
+   "last_update": "2026-09-27",
+   "sources": [
+    {
+     "title": "\"Hasta el final, companeros\": Sol vuelve a acampar quince años después del 15-M",
+     "url": "https://elpais.com/espana/2026-09-27/hasta-el-final-companeros-sol-vuelve-a-acampar-quince-anos-despues-del-15-m.html",
+     "date": "2026-09-27",
+     "outlet": "EL PAÍS"
+    },
+    {
+     "title": "Acampada en Sol, hoy en directo",
+     "url": "https://www.20minutos.es/madrid/acampada-puerta-sol-decreto-maricarmen-desahucios-hoy-madrid-directo-ultima-hora_7041607_6.html",
+     "date": "2026-09-27",
+     "outlet": "20minutos"
+    },
+    {
+     "title": "Unas 500 personas acampan en la Puerta del Sol para exigir el 'decreto Maricarmen' en vivienda",
+     "url": "https://www.lavanguardia.com/politica/20260927/11644940/500-personas-acampan-puerta-sol-exigir-decreto-maricarmen-vivienda.html",
+     "date": "2026-09-27",
+     "outlet": "La Vanguardia"
+    },
+    {
+     "title": "Última hora del desahucio de Maricarmen, en directo: 500 personas amanecen acampadas en la Puerta del Sol",
+     "url": "https://www.antena3.com/noticias/sociedad/ultima-hora-desahucio-maricarmen-directo-cientos-personas-siguen-acampadas-puerta-sol-espera-decreto-maricarmen_202609276ab8b49fd5f3ae10c73626f5.html",
+     "date": "2026-09-27",
+     "outlet": "Antena 3"
+    },
+    {
+     "title": "Acampada en la Puerta del Sol tras la marcha por la vivienda para exigir la aprobación del 'decreto Maricarmen' (Europa Press)",
+     "url": "https://electomania.es/acampada-en-la-puerta-del-sol-tras-la-marcha-por-la-vivienda-para-exigir-la-aprobacion-del-decreto-maricarmen",
+     "date": "2026-09-26",
+     "outlet": "Europa Press vía Electomanía"
+    },
+    {
+     "title": "Una multitud acampa en Madrid contra el desalojo de una mujer de 87 años",
+     "url": "https://www.clarin.com/mundo/multitud-acampa-madrid-desalojo-mujer-87-anos-protestar-crisis-vivienda_0_uu27cuCvdZ.html",
+     "date": "2026-09-27",
+     "outlet": "Clarin"
+    },
+    {
+     "title": "Última hora de la manifestación por la crisis de vivienda",
+     "url": "https://www.elconfidencial.com/espana/2026-09-26/manifestacion-madrid-maricarmen-vivienda-ultima-hora_4432892",
+     "date": "2026-09-26",
+     "outlet": "El Confidencial"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "city": "Málaga",
+   "province": "Málaga",
+   "ccaa_code": "01",
+   "place": "Puerta del Ayuntamiento de Málaga (Avenida de Cervantes)",
+   "lat": 36.7196,
+   "lng": -4.4153,
+   "coords_note": "Ayuntamiento de Málaga (Casona del Parque), aproximado",
+   "theme": "vivienda / desahucios / especulación inmobiliaria",
+   "start_date": "2026-09-28",
+   "status": "convocada",
+   "organizers": "Convocatoria anonima/ciudadana en redes sociales (lema 'Volvemos a estar indignados. Hace falta otro 15M'); organizador formal no identificado",
+   "participants_estimate": null,
+   "planned_until": "Acampada 'permanente' convocada lunes 28-09 a las 20:00",
+   "last_update": "2026-09-25",
+   "sources": [
+    {
+     "title": "Convocan una concentración y acampada permanente frente al Ayuntamiento de Málaga contra los desahucios y la especulación inmobiliaria",
+     "url": "https://www.laopiniondemalaga.es/malaga/2026/09/25/convocan-concentracion-acampada-permanente-frente-ayuntamiento-malaga-134667067.html",
+     "date": "2026-09-25",
+     "outlet": "La Opinión de Málaga"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "city": "Madrid",
+   "province": "Madrid",
+   "ccaa_code": "13",
+   "place": "Portal/calle de la vivienda de Maricarmen (dirección exacta no verificada)",
+   "lat": 40.4168,
+   "lng": -3.7038,
+   "coords_note": "Centro de Madrid (ubicación exacta no verificada)",
+   "theme": "vivienda / intento de frenar el desahucio de Maricarmen",
+   "start_date": "2026-09-22",
+   "status": "finalizada",
+   "organizers": "Activistas por la vivienda y vecinos (Sindicato de Inquilinas entre los apoyos)",
+   "participants_estimate": "Cientos de personas (El Boletín)",
+   "planned_until": "Termino con la ejecución del desahucio el 2026-09-23",
+   "last_update": "2026-09-23",
+   "sources": [
+    {
+     "title": "Cientos de personas acampan en Madrid para tratar de frenar el desahucio de Maricarmen",
+     "url": "https://news.google.com/rss/search?q=Cientos+de+personas+acampan+en+Madrid+para+tratar+de+frenar+el+desahucio+de+Maricarmen&hl=es&gl=ES&ceid=ES:es",
+     "date": "2026-09-22",
+     "outlet": "El Boletín"
+    },
+    {
+     "title": "Crónica visual del desahucio de Maricarmen: de la acampada de activistas a su desalojo en camilla",
+     "url": "https://news.google.com/rss/search?q=Cronica+visual+del+desahucio+de+Maricarmen&hl=es&gl=ES&ceid=ES:es",
+     "date": "2026-09-23",
+     "outlet": "EL PAÍS"
+    }
+   ],
+   "verified": false
+  }
+ ],
+ "related": [
+  {
+   "city": "Barcelona",
+   "ccaa_code": "09",
+   "type": "concentración (no acampada)",
+   "date": "2026-09-28",
+   "organizers": "Sindicat de Llogateres",
+   "note": "Durante la visita de Pedro Sánchez; 'si el decreto no incluye contratos indefinidos sera una farsa'. Estudian más movilizaciones.",
+   "source": "EL PAÍS / elDiario.es / El Periódico, 2026-09-27"
+  },
+  {
+   "city": "~40 ciudades",
+   "type": "manifestaciones 'Ni una Maricarmen más'",
+   "date": "2026-09-26",
+   "note": "Incl. Oviedo, Cádiz, Palma, Málaga, Ávila, Toledo, Guadalajara (Demócrata)",
+   "source": "https://www.democrata.es/sociedad/miles-personas-salen-calle-en-varias-ciudades-espana-en-apoyo-maricarmen-grito-donde-esta-gobierno-progresista"
+  }
+ ],
+ "note": "Listado curado a mano. Se actualiza editando este fichero. Las señales automáticas están en senales.json."
+}

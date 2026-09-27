@@ -1,0 +1,514 @@
+{
+ "retention_days": 120,
+ "max_items": 5000,
+ "google_queries": [
+  "acampada vivienda",
+  "acampada por la vivienda",
+  "acampada alquiler",
+  "acampada Sindicato de Inquilinas",
+  "desahucio",
+  "desahucios",
+  "Sindicato de Inquilinas",
+  "PAH desahucio",
+  "precio alquiler vivienda",
+  "precio vivienda España",
+  "fondos buitre vivienda",
+  "grandes tenedores vivienda",
+  "manifestación vivienda",
+  "huelga de alquileres",
+  "ley de vivienda",
+  "\"decreto Maricarmen\"",
+  "\"Ni una Maricarmen más\"",
+  "acampada Sol vivienda",
+  "acampadas ciudades vivienda",
+  "Sindicat de Llogateres"
+ ],
+ "direct_feeds": [
+  "https://www.eldiario.es/rss/",
+  "https://www.elsaltodiario.com/general/feed",
+  "https://www.20minutos.es/rss/",
+  "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
+  "https://www.lasexta.com/rss/351410.xml",
+  "https://www.lavanguardia.com/rss/home.xml"
+ ],
+ "must_match_any": [
+  "vivienda",
+  "alquiler",
+  "desahuc",
+  "inquilin",
+  "acampad",
+  "hipotec",
+  "casero",
+  "fondo buitre",
+  "grandes tenedores",
+  "okupa"
+ ],
+ "topics": {
+  "acampadas": [
+   "acampada",
+   "acampadas",
+   "acampan",
+   "acampados",
+   "acampar",
+   "Maricarmen"
+  ],
+  "desahucios": [
+   "desahucio",
+   "desahucios",
+   "desahuciad",
+   "lanzamiento",
+   "PAH"
+  ],
+  "alquiler": [
+   "alquiler",
+   "inquilin",
+   "arrendamiento",
+   "casero",
+   "huelga de alquileres"
+  ],
+  "precios": [
+   "precio",
+   "€/m2",
+   "euros el metro",
+   "encarece",
+   "tasación",
+   "compraventa"
+  ],
+  "fondos": [
+   "fondo buitre",
+   "fondos buitre",
+   "grandes tenedores",
+   "Blackstone",
+   "Cerberus",
+   "socimi",
+   "fondo de inversión",
+   "fondos de inversión"
+  ],
+  "protesta": [
+   "manifestación",
+   "manifestacion",
+   "protesta",
+   "concentración",
+   "movilización",
+   "huelga"
+  ],
+  "politica": [
+   "ley de vivienda",
+   "Gobierno",
+   "ministra de vivienda",
+   "Ministerio de Vivienda",
+   "decreto",
+   "zona tensionada",
+   "zonas tensionadas"
+  ]
+ },
+ "outlet_aliases": {
+  "rtve.es": "rtve.es",
+  "cadenaser.com": "cadenaser.com",
+  "elpais.com": "elpais.com",
+  "eldiario.es": "eldiario.es"
+ },
+ "outlet_names": {},
+ "cities": {
+  "Madrid": [
+   40.4168,
+   -3.7038,
+   "13"
+  ],
+  "Barcelona": [
+   41.3874,
+   2.1686,
+   "09"
+  ],
+  "Valencia": [
+   39.4699,
+   -0.3763,
+   "10"
+  ],
+  "Sevilla": [
+   37.3891,
+   -5.9845,
+   "01"
+  ],
+  "Zaragoza": [
+   41.6488,
+   -0.8891,
+   "02"
+  ],
+  "Málaga": [
+   36.7213,
+   -4.4214,
+   "01"
+  ],
+  "Murcia": [
+   37.9922,
+   -1.1307,
+   "14"
+  ],
+  "Palma": [
+   39.5696,
+   2.6502,
+   "04"
+  ],
+  "Las Palmas": [
+   28.1235,
+   -15.4363,
+   "05"
+  ],
+  "Bilbao": [
+   43.263,
+   -2.935,
+   "16"
+  ],
+  "Alicante": [
+   38.3452,
+   -0.481,
+   "10"
+  ],
+  "Córdoba": [
+   37.8882,
+   -4.7794,
+   "01"
+  ],
+  "Valladolid": [
+   41.6523,
+   -4.7245,
+   "07"
+  ],
+  "Vigo": [
+   42.2406,
+   -8.7207,
+   "12"
+  ],
+  "Gijón": [
+   43.5322,
+   -5.6611,
+   "03"
+  ],
+  "L'Hospitalet": [
+   41.3662,
+   2.1169,
+   "09"
+  ],
+  "Vitoria": [
+   42.8467,
+   -2.6716,
+   "16"
+  ],
+  "A Coruña": [
+   43.3623,
+   -8.4115,
+   "12"
+  ],
+  "Granada": [
+   37.1773,
+   -3.5986,
+   "01"
+  ],
+  "Elche": [
+   38.2699,
+   -0.7126,
+   "10"
+  ],
+  "Oviedo": [
+   43.3614,
+   -5.8493,
+   "03"
+  ],
+  "Badalona": [
+   41.45,
+   2.2474,
+   "09"
+  ],
+  "Cartagena": [
+   37.6257,
+   -0.9966,
+   "14"
+  ],
+  "Terrassa": [
+   41.561,
+   2.0089,
+   "09"
+  ],
+  "Jerez": [
+   36.685,
+   -6.1261,
+   "01"
+  ],
+  "Sabadell": [
+   41.5433,
+   2.1094,
+   "09"
+  ],
+  "Móstoles": [
+   40.3223,
+   -3.865,
+   "13"
+  ],
+  "Santa Cruz de Tenerife": [
+   28.4636,
+   -16.2518,
+   "05"
+  ],
+  "Pamplona": [
+   42.8125,
+   -1.6458,
+   "15"
+  ],
+  "Almería": [
+   36.834,
+   -2.4637,
+   "01"
+  ],
+  "Alcalá de Henares": [
+   40.4818,
+   -3.3643,
+   "13"
+  ],
+  "Fuenlabrada": [
+   40.2842,
+   -3.7942,
+   "13"
+  ],
+  "Leganés": [
+   40.3272,
+   -3.7635,
+   "13"
+  ],
+  "Getafe": [
+   40.3057,
+   -3.7329,
+   "13"
+  ],
+  "Donostia": [
+   43.3183,
+   -1.9812,
+   "16"
+  ],
+  "San Sebastián": [
+   43.3183,
+   -1.9812,
+   "16"
+  ],
+  "Burgos": [
+   42.3439,
+   -3.6969,
+   "07"
+  ],
+  "Santander": [
+   43.4623,
+   -3.81,
+   "06"
+  ],
+  "Albacete": [
+   38.9943,
+   -1.8585,
+   "08"
+  ],
+  "Castellón": [
+   39.9864,
+   -0.0513,
+   "10"
+  ],
+  "Alcorcón": [
+   40.3458,
+   -3.8249,
+   "13"
+  ],
+  "Logroño": [
+   42.4627,
+   -2.445,
+   "17"
+  ],
+  "Badajoz": [
+   38.8794,
+   -6.9707,
+   "11"
+  ],
+  "Salamanca": [
+   40.9701,
+   -5.6635,
+   "07"
+  ],
+  "Huelva": [
+   37.2614,
+   -6.9447,
+   "01"
+  ],
+  "Marbella": [
+   36.5101,
+   -4.8825,
+   "01"
+  ],
+  "Lleida": [
+   41.6176,
+   0.62,
+   "09"
+  ],
+  "Tarragona": [
+   41.1189,
+   1.2445,
+   "09"
+  ],
+  "León": [
+   42.5987,
+   -5.5671,
+   "07"
+  ],
+  "Cádiz": [
+   36.5271,
+   -6.2886,
+   "01"
+  ],
+  "Jaén": [
+   37.7796,
+   -3.7849,
+   "01"
+  ],
+  "Ourense": [
+   42.3358,
+   -7.8639,
+   "12"
+  ],
+  "Girona": [
+   41.9794,
+   2.8214,
+   "09"
+  ],
+  "Lugo": [
+   43.0097,
+   -7.5568,
+   "12"
+  ],
+  "Cáceres": [
+   39.4753,
+   -6.3724,
+   "11"
+  ],
+  "Santiago de Compostela": [
+   42.8782,
+   -8.5448,
+   "12"
+  ],
+  "Guadalajara": [
+   40.6329,
+   -3.1669,
+   "08"
+  ],
+  "Toledo": [
+   39.8628,
+   -4.0273,
+   "08"
+  ],
+  "Pontevedra": [
+   42.431,
+   -8.6444,
+   "12"
+  ],
+  "Palencia": [
+   42.0095,
+   -4.5288,
+   "07"
+  ],
+  "Ciudad Real": [
+   38.9848,
+   -3.9274,
+   "08"
+  ],
+  "Zamora": [
+   41.5035,
+   -5.7446,
+   "07"
+  ],
+  "Ávila": [
+   40.6565,
+   -4.6818,
+   "07"
+  ],
+  "Cuenca": [
+   40.0704,
+   -2.1374,
+   "08"
+  ],
+  "Huesca": [
+   42.1401,
+   -0.4089,
+   "02"
+  ],
+  "Segovia": [
+   40.9429,
+   -4.1088,
+   "07"
+  ],
+  "Soria": [
+   41.7666,
+   -2.479,
+   "07"
+  ],
+  "Teruel": [
+   40.3456,
+   -1.1065,
+   "02"
+  ],
+  "Mérida": [
+   38.9161,
+   -6.3437,
+   "11"
+  ],
+  "Ibiza": [
+   38.9067,
+   1.4206,
+   "04"
+  ],
+  "Benidorm": [
+   38.5411,
+   -0.1225,
+   "10"
+  ],
+  "Torrevieja": [
+   37.9787,
+   -0.6822,
+   "10"
+  ],
+  "Ceuta": [
+   35.8894,
+   -5.3213,
+   "18"
+  ],
+  "Melilla": [
+   35.2923,
+   -2.9381,
+   "19"
+  ],
+  "Mataró": [
+   41.5381,
+   2.4445,
+   "09"
+  ],
+  "Getxo": [
+   43.3569,
+   -3.0116,
+   "16"
+  ],
+  "Lavapiés": [
+   40.4086,
+   -3.701,
+   "13"
+  ],
+  "Algeciras": [
+   36.1408,
+   -5.4562,
+   "01"
+  ],
+  "Arrecife": [
+   28.963,
+   -13.5477,
+   "05"
+  ],
+  "Maó": [
+   39.8885,
+   4.2658,
+   "04"
+  ]
+ }
+}
