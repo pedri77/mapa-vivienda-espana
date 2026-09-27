@@ -138,7 +138,8 @@ function renderMapa() {
     alquiler: { label: "Alquiler €/m²", title: "Alquiler €/m²/mes (oferta Fotocasa, ago. 2026)", ramp: ramp("r"), get: (c) => PRE[c]?.alquiler_m2_latest, f: (v) => `${fmt(v, 1)} €` },
     esfuerzo: { label: "Esfuerzo alquiler", title: "% de la renta del hogar para alquilar 80 m²", ramp: ramp("d"), get: (c) => PRE[c]?.esfuerzo?.pct_renta_hogar_alquiler_80m2, f: (v) => `${fmt(v, 1)}%` },
     compra: { label: "Años para comprar", title: "Años de renta del hogar para comprar 80 m² (tasado)", ramp: ramp("d"), get: (c) => PRE[c]?.esfuerzo?.anios_renta_hogar_80m2_tasado, f: (v) => `${fmt(v, 1)} años` },
-    salario: { label: "Salario", title: "Salario bruto medio anual (INE, 2024)", ramp: ramp("p"), get: (c) => SAL[c]?.media, f: (v) => eur(v) },
+    salario: { label: "Salario medio", title: "Salario bruto medio anual (INE, 2024)", ramp: ramp("p"), get: (c) => SAL[c]?.media, f: (v) => eur(v) },
+    mediano: { label: "Salario mediano", title: "Salario bruto mediano anual (INE, 2024): la mitad cobra menos", ramp: ramp("p"), get: (c) => SAL[c]?.mediana, f: (v) => eur(v) },
   };
   let layer = "des";
   let selected = null;
