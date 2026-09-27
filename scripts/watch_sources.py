@@ -82,16 +82,18 @@ def page_period(check):
 
 
 def http_modified(check):
+    """Fecha (día) de última modificación del fichero.
+
+    Se compara solo el día: el servidor del Ministerio responde desde varios
+    nodos cuya hora de modificación difiere en segundos o minutos.
+    """
     h = get(check["url"], method="HEAD")
-    token = h.get("Last-Modified") or h.get("ETag") or ""
-    if not token:
-        token = hashlib.sha256(get(check["url"])).hexdigest()[:16]
-    label = token
-    try:
-        label = datetime.strptime(token, "%a, %d %b %Y %H:%M:%S %Z").strftime("fichero actualizado el %d-%m-%Y")
-    except ValueError:
-        pass
-    return token, label
+    lm = h.get("Last-Modified")
+    if lm:
+        d = datetime.strptime(lm, "%a, %d %b %Y %H:%M:%S %Z")
+        return d.strftime("%Y%m%d"), d.strftime("fichero actualizado el %d-%m-%Y")
+    digest = hashlib.sha256(get(check["url"])).hexdigest()[:16]
+    return digest, f"contenido {digest[:8]}"
 
 
 HANDLERS = {"ine_table": ine_period, "page_period": page_period, "http_modified": http_modified}
@@ -129,7 +131,7 @@ def main() -> int:
         if prev is None:
             s["key"], s["since"] = key, today
             continue
-        if key != prev and (c["type"] == "http_modified" or key > prev):
+        if key > prev:
             s["key"], s["since"] = key, today
             new.append({"id": f"{c['id']}-{key}", "source": c["id"], "kind": "nuevo", "date": stamp,
                         "title": f"Nuevo dato: {c['dato']} ({label})", "fuente": c["fuente"], "url": c["url"],
