@@ -224,3 +224,11 @@ main, .wrap, .grid-2 > *, .grid-3 > *, .live-grid > * { min-width: 0; }
 .meter { position: relative; height: 10px; background: var(--surface-2); border-radius: 5px; margin: 8px 0 10px; overflow: hidden; }
 .meter i { position: absolute; inset: 0 auto 0 0; background: var(--d4); border-radius: 5px; }
 .meter b { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--ink); opacity: .5; }
+
+/* franja del kit gratuito (IAcademy) */
+.kitbar { background: var(--surface-2); color: var(--ink); font-size: .85rem; border-bottom: 1px solid var(--line); }
+.kitbar .wrap { display: flex; align-items: center; gap: 12px; padding-block: 7px; }
+.kitbar span { flex: 1; min-width: 0; }
+.kitbar a { color: inherit; font-weight: 600; }
+.kitbar button { background: none; border: 0; color: inherit; font-size: 1.2rem; line-height: 1; cursor: pointer; padding: 2px 6px; opacity: .7; }
+.kitbar button:hover { opacity: 1; }
