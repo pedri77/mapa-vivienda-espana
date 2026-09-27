@@ -30,8 +30,12 @@ export function ago(iso) {
   if (abs < 86400) return rtf.format(Math.round(s / 3600), "hour");
   return rtf.format(Math.round(s / 86400), "day");
 }
-export const dateEs = (iso) =>
-  iso ? new Date(iso.length === 10 ? iso + "T12:00:00" : iso).toLocaleDateString("es-ES", { day: "numeric", month: "short", year: "numeric" }) : "—";
+export function dateEs(iso) {
+  if (!iso) return "—";
+  const d = new Date(/^\d{4}-\d{2}-\d{2}$/.test(iso) ? iso + "T12:00:00" : iso);
+  // Textos como "agosto 2026 (estimado)" se muestran tal cual
+  return Number.isNaN(+d) ? iso : d.toLocaleDateString("es-ES", { day: "numeric", month: "short", year: "numeric" });
+}
 
 export function link(url, text) {
   if (!url) return esc(text);

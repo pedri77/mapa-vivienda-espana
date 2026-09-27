@@ -517,17 +517,19 @@ function renderCalendario() {
     $("#calendario").innerHTML = `<div class="empty">Calendario no disponible.</div>`;
     return;
   }
-  const iso = (x) => (/^\d{4}-\d{2}-\d{2}$/.test(x || "") ? x : null);
+  // Algunas fechas llevan texto detrás ("2026-10-08 (2T 2026); ..."): se usa la fecha inicial
+  const iso = (x) => (x || "").match(/^\d{4}-\d{2}-\d{2}/)?.[0] || null;
+  const rest = (x) => (x || "").replace(/^\d{4}-\d{2}-\d{2}\s*/, "");
   const today = new Date().toISOString().slice(0, 10);
-  const soon = C.items.filter((i) => iso(i.proxima_publicacion) && i.proxima_publicacion >= today)
-    .sort((a, b) => a.proxima_publicacion.localeCompare(b.proxima_publicacion)).slice(0, 4);
-  $("#calNext").innerHTML = soon.map((i) => `<div class="kpi"><span class="v" style="font-size:1.4rem">${dateEs(i.proxima_publicacion)}</span><span class="l">${esc(i.dato)} · ${esc(i.proximo_periodo || "")}</span><span class="s">${esc(i.fuente)} · ${i.fecha_confirmada ? "fecha oficial" : "estimada"}</span></div>`).join("");
+  const soon = C.items.filter((i) => iso(i.proxima_publicacion) >= today)
+    .sort((a, b) => iso(a.proxima_publicacion).localeCompare(iso(b.proxima_publicacion))).slice(0, 4);
+  $("#calNext").innerHTML = soon.map((i) => `<div class="kpi"><span class="v" style="font-size:1.4rem">${dateEs(iso(i.proxima_publicacion))}</span><span class="l">${esc(i.dato)} · ${esc(i.proximo_periodo || "")}</span><span class="s">${esc(i.fuente)} · ${i.fecha_confirmada ? "fecha oficial" : "estimada"}</span></div>`).join("");
   sortableTable($("#calendario"), [
     { key: "dato", label: "Dato", render: (r) => `<strong>${esc(r.dato)}</strong><div class="small muted">${r.fuente_url ? link(r.fuente_url, r.fuente) : esc(r.fuente)}</div>` },
     { key: "ultimo_periodo", label: "En la web", render: (r) => `${esc(r.ultimo_periodo)}${r.publicado ? `<div class="small muted">publicado ${dateEs(r.publicado)}</div>` : ""}` },
     { key: "frecuencia", label: "Frecuencia" },
     { key: "por_que_retraso", label: "Por qué no hay dato más reciente", render: (r) => `<span class="small">${esc(r.por_que_retraso)}</span>` },
-    { key: "sort", label: "Próxima publicación", render: (r) => `${esc(r.proximo_periodo || "")}<div>${iso(r.proxima_publicacion) ? dateEs(r.proxima_publicacion) : esc(r.proxima_publicacion || "Sin fecha")}</div>${r.fecha_confirmada ? `<span class="pill ok">Oficial</span>` : `<span class="pill">Estimada</span>`}${r.calendario_url ? `<div class="small">${link(r.calendario_url, "calendario")}</div>` : ""}` },
+    { key: "sort", label: "Próxima publicación", render: (r) => `${esc(r.proximo_periodo || "")}<div>${iso(r.proxima_publicacion) ? `<strong>${dateEs(iso(r.proxima_publicacion))}</strong> <span class="small muted">${esc(rest(r.proxima_publicacion))}</span>` : esc(r.proxima_publicacion || "Sin fecha")}</div>${r.fecha_confirmada ? `<span class="pill ok">Oficial</span>` : `<span class="pill">Estimada</span>`}${r.calendario_url ? `<div class="small">${link(r.calendario_url, "calendario")}</div>` : ""}` },
   ], C.items.map((i) => ({ ...i, sort: iso(i.proxima_publicacion) || "9999" })), { sortKey: "sort", desc: false });
   const gen = C.generated ? ` Revisado el ${dateEs(C.generated)}.` : "";
   $("#calendario").insertAdjacentHTML("afterend", `<p class="note">Las fechas oficiales proceden de los calendarios publicados por cada organismo; las estimadas siguen el patrón de publicaciones anteriores.${gen}</p>`);

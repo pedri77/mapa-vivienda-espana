@@ -142,9 +142,10 @@ def main() -> int:
     cal_path = DATA / "calendario.json"
     if cal_path.exists():
         for it in json.loads(cal_path.read_text(encoding="utf-8")).get("items", []):
-            d = it.get("proxima_publicacion") or ""
+            m = re.match(r"\d{4}-\d{2}-\d{2}", it.get("proxima_publicacion") or "")
+            d = m.group(0) if m else ""
             rid = f"cal-{it.get('id')}-{d}"
-            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d) or rid in reminded:
+            if not d or rid in reminded:
                 continue
             if d <= today:
                 reminded.add(rid)
