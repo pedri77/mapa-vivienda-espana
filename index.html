@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;600&family=Public+Sans:ital,wght@0,400..700;1,400&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin>
 <link rel="stylesheet" href="assets/style.css">
+<link rel="alternate" type="application/atom+xml" title="Techo · Datos nuevos" href="data/actualizaciones.xml">
 </head>
 <body>
 <header class="topbar">
@@ -35,6 +36,7 @@
     <button class="theme-btn" id="themeBtn" type="button" aria-label="Cambiar tema">◐</button>
   </div>
 </header>
+<div class="alertbar" id="alertBar" role="status" hidden></div>
 
 <main id="top">
   <div class="hero wrap">
@@ -147,7 +149,15 @@
 
 <footer id="fuentes">
   <div class="wrap">
-    <h2>Fuentes y metodología</h2>
+    <p class="eyebrow">Cuándo se actualiza cada dato</p>
+    <h2>Calendario de datos</h2>
+    <p class="intro">Las estadísticas oficiales se publican con retraso: primero hay que cerrar el periodo, recoger registros (tribunales, Hacienda, Seguridad Social, tasadoras) y depurarlos. Esta tabla indica el último periodo disponible en la web, por qué no hay uno más reciente y cuándo se espera el siguiente.</p>
+    <div id="calNext" class="kpis" style="margin-bottom:20px"></div>
+    <div class="table-wrap" id="calendario"></div>
+    <h3 style="margin-top:28px">Vigilancia automática de fuentes</h3>
+    <p class="small muted" id="watchIntro"></p>
+    <div class="table-wrap" id="watchTable"></div>
+    <h2 style="margin-top:40px">Fuentes y metodología</h2>
     <div id="sources"></div>
     <p>Proyecto sin ánimo de lucro, de código abierto. Si ves un error, <a href="https://github.com/pedri77/mapa-vivienda-espana/issues">abre una incidencia en GitHub</a>. Mapa base © <a href="https://www.esri.com/">Esri</a>, HERE, Garmin y © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>. Límites: <a href="https://github.com/martgnz/es-atlas">es-atlas</a> (IGN).</p>
   </div>

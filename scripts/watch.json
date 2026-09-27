@@ -1,0 +1,102 @@
+{
+ "checks": [
+  {
+   "id": "cgpj_lanzamientos",
+   "dato": "Desahucios (lanzamientos practicados)",
+   "fuente": "CGPJ",
+   "type": "page_period",
+   "url": "https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/Datos-penales--civiles-y-laborales/Civil-y-laboral/Efecto-de-la-Crisis-en-los-organos-judiciales",
+   "files": [
+    "data/desahucios.json"
+   ]
+  },
+  {
+   "id": "ine_etcl",
+   "dato": "Sueldo trimestral por comunidad (ETCL)",
+   "fuente": "INE",
+   "type": "ine_table",
+   "table": 6061,
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6061",
+   "files": [
+    "data/salarios.json"
+   ]
+  },
+  {
+   "id": "ine_eaes",
+   "dato": "Salario anual medio y mediano (EAES)",
+   "fuente": "INE",
+   "type": "ine_table",
+   "table": 28191,
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=28191",
+   "files": [
+    "data/salarios.json"
+   ]
+  },
+  {
+   "id": "ine_ipv",
+   "dato": "Índice de precios de vivienda (IPV)",
+   "fuente": "INE",
+   "type": "ine_table",
+   "table": 80270,
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=80270",
+   "files": [
+    "data/precios.json"
+   ]
+  },
+  {
+   "id": "ine_etdp",
+   "dato": "Compraventas de vivienda (ETDP)",
+   "fuente": "INE",
+   "type": "ine_table",
+   "table": 6150,
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6150",
+   "files": [
+    "data/precios.json"
+   ]
+  },
+  {
+   "id": "ine_ecv",
+   "dato": "Renta por hogar (ECV)",
+   "fuente": "INE",
+   "type": "ine_table",
+   "table": 49145,
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=49145",
+   "files": [
+    "data/precios.json"
+   ]
+  },
+  {
+   "id": "ine_ipva",
+   "dato": "Índice de precios de alquiler (IPVA)",
+   "fuente": "INE",
+   "type": "ine_table",
+   "table": 59056,
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=59056",
+   "files": [
+    "data/precios.json"
+   ]
+  },
+  {
+   "id": "ine_poblacion",
+   "dato": "Población por comunidad",
+   "fuente": "INE",
+   "type": "ine_table",
+   "table": 56940,
+   "label_fmt": "1 de enero de {y}",
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=56940",
+   "files": [
+    "data/desahucios.json"
+   ]
+  },
+  {
+   "id": "mivau_tasado",
+   "dato": "Valor tasado de la vivienda libre",
+   "fuente": "Ministerio de Vivienda",
+   "type": "http_modified",
+   "url": "https://apps.fomento.gob.es/boletinonline2/sedal/35101000.XLS",
+   "files": [
+    "data/precios.json"
+   ]
+  }
+ ]
+}

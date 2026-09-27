@@ -197,3 +197,9 @@ footer ul { padding-left: 18px; }
 main, .wrap, .grid-2 > *, .grid-3 > *, .live-grid > * { min-width: 0; }
 .card, .side, details, dd { overflow-wrap: anywhere; }
 .side .spark { width: 100%; height: 44px; }
+
+/* aviso de datos nuevos */
+.alertbar { background: var(--accent); color: var(--accent-ink); }
+.alertbar .wrap { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding-block: 10px; font-weight: 600; font-size: .92rem; }
+.alertbar a { color: var(--accent-ink); }
+.alertbar button { margin-left: auto; background: none; border: 1px solid currentColor; color: inherit; border-radius: 4px; padding: 3px 9px; cursor: pointer; font: inherit; font-size: .8rem; }

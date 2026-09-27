@@ -1,0 +1,62 @@
+name: Vigilar fuentes de datos
+
+on:
+  schedule:
+    - cron: "15 6,14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: vigilar-fuentes
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Comprobar fuentes
+        id: watch
+        run: python scripts/watch_sources.py
+      - name: Commit del estado
+        run: |
+          git config user.name "vivienda-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/actualizaciones.json data/actualizaciones.xml
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "data: estado de fuentes $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase
+            git push
+          fi
+      - name: Abrir issue con los datos nuevos
+        if: steps.watch.outputs.count != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: ${{ steps.watch.outputs.title }}
+          BODY: ${{ steps.watch.outputs.body }}
+        run: |
+          gh label create datos-nuevos --color F2B200 --description "Una fuente ha publicado datos nuevos" 2>/dev/null || true
+          printf '%s\n\nRevisar la fuente, actualizar los JSON de `data/` y cerrar este issue.\n' "$BODY" > body.md
+          gh issue create --title "$TITLE" --body-file body.md --label datos-nuevos
+      - name: Aviso por Telegram (opcional)
+        if: steps.watch.outputs.count != '' && env.TG_TOKEN != ''
+        env:
+          TITLE: ${{ steps.watch.outputs.title }}
+          BODY: ${{ steps.watch.outputs.body }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT}" \
+            --data-urlencode "text=🏠 Techo: ${TITLE}
+          ${BODY}" > /dev/null

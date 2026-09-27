@@ -1,0 +1,89 @@
+{
+ "since": "2026-09-27",
+ "sources": {
+  "cgpj_lanzamientos": {
+   "dato": "Desahucios (lanzamientos practicados)",
+   "fuente": "CGPJ",
+   "url": "https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/Datos-penales--civiles-y-laborales/Civil-y-laboral/Efecto-de-la-Crisis-en-los-organos-judiciales",
+   "checked_at": "2026-09-27T13:46:59Z",
+   "label": "1T 2026",
+   "key": "20261",
+   "since": "2026-09-27"
+  },
+  "ine_etcl": {
+   "dato": "Sueldo trimestral por comunidad (ETCL)",
+   "fuente": "INE",
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6061",
+   "checked_at": "2026-09-27T13:46:59Z",
+   "label": "2T 2026",
+   "key": "202620",
+   "since": "2026-09-27"
+  },
+  "ine_eaes": {
+   "dato": "Salario anual medio y mediano (EAES)",
+   "fuente": "INE",
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=28191",
+   "checked_at": "2026-09-27T13:46:59Z",
+   "label": "2024",
+   "key": "202428",
+   "since": "2026-09-27"
+  },
+  "ine_ipv": {
+   "dato": "Índice de precios de vivienda (IPV)",
+   "fuente": "INE",
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=80270",
+   "checked_at": "2026-09-27T13:46:59Z",
+   "label": "2T 2026",
+   "key": "202620",
+   "since": "2026-09-27"
+  },
+  "ine_etdp": {
+   "dato": "Compraventas de vivienda (ETDP)",
+   "fuente": "INE",
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6150",
+   "checked_at": "2026-09-27T13:46:59Z",
+   "label": "julio 2026",
+   "key": "202607",
+   "since": "2026-09-27"
+  },
+  "ine_ecv": {
+   "dato": "Renta por hogar (ECV)",
+   "fuente": "INE",
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=49145",
+   "checked_at": "2026-09-27T13:46:59Z",
+   "label": "2025",
+   "key": "202528",
+   "since": "2026-09-27"
+  },
+  "ine_ipva": {
+   "dato": "Índice de precios de alquiler (IPVA)",
+   "fuente": "INE",
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=59056",
+   "checked_at": "2026-09-27T13:46:59Z",
+   "label": "2024",
+   "key": "202428",
+   "since": "2026-09-27"
+  },
+  "ine_poblacion": {
+   "dato": "Población por comunidad",
+   "fuente": "INE",
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=56940",
+   "checked_at": "2026-09-27T13:46:59Z",
+   "label": "1 de enero de 2025",
+   "key": "202519",
+   "since": "2026-09-27"
+  },
+  "mivau_tasado": {
+   "dato": "Valor tasado de la vivienda libre",
+   "fuente": "Ministerio de Vivienda",
+   "url": "https://apps.fomento.gob.es/boletinonline2/sedal/35101000.XLS",
+   "checked_at": "2026-09-27T13:46:59Z",
+   "label": "fichero actualizado el 17-09-2026",
+   "key": "Thu, 17 Sep 2026 07:16:47 GMT",
+   "since": "2026-09-27"
+  }
+ },
+ "events": [],
+ "reminded": [],
+ "checked_at": "2026-09-27T13:46:59Z"
+}

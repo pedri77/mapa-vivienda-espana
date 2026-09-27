@@ -20,7 +20,7 @@ $("#themeBtn").addEventListener("click", () => {
 });
 
 // ---------- datos ----------
-const names = ["desahucios", "precios", "salarios", "fondos", "acampadas", "senales", "noticias", "medios", "legislacion", "ayudas", "ccaa"];
+const names = ["actualizaciones", "calendario", "desahucios", "precios", "salarios", "fondos", "acampadas", "senales", "noticias", "medios", "legislacion", "ayudas", "ccaa"];
 const D = Object.fromEntries(await Promise.all(names.map(async (n) => [n, await (n === "ccaa" ? loadGeo() : load(n))])));
 async function loadGeo() {
   try { return await (await fetch("data/ccaa.geojson")).json(); } catch { return null; }
@@ -47,6 +47,8 @@ renderMedios();
 safe(() => renderLegislacion(D.legislacion, $("#legBody"), ctx), "#legBody");
 safe(() => renderAyudas(D.ayudas, $("#ayuBody"), ctx), "#ayuBody");
 renderSources();
+safe(renderCalendario, "#calendario");
+safe(renderAvisos, "#watchTable");
 observeNav();
 
 function safe(fn, sel) {
@@ -506,4 +508,59 @@ function observeNav() {
     if (e.isIntersecting) links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === `#${e.target.id}`));
   }), { rootMargin: "-40% 0px -55% 0px" });
   document.querySelectorAll("section.block, footer").forEach((s) => io.observe(s));
+}
+
+// ---------- calendario de datos ----------
+function renderCalendario() {
+  const C = D.calendario;
+  if (!C?.items?.length) {
+    $("#calendario").innerHTML = `<div class="empty">Calendario no disponible.</div>`;
+    return;
+  }
+  const iso = (x) => (/^\d{4}-\d{2}-\d{2}$/.test(x || "") ? x : null);
+  const today = new Date().toISOString().slice(0, 10);
+  const soon = C.items.filter((i) => iso(i.proxima_publicacion) && i.proxima_publicacion >= today)
+    .sort((a, b) => a.proxima_publicacion.localeCompare(b.proxima_publicacion)).slice(0, 4);
+  $("#calNext").innerHTML = soon.map((i) => `<div class="kpi"><span class="v" style="font-size:1.4rem">${dateEs(i.proxima_publicacion)}</span><span class="l">${esc(i.dato)} · ${esc(i.proximo_periodo || "")}</span><span class="s">${esc(i.fuente)} · ${i.fecha_confirmada ? "fecha oficial" : "estimada"}</span></div>`).join("");
+  sortableTable($("#calendario"), [
+    { key: "dato", label: "Dato", render: (r) => `<strong>${esc(r.dato)}</strong><div class="small muted">${r.fuente_url ? link(r.fuente_url, r.fuente) : esc(r.fuente)}</div>` },
+    { key: "ultimo_periodo", label: "En la web", render: (r) => `${esc(r.ultimo_periodo)}${r.publicado ? `<div class="small muted">publicado ${dateEs(r.publicado)}</div>` : ""}` },
+    { key: "frecuencia", label: "Frecuencia" },
+    { key: "por_que_retraso", label: "Por qué no hay dato más reciente", render: (r) => `<span class="small">${esc(r.por_que_retraso)}</span>` },
+    { key: "sort", label: "Próxima publicación", render: (r) => `${esc(r.proximo_periodo || "")}<div>${iso(r.proxima_publicacion) ? dateEs(r.proxima_publicacion) : esc(r.proxima_publicacion || "Sin fecha")}</div>${r.fecha_confirmada ? `<span class="pill ok">Oficial</span>` : `<span class="pill">Estimada</span>`}${r.calendario_url ? `<div class="small">${link(r.calendario_url, "calendario")}</div>` : ""}` },
+  ], C.items.map((i) => ({ ...i, sort: iso(i.proxima_publicacion) || "9999" })), { sortKey: "sort", desc: false });
+  const gen = C.generated ? ` Revisado el ${dateEs(C.generated)}.` : "";
+  $("#calendario").insertAdjacentHTML("afterend", `<p class="note">Las fechas oficiales proceden de los calendarios publicados por cada organismo; las estimadas siguen el patrón de publicaciones anteriores.${gen}</p>`);
+}
+
+// ---------- avisos de datos nuevos ----------
+function renderAvisos() {
+  const A = D.actualizaciones;
+  if (!A) return;
+  const DISMISS = "techo-aviso-visto";
+  const recent = (A.events || []).filter((e) => Date.now() - new Date(e.date) < 21 * 864e5);
+  let seen = null;
+  try { seen = localStorage.getItem(DISMISS); } catch {}
+  const top = recent[0];
+  if (top && top.id !== seen) {
+    const bar = $("#alertBar");
+    const more = recent.length > 1 ? ` y ${recent.length - 1} más` : "";
+    bar.innerHTML = `<div class="wrap"><span class="pill live">Nuevo</span><span>${esc(top.title)}${more} · ${dateEs(top.date)}</span><a href="#fuentes">Ver calendario</a><a href="data/actualizaciones.xml">Suscribirse (RSS)</a><button type="button" id="alertClose">Cerrar</button></div>`;
+    bar.hidden = false;
+    $("#alertClose").addEventListener("click", () => {
+      bar.hidden = true;
+      try { localStorage.setItem(DISMISS, top.id); } catch {}
+    });
+  }
+  const src = Object.entries(A.sources || {});
+  $("#watchIntro").innerHTML = `Dos veces al día un proceso automático consulta estas fuentes. Si publican un periodo nuevo, aparece un aviso arriba y en el <a href="data/actualizaciones.xml">feed RSS de avisos</a>, y se abre una tarea para actualizar la web. Última comprobación: ${A.checked_at ? ago(A.checked_at) : "—"}.`;
+  sortableTable($("#watchTable"), [
+    { key: "dato", label: "Dato", render: (r) => `${link(r.url, r.dato)}<div class="small muted">${esc(r.fuente)}</div>` },
+    { key: "label", label: "Último periodo publicado", render: (r) => esc(r.label || "—") },
+    { key: "since", label: "Detectado", render: (r) => (r.since ? dateEs(r.since) : "—") },
+    { key: "estado", label: "Estado", render: (r) => (r.error ? `<span class="pill bad">Sin respuesta</span>` : `<span class="pill ok">Vigilando</span>`) },
+  ], src.map(([, v]) => ({ ...v, estado: v.error ? 1 : 0 })), { sortKey: "dato", desc: false });
+  if ((A.events || []).length) {
+    $("#watchTable").insertAdjacentHTML("afterend", `<details style="margin-top:12px"><summary>Historial de avisos (${A.events.length})</summary><ul class="small">${A.events.slice(0, 30).map((e) => `<li>${dateEs(e.date)} · ${link(e.url, e.title)}</li>`).join("")}</ul></details>`);
+  }
 }
