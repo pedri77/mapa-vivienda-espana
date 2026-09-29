@@ -10,6 +10,7 @@ Web estática con mapa interactivo sobre la situación de la vivienda en España
 - **Leyes y partidos**: normas estatales y autonómicas, votaciones en el Congreso y zonas tensionadas por comunidad.
 - **Medios**: volumen de cobertura por medio y tendencia semanal.
 - **Ayudas**: ayudas al alquiler, qué hacer ante un desahucio y directorio de organizaciones.
+- **Tu municipio**: alquiler, renta, esfuerzo, pisos turísticos y zona tensionada de los 8.132 municipios; y las cuentas de su ayuntamiento: paro registrado (SEPE), deuda viva por habitante y periodo medio de pago a proveedores (Ministerio de Hacienda).
 
 ## Cómo funciona
 

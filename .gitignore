@@ -2,3 +2,7 @@
 __pycache__/
 *.pyc
 node_modules/
+
+# Crudos oficiales de terceros (XLS/XLSX del SEPE y de Hacienda): los repone
+# `python3 scripts/municipios/fetch_{paro,deuda,pmp}.py`. Sí se versionan los JSON derivados.
+investigacion_cci08/raw/

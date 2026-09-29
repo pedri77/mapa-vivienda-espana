@@ -1,0 +1,23 @@
+{
+ "paro": {
+  "source": "SEPE (Ministerio de Trabajo y Economía Social), «Paro registrado y contratos por municipios»",
+  "url": "https://www.sepe.es/HomeSepe/que-es-el-sepe/estadisticas/datos-estadisticos/municipios.html",
+  "unit": "parados registrados (recuento)",
+  "license": "Reutilización permitida (SEPE / datos.gob.es, dataset ea0041513, con cita de fuente)",
+  "period": "agosto 2026"
+ },
+ "deuda_viva": {
+  "source": "Ministerio de Hacienda, «Deuda viva de las Entidades Locales» (fichero Ayuntamientos)",
+  "url": "https://www.hacienda.gob.es/es-ES/cdi/paginas/sistemasfinanciaciondeuda/informacioneells/deudaviva.aspx",
+  "unit": "euros (original en miles de €, convertido)",
+  "license": "Reutilización permitida (hacienda.gob.es, con cita de fuente)",
+  "period": "31-12-2025"
+ },
+ "pmp": {
+  "source": "Ministerio de Hacienda, «Publicación del Periodo Medio de Pago (PMP) de las EE.LL.» (RD 635/2014), fichero «Cesión y variables»",
+  "url": "https://serviciostelematicosext.hacienda.gob.es/SGCIEF/PMP_NET/aspx/consulta/consulta.aspx?tipoPublicacion=2",
+  "unit": "días",
+  "license": "Datos abiertos (reutilización permitida)",
+  "period": "T2 2026"
+ }
+}

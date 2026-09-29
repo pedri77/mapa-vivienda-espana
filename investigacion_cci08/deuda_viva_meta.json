@@ -1,0 +1,9 @@
+{
+ "period": "31-12-2025",
+ "url": "https://www.hacienda.gob.es/cdi/sist%20financiacion%20y%20deuda/informacioneells/2025/deuda-viva-ayuntamientos-202512.xlsx",
+ "page": "https://www.hacienda.gob.es/es-ES/cdi/paginas/sistemasfinanciaciondeuda/informacioneells/deudaviva.aspx",
+ "raw": "deuda_viva_ayuntamientos_2025.xlsx",
+ "unit": "euros (convertido desde miles de € del original)",
+ "matched": 8132,
+ "total_source": 8132
+}

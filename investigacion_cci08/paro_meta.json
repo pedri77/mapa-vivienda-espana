@@ -1,0 +1,11 @@
+{
+ "period": "agosto 2026",
+ "period_prev": "agosto 2025",
+ "url": "https://www.sepe.es/HomeSepe/que-es-el-sepe/estadisticas/datos-estadisticos/municipios/2026/agosto.html",
+ "raw": [
+  "sepe_paro_202608.xls",
+  "sepe_paro_202508.xls"
+ ],
+ "matched": 6202,
+ "total_source": 6206
+}

@@ -38,6 +38,9 @@ const LAYERS = {
   vutvar: { label: "Pisos turísticos: variación", title: `Variación interanual de viviendas turísticas (${M.vt_periodos?.at(-1)})`, ramp: ramp("d"), get: (m) => (m.vut >= 10 ? m.vt_var_pct : null), f: (v) => pct(v) },
   zt: { label: "Zona tensionada", title: "Municipios declarados zona de mercado residencial tensionado", ramp: ["--d2", "--d4"], cat: true, get: (m) => (m.zt ? 1 : null), f: () => "Declarada" },
   pj: { label: "Desahucios", title: `Desahucios por 100.000 hab. en su partido judicial (${LAST_PJ})`, ramp: ramp("d"), get: (m, c) => pjOf(c)?.tasa, f: (v) => fmt(v, 1) },
+  paro: { label: "Paro", title: `Personas paradas por 1.000 habitantes (SEPE ${per("paro")})`, ramp: ramp("d"), get: (m) => m.paro_1k, f: (v) => fmt(v, 1) },
+  deuda: { label: "Deuda del ayuntamiento", title: `Deuda viva por habitante (Hacienda, ${per("deuda")})`, ramp: ramp("d"), get: (m) => m.deuda_hab, f: (v) => `${fmt(v)} €` },
+  pmp: { label: "Tarda en pagar", title: `Periodo medio de pago a proveedores (Hacienda, ${per("pmp")})`, ramp: ramp("d"), get: (m) => m.pmp, f: (v) => `${fmt(v, 1)} días` },
 };
 const NOTES = {
   alq_m2: "SERPAVI usa los alquileres declarados en el IRPF (contratos vigentes), por eso queda por debajo de los precios de anuncio. Solo hay mediana donde hay contratos suficientes.",
@@ -49,6 +52,9 @@ const NOTES = {
   vutvar: "Compara con el mismo mes del año anterior. Solo municipios con al menos 10 viviendas turísticas.",
   zt: "Zonas declaradas por el Ministerio de Vivienda a petición de cada comunidad (Ley 12/2023). Algunas solo afectan a parte del municipio.",
   pj: "El CGPJ no publica desahucios por municipio, solo por partido judicial (agrupaciones de municipios). Todos los municipios de un mismo partido tienen el mismo color.",
+  paro: "Paro registrado en las oficinas de empleo, no la tasa de paro de la EPA (que no se publica por municipio). El SEPE no publica fila para los municipios más pequeños: 1.930 se quedan en gris, aunque son el 0,4 % de la población.",
+  deuda: "Deuda viva del ayuntamiento a 31 de diciembre, dividida entre sus habitantes. No incluye la deuda de la comunidad autónoma ni la del Estado que también te corresponde.",
+  pmp: "Días que tarda el ayuntamiento en pagar a sus proveedores. La ley marca 30 días. No lo remiten 1.747 municipios, casi todos de menos de 1.000 habitantes.",
 };
 let layer = "alq_m2";
 let selected = null;
@@ -169,6 +175,16 @@ function ficha(code) {
       ${stat(p.lau != null ? fmt(p.lau) : "—", "por impago de alquiler")}
       ${stat(p.hip != null ? fmt(p.hip) : "—", "por ejecución hipotecaria")}
     </div><div style="color:var(--d4)">${sparkline(p.t.map((x) => x || 0), { w: 300, h: 40 })}</div><p class="small muted" style="margin:0">${PJ.years[0]}–${LAST_PJ}. El partido judicial agrupa varios municipios; el CGPJ no da la cifra de cada uno.</p></div>`;
+  }
+  if (m.paro != null || m.deuda != null || m.pmp != null) {
+    h += `<div><h3 style="font-size:1rem;text-transform:none;margin-top:4px">Empleo y cuentas del ayuntamiento</h3><div class="stats">
+      ${stat(m.paro != null ? fmt(m.paro) : "—", `personas paradas (${per("paro")})`)}
+      ${stat(m.paro_1k != null ? fmt(m.paro_1k, 1) : "—", "paradas por 1.000 hab.")}
+      ${stat(m.paro_var != null ? pct(m.paro_var) : "—", "vs mismo mes del año anterior")}
+      ${stat(m.deuda_hab != null ? `${fmt(m.deuda_hab)} €` : "—", `deuda por habitante (${per("deuda")})`)}
+      ${stat(m.deuda != null ? eur(m.deuda) : "—", "deuda viva del ayuntamiento")}
+      ${stat(m.pmp != null ? `${fmt(m.pmp, 1)} días` : "—", `tarda en pagar (${per("pmp")})`)}
+    </div>${m.pmp != null && m.pmp > 30 ? `<p class="small" style="margin:0"><span class="pill bad">Por encima de los 30 días que marca la ley</span></p>` : ""}<p class="small muted" style="margin:0">Paro registrado del SEPE (no es la tasa de paro de la EPA). Deuda y periodo medio de pago, del Ministerio de Hacienda.</p></div>`;
   }
   h += `<button type="button" class="theme-btn" style="color:var(--ink);border-color:var(--line);padding:8px 12px" data-calc>Calcular mi esfuerzo en ${esc(m.n)} →</button>`;
   return h;

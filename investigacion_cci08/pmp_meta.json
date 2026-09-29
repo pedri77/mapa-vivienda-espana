@@ -1,0 +1,183 @@
+{
+ "period": "T2 2026",
+ "url": "https://serviciostelematicosext.hacienda.gob.es/SGCIEF/PMP_NET/aspx/consulta/consulta.aspx?tipoPublicacion=2",
+ "raw": "pmp_2026T2_cesion_variables.xlsx",
+ "unit": "días",
+ "matched": 6385,
+ "total_source_aytos": 6426,
+ "sin_cruce": [
+  [
+   "Alicante",
+   "Alicante/Alacant"
+  ],
+  [
+   "Alicante",
+   "Elche/Elx"
+  ],
+  [
+   "Castellón",
+   "Castelló de la Plana"
+  ],
+  [
+   "Asturias",
+   "Gijón/Xixón"
+  ],
+  [
+   "Huesca",
+   "El Grado-Lo Grau"
+  ],
+  [
+   "Burgos",
+   "Roa de Duero"
+  ],
+  [
+   "Tarragona",
+   "La Ràpita"
+  ],
+  [
+   "Navarra",
+   "Valle de Egüés"
+  ],
+  [
+   "Alicante",
+   "Alcoy/Alcoi"
+  ],
+  [
+   "Alicante",
+   "Benitachell/Poble Nou de Benitatxell (el)"
+  ],
+  [
+   "Alicante",
+   "Campo de Mirra/Camp de Mirra (el)"
+  ],
+  [
+   "Alicante",
+   "Jávea/Xàbia"
+  ],
+  [
+   "Alicante",
+   "Jijona/Xixona"
+  ],
+  [
+   "Alicante",
+   "Lorcha/Orxa (l')"
+  ],
+  [
+   "Alicante",
+   "Monóvar/Monòver"
+  ],
+  [
+   "Alicante",
+   "Pinoso/Pinós (El)"
+  ],
+  [
+   "Alicante",
+   "San Vicente del Raspeig/Sant Vicent del Raspeig"
+  ],
+  [
+   "Alicante",
+   "Torremanzanas/Torre de les Maçanes (la)"
+  ],
+  [
+   "Alicante",
+   "Villajoyosa/Vila Joiosa (la)"
+  ],
+  [
+   "Castellón",
+   "Sueras/Suera"
+  ],
+  [
+   "Castellón",
+   "Useras/Useres (les)"
+  ],
+  [
+   "Castellón",
+   "Alqueries/Alquerías del Niño Perdido"
+  ],
+  [
+   "Castellón",
+   "Benicasim/Benicàssim"
+  ],
+  [
+   "Castellón",
+   "Benlloch"
+  ],
+  [
+   "Castellón",
+   "Chodos/Xodos"
+  ],
+  [
+   "Castellón",
+   "Oropesa del Mar/Orpesa"
+  ],
+  [
+   "Valencia",
+   "Algimia Alfara (de)"
+  ],
+  [
+   "Valencia",
+   "Mogente/Moixent"
+  ],
+  [
+   "Valencia",
+   "Sagunto/Sagunt"
+  ],
+  [
+   "Cáceres",
+   "Aldehuela de Jerte"
+  ],
+  [
+   "Coruña, a",
+   "O Porto do Son"
+  ],
+  [
+   "Coruña, a",
+   "Sada"
+  ],
+  [
+   "Coruña, a",
+   "Sobrado"
+  ],
+  [
+   "Lugo",
+   "Alfoz do Castrodouro"
+  ],
+  [
+   "Lugo",
+   "A Ribeira de Poquín"
+  ],
+  [
+   "Ourense",
+   "O Castro de Caldelas"
+  ],
+  [
+   "Ourense",
+   "O Riós"
+  ],
+  [
+   "Pontevedra",
+   "Cangas de Morrazo"
+  ],
+  [
+   "Pontevedra",
+   "O Campo Lameiro"
+  ],
+  [
+   "Pontevedra",
+   "A Caniza"
+  ],
+  [
+   "Araba/Álava",
+   "Salvatierra/Agurain"
+  ]
+ ],
+ "descartados_no_ayuntamiento": {
+  "Diputación/Consejo/Cabildo": 51,
+  "Entidades de ámbito inferior al municipio": 446,
+  "Mancomunidad": 435,
+  "Agrupación Municipios": 16,
+  "Comarca": 77,
+  "Área Metropolitana": 3,
+  "Ciudad Autónoma": 2
+ }
+}
