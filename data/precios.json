@@ -2698,7 +2698,7 @@
    "2023": 583651,
    "2024": 640401,
    "2025": 711543,
-   "2026_ene-jul": 408881
+   "2026_ene-ago": 458200
   },
   "compraventas_vivienda_nueva": {
    "2015": 76954,
@@ -2757,6 +2757,10 @@
    "periodo": "2T 2026",
    "var_anual": 12.2,
    "key": 202620
+  },
+  "compraventas_ultimo_mes": {
+   "periodo": "ago 2026",
+   "valor": 49319
   }
  },
  "sources": [
