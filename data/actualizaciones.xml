@@ -2,7 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Techo · Datos nuevos de vivienda</title>
 <subtitle>Avisos cuando CGPJ, INE o el Ministerio de Vivienda publican datos nuevos</subtitle>
 <link href="https://pedri77.github.io/mapa-vivienda-espana/"/><link rel="self" href="https://pedri77.github.io/mapa-vivienda-espana/data/actualizaciones.xml"/>
-<id>https://pedri77.github.io/mapa-vivienda-espana/</id><updated>2026-11-24T17:34:47Z</updated>
+<id>https://pedri77.github.io/mapa-vivienda-espana/</id><updated>2026-11-25T17:06:10Z</updated>
+<entry><id>tag:pedri77.github.io,2026:ine_poblacion-202619</id><title>Nuevo dato: Población por comunidad (1 de enero de 2026)</title>
+<updated>2026-11-25T17:06:10Z</updated><link href="https://www.ine.es/jaxiT3/Tabla.htm?t=56940"/><summary>INE ha publicado 1 de enero de 2026. Hay que actualizar data/desahucios.json.</summary></entry>
 <entry><id>tag:pedri77.github.io,2026:mivau_tasado-c3ee87a60412c341</id><title>Nuevo dato: Valor tasado de la vivienda libre (contenido c3ee87a6)</title>
 <updated>2026-11-22T14:28:53Z</updated><link href="https://apps.fomento.gob.es/boletinonline2/sedal/35101000.XLS"/><summary>Ministerio de Vivienda ha publicado contenido c3ee87a6. Hay que actualizar data/precios.json.</summary></entry>
 <entry><id>tag:pedri77.github.io,2026:cal-mivau_valor_tasado-2026-11-19</id><title>Publicación prevista hoy: Valor tasado de la vivienda libre (€/m²) (3T 2026)</title>
